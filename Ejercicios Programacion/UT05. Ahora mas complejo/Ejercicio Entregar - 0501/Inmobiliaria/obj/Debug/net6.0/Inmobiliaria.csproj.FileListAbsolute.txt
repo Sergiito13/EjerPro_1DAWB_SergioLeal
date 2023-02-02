@@ -1,0 +1,30 @@
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.exe
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.deps.json
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.runtimeconfig.json
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.dll
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.pdb
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.dll
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\refint\Inmobiliaria.dll
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.pdb
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.genruntimeconfig.cache
+C:\Users\Sergio\Desktop\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\ref\Inmobiliaria.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.exe
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.deps.json
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.runtimeconfig.json
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\bin\Debug\net6.0\Inmobiliaria.pdb
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.csproj.AssemblyReference.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.AssemblyInfoInputs.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.AssemblyInfo.cs
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.csproj.CoreCompileInputs.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\refint\Inmobiliaria.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.pdb
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\Inmobiliaria.genruntimeconfig.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\Repositorio GIT\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05. Ahora mas complejo\Ejercicio Entregar - 0501\Inmobiliaria\obj\Debug\net6.0\ref\Inmobiliaria.dll
