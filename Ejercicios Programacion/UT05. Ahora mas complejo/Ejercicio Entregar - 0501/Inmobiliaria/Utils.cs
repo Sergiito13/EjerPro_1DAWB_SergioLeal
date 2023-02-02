@@ -143,17 +143,62 @@ namespace Inmobiliaria
                 }
 
             } while (!Salir);
+            Console.WriteLine("-------------------------------------------------------");
 
             return NumeroUsu;
         }
 
-        public static double SolicitarLimiteSuperior(double LimiteInferior)// ESTA FUNCION SOLICITARA EL LIMITE SUPERIOR, LE MANDAMOS EL LIMITE INFERIOR PORQUE EL LIMITE SUPERIOR NO PUEDE SER MENOR AL LIMITE INFERIOR
+        public static double SolicitarLimiteSuperiorCosto(double LimiteInferior)// ESTA FUNCION SOLICITARA EL LIMITE SUPERIOR, LE MANDAMOS EL LIMITE INFERIOR PORQUE EL LIMITE SUPERIOR NO PUEDE SER MENOR AL LIMITE INFERIOR
         {
             // Declaramos las variables 
+            bool Salir = false;
+            Double NumeroUsu = 0;
 
+
+            do
+            {
+                Console.WriteLine("Dime un limite superior para generar el listado de casas");
+                while (!double.TryParse(Console.ReadLine(), out NumeroUsu))
+                {
+                    Console.WriteLine("ERROR ! El tipo de dato tiene que ser numérico");
+                }
+
+                if (NumeroUsu > LimiteInferior)
+                {
+                    NumeroUsu = Math.Round(NumeroUsu, 2);
+                    Console.WriteLine($"El limite superior sera de: {NumeroUsu} Euros");
+                    Salir = true;
+                }
+                else
+                {
+                    Console.WriteLine("ERROR ! El limite superior no puede ser menor a el limite inferior");
+                }
+
+            } while (!Salir);
+            Console.WriteLine("-------------------------------------------------------");
+
+            return NumeroUsu;
 
 
         }
+        
+        public static double[] SacarListadoLimites(double LimiteInferior, double LimiteSuperior, double[] Costos)// ESTA FUNCION GUARDA EN UN VECTOR EL PRECIO DE LAS CASAS QUE ESTAN ENTRE MEDIO DE LOS LIMITES
+        {
+            // Declaramos las variables
+            double[] EntreLimites = new double[0];
+            int Contador = 0;
 
+            for (int i = 0; i < Costos.Length; i++)
+            {
+                if ((Costos[i] >= LimiteInferior) && (Costos[i] <= LimiteSuperior))
+                {
+                    Array.Resize(ref EntreLimites, EntreLimites.Length+1);
+                    EntreLimites[Contador] = Costos[i];
+                    Contador++;
+                }
+            }
+
+            return EntreLimites;
+        }
     }
 }
