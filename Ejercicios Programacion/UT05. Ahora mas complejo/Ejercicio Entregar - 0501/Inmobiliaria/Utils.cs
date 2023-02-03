@@ -201,32 +201,6 @@ namespace Inmobiliaria
             return EntreLimites;
         }
     
-        public static void MostrarCasaLimiteInferiosSuperior(Double[] Costos, double[] CostosEntreLimites, string[] Casas) // ESTA FUNCION MUESTRA LAS CASAS Y EL PRECIO QUE ESTAN ENTRE EL LIMITE INFERIOR Y SUPERIOR
-        {
-            // Declaramos las variables
-            int ContadorEntreLimites = 0;
-
-            Console.WriteLine("Las casas que se encuentran entre los limites son:");
-            for (int j = 0; j < Costos.Length; j++) // Este bucle recorrera el vector de costos (Donde se almacena todos los precios de las casas )
-            {
-                ContadorEntreLimites = 0;
-                while (ContadorEntreLimites < CostosEntreLimites.Length) // Este bucle recorrera el vector CostosEntrelimites (Donde se almacena los precios que estan en los limites)
-                {
-                    if (Costos[j] == CostosEntreLimites[ContadorEntreLimites])
-                    {
-                        Console.WriteLine($" {Casas[j]} ");
-                        Console.WriteLine($" {Costos[j]} ");
-                        CostosEntreLimites[ContadorEntreLimites] = -1;
-                        ContadorEntreLimites = CostosEntreLimites.Length;
-                    }
-                    else
-                    {
-                        ContadorEntreLimites++;
-                    }
-                }
-            }
-        } 
-        
         public static string SolicitarNombreCasaExistente(string[] NombreCasas) // ESTA FUNCION Solicitara un nombre de casa existente
         {
             // Declaramos las variables
@@ -234,9 +208,17 @@ namespace Inmobiliaria
             int Contador= 0;
             string NombreCasaUsu = "";
 
+            Console.WriteLine("Los nombre de casas almacenados son:");
+            Console.WriteLine(" [ ");
+            for (int i = 0; i < NombreCasas.Length; i++)
+            {
+                Console.Write($" {NombreCasas[i]} ");
+            }
+            Console.WriteLine(" ] ");
+
             do
             {
-                Console.WriteLine("Dime el nombre de una casa existente y se te mostrara todas las que tengan un precio inferior");
+                Console.WriteLine("\nDime el nombre de una casa existente y se te mostrara todas las que tengan un precio inferior");
                 NombreCasaUsu = Console.ReadLine();
                 NombreCasaUsu = NombreCasaUsu.Trim();
 
@@ -264,7 +246,7 @@ namespace Inmobiliaria
             return NombreCasaUsu;
         }
     
-        public static double SacarListadoNombreCasa(string[] NombreCasas, double[] PrecioCasa, string NombreCasaSeleccionada)
+        public static double SacarListadoNombreCasa(string[] NombreCasas, double[] PrecioCasa, string NombreCasaSeleccionada) // ESTA FUNCION SACA EL PRECIO DEL NOMBRE DE LA CASA QUE ELIGIO EL USUARIO
         {
             // Declaramos las variables 
             double Precio = 0;
@@ -278,13 +260,39 @@ namespace Inmobiliaria
             }
 
             return Precio;
+        } 
+
+        public static void MostrarCasaLimiteInferiosSuperior(Double[] Costos, double[] CostosEntreLimites, string[] Casas) // ESTA FUNCION MUESTRA LAS CASAS Y EL PRECIO QUE ESTAN ENTRE EL LIMITE INFERIOR Y SUPERIOR
+        {
+            // Declaramos las variables
+            int ContadorEntreLimites = 0;
+
+            Console.WriteLine("\nLas casas que se encuentran entre los limites son:");
+            for (int j = 0; j < Costos.Length; j++) // Este bucle recorrera el vector de costos (Donde se almacena todos los precios de las casas )
+            {
+                ContadorEntreLimites = 0;
+                while (ContadorEntreLimites < CostosEntreLimites.Length) // Este bucle recorrera el vector CostosEntrelimites (Donde se almacena los precios que estan en los limites)
+                {
+                    if (Costos[j] == CostosEntreLimites[ContadorEntreLimites])
+                    {
+                        Console.WriteLine($" {Casas[j]} ");
+                        Console.WriteLine($" {Costos[j]} ");
+                        CostosEntreLimites[ContadorEntreLimites] = -1;
+                        ContadorEntreLimites = CostosEntreLimites.Length;
+                    }
+                    else
+                    {
+                        ContadorEntreLimites++;
+                    }
+                }
+            }
         }
-    
-        public static void MostrarCasaInferioresPrecio(string[] NombreCasas, double[] PrecioCasa, double PrecioCasaSeleccionada)
+        
+        public static void MostrarCasaInferioresPrecio(string[] NombreCasas, double[] PrecioCasa, double PrecioCasaSeleccionada)// ESTA FUNCION MUESTRA LAS CASAS MENORES A LA CASA ELEGIDA POR EL USUARIO 
         {
             // Declaramos las variables
 
-            Console.WriteLine("La casas inferiores a la seleccionada son: ");
+            Console.WriteLine("\nLa casas inferiores a la seleccionada son: ");
             for (int i = 0; i < PrecioCasa.Length; i++)
             {
                 if (PrecioCasa[i] < PrecioCasaSeleccionada)
@@ -293,7 +301,8 @@ namespace Inmobiliaria
                     Console.WriteLine($" {PrecioCasa[i]} ");
                 }
             }
-        }
+        } 
     
+
     }
 }

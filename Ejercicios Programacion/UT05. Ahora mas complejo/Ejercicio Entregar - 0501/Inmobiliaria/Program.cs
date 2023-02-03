@@ -47,7 +47,7 @@ namespace Inmobiliaria
 
             PrecioCasaSeleccionada = Funciones.SacarListadoNombreCasa(Casas, Costos, CasaExistente);// Llamamos a la funcion para sacar el precio de la casa seleccionada
 
-            Funciones.MostrarCasaInferioresPrecio(Casas,Costos,PrecioCasaSeleccionada);
+            Funciones.MostrarCasaInferioresPrecio(Casas,Costos,PrecioCasaSeleccionada); // Llamamos a la funcion para mostrar las casas menores a la casa que solicitamos posteriormente
         }
     }
 }
