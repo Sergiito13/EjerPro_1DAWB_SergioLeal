@@ -9,8 +9,9 @@ namespace Inmobiliaria
             // Declaramos las variables
             string[] Casas;
             double[] Costos, CostosEntreLimites;
-            double LimiteInferior = 0, LimiteSuperior = 0;
+            double LimiteInferior = 0, LimiteSuperior = 0, PrecioCasaSeleccionada = 0;
             int numeroCasas = 0, ContadorVeces = 0;
+            string CasaExistente = "";
             
 
             numeroCasas = Funciones.SolicitarNumeroCasas(); // Llamamos a la funcion SolicitarNumeroCasas que pedira un numero
@@ -38,21 +39,15 @@ namespace Inmobiliaria
 
             CostosEntreLimites = Funciones.SacarListadoLimites(LimiteInferior, LimiteSuperior, Costos); // Llamamos a la funcion que calculara los percios de las casas que esten entre medio de los limites
 
-            Console.WriteLine("Las casas que se encuentran entre los limites son:");
-            for (int j = 0; j < Costos.Length; j++) // Este bucle recorrera el vector de costos (Donde se almacena todos los precios de las casas )
-            {
-                for (int z = 0; z < CostosEntreLimites.Length; z++)
-                {
-                    if (Costos[j] == CostosEntreLimites[z])
-                    {
-                        Console.WriteLine($" {Casas[j]} ");
-                        Console.WriteLine($" {Costos[j]} ");
-                        CostosEntreLimites[z] = -1;
-                    }
-                }
-            }
+            CasaExistente = Funciones.SolicitarNombreCasaExistente(Casas); // Llamamos a la funcion para pedir nombre de la casa
 
+            Console.Clear();
 
+            Funciones.MostrarCasaLimiteInferiosSuperior(Costos, CostosEntreLimites, Casas); // Llamamos a la funcion Para mostrar las casas y precio que estan entre los limites
+
+            PrecioCasaSeleccionada = Funciones.SacarListadoNombreCasa(Casas, Costos, CasaExistente);// Llamamos a la funcion para sacar el precio de la casa seleccionada
+
+            Funciones.MostrarCasaInferioresPrecio(Casas,Costos,PrecioCasaSeleccionada);
         }
     }
 }

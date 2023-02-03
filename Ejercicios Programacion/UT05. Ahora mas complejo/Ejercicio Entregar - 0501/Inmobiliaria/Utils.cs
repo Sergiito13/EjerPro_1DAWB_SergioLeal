@@ -50,8 +50,10 @@ namespace Inmobiliaria
 
             do
             {
-                Console.WriteLine($"\nDime el nombre de la casa {ContadorNumeroCasas+1}");
+                Console.WriteLine("\n-----------------------------------------------------");
+                Console.WriteLine($"Dime el nombre de la casa {ContadorNumeroCasas+1}");
                 CadenaUsu = Console.ReadLine();
+                CadenaUsu = CadenaUsu.Trim();
 
                 if (CadenaUsu.Length > 0) // Comprobamos que la cadena no este vacia
                 {
@@ -59,7 +61,7 @@ namespace Inmobiliaria
                     if (!NombreCasa.Contains(CadenaUsu)) // Comprobamos que la cadena no este repetida en la string
                     {
                         NombreCasa[ContadorNumeroCasas] = CadenaUsu;
-                        Console.WriteLine($"Se ha añadido la casa {ContadorNumeroCasas+1} con el nombre {CadenaUsu}");
+                        Console.WriteLine($"[Se ha añadido la casa {ContadorNumeroCasas+1} con el nombre {CadenaUsu}]");
                         Salir= true;
                     }
                     else
@@ -74,7 +76,6 @@ namespace Inmobiliaria
 
 
             } while (!Salir);
-            Console.WriteLine("------------------------------------------");
 
             return NombreCasa;
         }
@@ -88,7 +89,7 @@ namespace Inmobiliaria
 
             do
             {
-                Console.WriteLine($"\nDime el precio de la casa {ContadorNumeroCasas + 1}");
+                Console.WriteLine($"Dime el precio de la casa {ContadorNumeroCasas + 1}");
                 while (!double.TryParse(Console.ReadLine(), out NumeroUsu))
                 {
                     Console.WriteLine("ERROR ! El tipo de dato tiene que ser numérico");
@@ -98,19 +99,18 @@ namespace Inmobiliaria
                 {
                     NumeroUsu = Math.Round(NumeroUsu, 2);
                     CostoCasa[ContadorNumeroCasas] = NumeroUsu;
-                    Console.WriteLine($"Se ha introducido el precio de la casa {ContadorNumeroCasas + 1} con el precio {NumeroUsu} Euros");
+                    Console.WriteLine($"[Se ha introducido el precio de la casa {ContadorNumeroCasas + 1} con el precio {NumeroUsu} Euros]");
                     Salir= true;
                 }
                 else
                 {
-                    Console.WriteLine("ERROR ! El precio de la casa no puede ser negativo");
+                    Console.WriteLine("ERROR ! El precio de la casa no puede ser negativo , ni 0");
                 }
 
                 
 
 
             } while (!Salir);
-            Console.WriteLine("------------------------------------------");
 
             return CostoCasa;
 
@@ -200,5 +200,100 @@ namespace Inmobiliaria
 
             return EntreLimites;
         }
+    
+        public static void MostrarCasaLimiteInferiosSuperior(Double[] Costos, double[] CostosEntreLimites, string[] Casas) // ESTA FUNCION MUESTRA LAS CASAS Y EL PRECIO QUE ESTAN ENTRE EL LIMITE INFERIOR Y SUPERIOR
+        {
+            // Declaramos las variables
+            int ContadorEntreLimites = 0;
+
+            Console.WriteLine("Las casas que se encuentran entre los limites son:");
+            for (int j = 0; j < Costos.Length; j++) // Este bucle recorrera el vector de costos (Donde se almacena todos los precios de las casas )
+            {
+                ContadorEntreLimites = 0;
+                while (ContadorEntreLimites < CostosEntreLimites.Length) // Este bucle recorrera el vector CostosEntrelimites (Donde se almacena los precios que estan en los limites)
+                {
+                    if (Costos[j] == CostosEntreLimites[ContadorEntreLimites])
+                    {
+                        Console.WriteLine($" {Casas[j]} ");
+                        Console.WriteLine($" {Costos[j]} ");
+                        CostosEntreLimites[ContadorEntreLimites] = -1;
+                        ContadorEntreLimites = CostosEntreLimites.Length;
+                    }
+                    else
+                    {
+                        ContadorEntreLimites++;
+                    }
+                }
+            }
+        } 
+        
+        public static string SolicitarNombreCasaExistente(string[] NombreCasas) // ESTA FUNCION Solicitara un nombre de casa existente
+        {
+            // Declaramos las variables
+            bool Salir = false;
+            int Contador= 0;
+            string NombreCasaUsu = "";
+
+            do
+            {
+                Console.WriteLine("Dime el nombre de una casa existente y se te mostrara todas las que tengan un precio inferior");
+                NombreCasaUsu = Console.ReadLine();
+                NombreCasaUsu = NombreCasaUsu.Trim();
+
+                if (NombreCasaUsu.Length > 0)
+                {
+
+                    if (NombreCasas.Contains(NombreCasaUsu))
+                    {
+                        Console.WriteLine($"La casa seleccionada es: {NombreCasaUsu}");
+                        Salir = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("ERROR! El nombre introducido no se encuentra");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("ERROR ! No se permite que este vacia");
+                }
+
+
+            }while(!Salir);
+
+            return NombreCasaUsu;
+        }
+    
+        public static double SacarListadoNombreCasa(string[] NombreCasas, double[] PrecioCasa, string NombreCasaSeleccionada)
+        {
+            // Declaramos las variables 
+            double Precio = 0;
+
+            for (int i = 0; i < NombreCasas.Length; i++)
+            {
+                if (NombreCasas[i] == NombreCasaSeleccionada)
+                {
+                    Precio = PrecioCasa[i];
+                }
+            }
+
+            return Precio;
+        }
+    
+        public static void MostrarCasaInferioresPrecio(string[] NombreCasas, double[] PrecioCasa, double PrecioCasaSeleccionada)
+        {
+            // Declaramos las variables
+
+            Console.WriteLine("La casas inferiores a la seleccionada son: ");
+            for (int i = 0; i < PrecioCasa.Length; i++)
+            {
+                if (PrecioCasa[i] < PrecioCasaSeleccionada)
+                {
+                    Console.WriteLine($" {NombreCasas[i]} ");
+                    Console.WriteLine($" {PrecioCasa[i]} ");
+                }
+            }
+        }
+    
     }
 }
