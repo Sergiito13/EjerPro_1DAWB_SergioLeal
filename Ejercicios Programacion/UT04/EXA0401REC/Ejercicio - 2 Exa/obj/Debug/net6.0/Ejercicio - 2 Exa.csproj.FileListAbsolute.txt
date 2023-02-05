@@ -1,0 +1,15 @@
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\bin\Debug\net6.0\Ejercicio - 2 Exa.exe
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\bin\Debug\net6.0\Ejercicio - 2 Exa.deps.json
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\bin\Debug\net6.0\Ejercicio - 2 Exa.runtimeconfig.json
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\bin\Debug\net6.0\Ejercicio - 2 Exa.dll
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\bin\Debug\net6.0\Ejercicio - 2 Exa.pdb
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.csproj.AssemblyReference.cache
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.AssemblyInfoInputs.cache
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.AssemblyInfo.cs
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.csproj.CoreCompileInputs.cache
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.dll
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\refint\Ejercicio - 2 Exa.dll
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.pdb
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\Ejercicio - 2 Exa.genruntimeconfig.cache
+C:\Users\ModuloPRO\Desktop\Examen recuperacion\Ejercicio - 2 Exa\obj\Debug\net6.0\ref\Ejercicio - 2 Exa.dll
