@@ -1,7 +1,4 @@
-﻿using System.Diagnostics;
-using System.Numerics;
-
-namespace Ejercicio___1
+﻿namespace Ejercicio___1
 {
     class Fichero
     {
@@ -56,5 +53,5 @@ namespace Ejercicio___1
             }
             return VectorSeparado;
         }
-}
+    }
 }

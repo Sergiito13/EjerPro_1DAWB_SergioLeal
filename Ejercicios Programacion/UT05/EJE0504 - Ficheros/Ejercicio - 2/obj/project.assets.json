@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\Ejercicio - 1\\Ejercicio - 1.csproj",
-      "projectName": "Ejercicio - 1",
-      "projectPath": "C:\\Users\\Sergio\\Desktop\\PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\Ejercicio - 1\\Ejercicio - 1.csproj",
+      "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\Ejercicio - 2\\Ejercicio - 2.csproj",
+      "projectName": "Ejercicio - 2",
+      "projectPath": "C:\\Users\\Sergio\\Desktop\\PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\Ejercicio - 2\\Ejercicio - 2.csproj",
       "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sergio\\Desktop\\PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\Ejercicio - 1\\obj\\",
+      "outputPath": "C:\\Users\\Sergio\\Desktop\\PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\Ejercicio - 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
