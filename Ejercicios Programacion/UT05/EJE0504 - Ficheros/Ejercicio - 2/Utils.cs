@@ -8,7 +8,7 @@ namespace Ejercicio2Ficheros
         public static void MostrarMenu() // ESTA FUNCION MOSTRARA EL MENU
         {
 
-            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("\n---------------------------------------------------");
             Console.WriteLine("-               Este es el menu                   -");
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine("- ||||||||||||||||||||||||||||||||||||||||||||||||-");
@@ -21,7 +21,6 @@ namespace Ejercicio2Ficheros
             Console.WriteLine("-|   6- Salir                                    |-");
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine("---------------------------------------------------");
-
 
         }
 
@@ -39,7 +38,7 @@ namespace Ejercicio2Ficheros
 
         }
 
-        public static bool Menu(int OpcionMenu) // ESTA FUNCION 
+        public static bool Menu(int OpcionMenu) // ESTA FUNCION ES LAS OPCIONES DEL MENU
         {
             // Declaramos las variables
             bool Salir = false;
@@ -51,10 +50,11 @@ namespace Ejercicio2Ficheros
                 case 3: Fichero.ValorMaximoFichero(); break;
                 case 4: Fichero.ValorMinimoFichero(); break;
                 case 5: Fichero.CalcularMediaFichero(); break;
-                case 6: Console.WriteLine("Haz seleccionado la opcion de salir. ADIOS"); 
-                        Salir = true; 
-                        return Salir; 
-                        break;
+                case 6:
+                    Console.WriteLine("Haz seleccionado la opcion de salir. ADIOS");
+                    Salir = true;
+                    return Salir;
+                    break;
             }
             return Salir;
         }
