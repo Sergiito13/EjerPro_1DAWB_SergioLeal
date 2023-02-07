@@ -1,4 +1,6 @@
-﻿namespace Ejercicio2Fichero
+﻿using System.Globalization;
+
+namespace Ejercicio2Fichero
 {
     class Fichero
     {
@@ -94,19 +96,83 @@
             }
         }
 
-        public static void ValorMaximoFichero() // ESTA FUNCION LEERA EL FICHERO Y SACARA EL VALOR  MAXIMO DEL FICHERO
+        public static int[] LeerValoresdelFichero() // ESTA FUNCION LEERA LOS VALORES DEL FICHEROY LOS ALMACENARA EN UN ARRAY
         {
             // Declaramos las variables
+            int[] ValoresFichero = new int[0];
+            StreamReader Read = null;
+            int Contador = 0;
+
+            try
+            {
+                Read = new StreamReader(NOMBREFICHERO);
+                while (!Read.EndOfStream)
+                {
+                    Array.Resize(ref ValoresFichero, ValoresFichero.Length + 1);
+                    ValoresFichero[Contador] = Convert.ToInt32(Read.ReadLine());
+                    Contador++;
+                }
+                Read.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return ValoresFichero;
+        }
+        
+        public static int ValorMaximoFichero() // ESTA FUNCION LEERA EL FICHERO Y SACARA EL VALOR  MAXIMO DEL FICHERO
+        {
+            // Declaramos las variables
+            int ValorMaximoFichero = 0;
+
+            int[] NumerosFichero = LeerValoresdelFichero();
+
+            ValorMaximoFichero = NumerosFichero[0];
+
+            for (int i = 0; i < NumerosFichero.Length; i++)
+            {
+                if (ValorMaximoFichero < NumerosFichero[i])
+                {
+                    ValorMaximoFichero = NumerosFichero[i];
+                }
+            }
+            Console.WriteLine($"El valor maximo es {ValorMaximoFichero}");
+            return ValorMaximoFichero;
+            
         }
 
-        public static void ValorMinimoFichero() // ESTA FUNCION LEERA EL FICHERO Y SACARA EL VALOR MINIMO DEL FICHERO
+        public static int ValorMinimoFichero() // ESTA FUNCION LEERA EL FICHERO Y SACARA EL VALOR MINIMO DEL FICHERO
         {
             // Declaramos las variables
+            int valorminimo = ValorMaximoFichero();
+            int[] NumerosFichero = LeerValoresdelFichero();
+
+            for (int i = 0; i < NumerosFichero.Length; i++)
+            {
+                if (NumerosFichero[i] < valorminimo)
+                {
+                    valorminimo = NumerosFichero[i];
+                }
+            }
+            Console.WriteLine($"El valor minimo es {valorminimo}");
+            return valorminimo;
         }
 
-        public static void CalcularMediaFichero() // ESTA FUNCION LEERA EL FICHERO Y SACARA LA MEDIA 
+        public static decimal CalcularMediaFichero() // ESTA FUNCION LEERA EL FICHERO Y SACARA LA MEDIA 
         {
             // Declaramos las variables
+            decimal Media = 0;
+            int[] NumerosFichero = LeerValoresdelFichero();
+
+            for (int i = 0; i < NumerosFichero.Length; i++)
+            {
+                Media += NumerosFichero[i]; 
+            }
+            Media = Media/NumerosFichero.Length;
+
+            Console.WriteLine($"La media es de {Media}");
+            return Media;
         }
 
 
