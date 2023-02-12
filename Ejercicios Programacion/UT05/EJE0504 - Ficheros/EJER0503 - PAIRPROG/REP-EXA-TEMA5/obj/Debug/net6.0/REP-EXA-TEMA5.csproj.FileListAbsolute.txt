@@ -1,0 +1,15 @@
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.csproj.AssemblyReference.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.AssemblyInfoInputs.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.AssemblyInfo.cs
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.csproj.CoreCompileInputs.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\bin\Debug\net6.0\REP-EXA-TEMA5.exe
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\bin\Debug\net6.0\REP-EXA-TEMA5.deps.json
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\bin\Debug\net6.0\REP-EXA-TEMA5.runtimeconfig.json
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\bin\Debug\net6.0\REP-EXA-TEMA5.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\bin\Debug\net6.0\REP-EXA-TEMA5.pdb
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\refint\REP-EXA-TEMA5.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.pdb
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\REP-EXA-TEMA5.genruntimeconfig.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\REP-EXA-TEMA5\obj\Debug\net6.0\ref\REP-EXA-TEMA5.dll
