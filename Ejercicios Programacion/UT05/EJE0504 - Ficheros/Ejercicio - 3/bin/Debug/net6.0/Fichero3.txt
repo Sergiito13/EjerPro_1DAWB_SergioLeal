@@ -1,0 +1,4 @@
+﻿Manolo, Perez Lopez, 10, 5, 7,
+Jose Luis, Sanchez Cabrera, 4, 2, 1,
+Lupe, Leon Rodriguez, 8, 6, 2,
+Pepe, Carballo Alvarez, 9, 10, 7,
