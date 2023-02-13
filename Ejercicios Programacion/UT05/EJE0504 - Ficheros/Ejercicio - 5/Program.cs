@@ -19,7 +19,7 @@ namespace Ejercicio5
 
             Funciones.CopiarContenidoFicheroDestino(NombreFicheroDestino, ContenidoFicheroOrigen);
 
-            Funciones.MostrarContenidoFicheroDestino(NombreFicheroOrigen);
+            Funciones.MostrarContenidoFicheroDestino(NombreFicheroDestino);
 
         }
     }

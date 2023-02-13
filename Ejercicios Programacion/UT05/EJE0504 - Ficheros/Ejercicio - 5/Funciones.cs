@@ -183,15 +183,17 @@ namespace Ejercicio5
             {
                 Console.WriteLine("El fichero ya existe");
             }
+            
         }
     
         public static void CopiarContenidoFicheroDestino(string NombreFicheroDestino, string ContenidoFicheroOrigen) // ESTA FUNCION COPIARA EL CONTENIDO EN EL FICHERO DESTINO
         {
             // Declaramos las variables
             StreamWriter swrite = null;
-
+            
             try
             {
+                
                 swrite = new StreamWriter(NombreFicheroDestino);
                 swrite.WriteLine(ContenidoFicheroOrigen);
             }
@@ -216,6 +218,7 @@ namespace Ejercicio5
                 Console.WriteLine(e.Message);
 
             }
+            swrite.Close();
         }
     
         public static void MostrarContenidoFicheroDestino(string NombreFicheroDestino) // ESTA FUNCION MOSTRARA EL CONTENIDO DEL FICHERO DESTINO

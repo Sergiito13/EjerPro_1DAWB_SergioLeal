@@ -36,7 +36,7 @@ namespace Ejercicio4
                 Linea2= sread2.ReadLine();
 
                 
-                while (Linea1 != null || Linea2 != null)
+                while ((!sread1.EndOfStream) || (!sread2.EndOfStream))
                 {
                     if (Linea1 != null)
                     {

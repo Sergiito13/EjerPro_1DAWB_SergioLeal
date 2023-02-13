@@ -53,7 +53,6 @@ namespace Ejercicio3
             
             for (int i = 0; i < Datos.Length; i+=5)
             {
-
                 if (i < Datos.Length-1)
                 {
                     Array.Resize(ref Alumnos, Alumnos.Length + 1);
@@ -61,15 +60,13 @@ namespace Ejercicio3
                     Alumnos[Contador].Apellidos = Datos[i + 1];
                     Alumnos[Contador].NotaPrimeraEva = int.Parse(Datos[i + 2]);
                     Alumnos[Contador].NotaSegundaEva = int.Parse(Datos[i + 3]);
-                    Alumnos[Contador].NotaSegundaEva = int.Parse(Datos[i + 4]);
+                    Alumnos[Contador].NotaTerceraEva = int.Parse(Datos[i + 4]);
 
                     
                 }
         
                 Contador++;
-                
             }
-
             return Alumnos;
         }
 
@@ -116,6 +113,9 @@ namespace Ejercicio3
             Console.WriteLine("Los alumnos que suspendieron las 3 evaluaciones son: ");
             for (int i = 0; i < Alumnos.Length; i++)
             {
+                Contador = 0;
+                while (Contador < NombreAlumno.Length)
+                {
                     if (Alumnos[i].Nombre == NombreAlumno[Contador])
                     {
                         Console.Write($"\n {Alumnos[i].Nombre} ");
@@ -123,8 +123,16 @@ namespace Ejercicio3
                         Console.Write($" {Alumnos[i].NotaPrimeraEva} ");
                         Console.Write($" {Alumnos[i].NotaSegundaEva} ");
                         Console.Write($" {Alumnos[i].NotaTerceraEva} ");
+                        Contador= NombreAlumno.Length;
                     }
+                    else
+                    {
+                        Contador++;
+                    }
+                }
+                    
             }
+            Console.WriteLine("");
         }
     }
 }
