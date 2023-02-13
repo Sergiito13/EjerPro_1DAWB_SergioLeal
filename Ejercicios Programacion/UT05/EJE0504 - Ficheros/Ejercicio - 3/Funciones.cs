@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,11 +9,11 @@ namespace Ejercicio3
 {
     public struct Alumnos
     {
-       public string[] Nombre;
-       public string[] Apellidos;
-       public int[] NotaPrimeraEva;
-       public int[] NotaSegundaEva;
-       public int[] NotaTerceraEva;
+       public string Nombre;
+       public string Apellidos;
+       public int NotaPrimeraEva;
+       public int NotaSegundaEva;
+       public int NotaTerceraEva;
        
     }
 
@@ -27,11 +28,7 @@ namespace Ejercicio3
             StreamReader SRead = null;
             string[] Datos = new string[0];
             string Lineas = "";
-            string[] Nombres = new string[0];
-            string[] Apellidos = new string[0];
-            int[] Nota1 = new int[0];
-            int[] Nota2 = new int[0];
-            int[] Nota3 = new int[0];
+            int Contador = 0;
 
             try
             {
@@ -51,7 +48,7 @@ namespace Ejercicio3
                 Console.WriteLine(e.Message);
             }
 
-            int Contador = 0;
+            
             Alumnos[] Alumnos = new Alumnos[0];
             
             for (int i = 0; i < Datos.Length; i+=5)
@@ -59,44 +56,75 @@ namespace Ejercicio3
 
                 if (i < Datos.Length-1)
                 {
-                    Array.Resize(ref Nombres, Nombres.Length + 1);
-                    Array.Resize(ref Apellidos, Apellidos.Length + 1);
-                    Array.Resize(ref Nota1, Nota1.Length + 1);
-                    Array.Resize(ref Nota2, Nota2.Length + 1);
-                    Array.Resize(ref Nota3, Nota3.Length + 1);
+                    Array.Resize(ref Alumnos, Alumnos.Length + 1);
+                    Alumnos[Contador].Nombre = Datos[i];
+                    Alumnos[Contador].Apellidos = Datos[i + 1];
+                    Alumnos[Contador].NotaPrimeraEva = int.Parse(Datos[i + 2]);
+                    Alumnos[Contador].NotaSegundaEva = int.Parse(Datos[i + 3]);
+                    Alumnos[Contador].NotaSegundaEva = int.Parse(Datos[i + 4]);
 
-                    Nombres[Contador] = Datos[i];
-                    Apellidos[Contador] = Datos[i + 1];
-                    Nota1[Contador] = int.Parse(Datos[i + 2]);
-                    Nota2[Contador] = int.Parse(Datos[i + 3]);
-                    Nota3[Contador] = int.Parse(Datos[i + 4]);
+                    
                 }
         
                 Contador++;
                 
             }
 
-            Contador = 0;
-            for (int i = 0; i < Nombres.Length; i++)
-            {
-                Console.Write($"\n {Nombres[i]} ");
-                Console.Write($" {Apellidos[i]} ");
-                Console.Write($" {Nota1[i]} ");
-                Console.Write($" {Nota2[i]} ");
-                Console.Write($" {Nota3[i]} ");
-
-                //Alumnos[Contador].Nombre = Nombres[i];
-                //Alumnos[Contador].Apellidos = Apellidos[i];
-                //Alumnos[Contador].NotaPrimeraEva = Nota1[i];
-                //Alumnos[Contador].NotaSegundaEva = Nota2[i];
-                //Alumnos[Contador].NotaSegundaEva = Nota2[i];
-
-                Contador++;
-
-            }
-
             return Alumnos;
         }
 
+        public static void MostrarContenidoEstructura(Alumnos[] Alumnos) // ESTA FUNCION MOSTRARA EL CONTENIDO DE LA ESTRUCTURA
+        {
+            // Declaramos las variables
+
+            Console.WriteLine("Los datos de la estructura son;");
+            for (int i = 0; i < Alumnos.Length; i++)
+            {
+                Console.Write($"\n {Alumnos[i].Nombre} ");
+                Console.Write($" {Alumnos[i].Apellidos} ");
+                Console.Write($" {Alumnos[i].NotaPrimeraEva} ");
+                Console.Write($" {Alumnos[i].NotaSegundaEva} ");
+                Console.Write($" {Alumnos[i].NotaTerceraEva} ");
+                
+            }
+            Console.WriteLine("\n");
+        }
+    
+        public static string[] CalcularAlumnosSuspendidos(Alumnos[] Alumnos) // ESTA FUNCION COGERA EL NOMBRE DE LOS ALUMNOS QUE TENGAN LAS 3 EVALUACIONES SUSPENDIDAS
+        {
+            // Declaramos las variables
+            string[] NombreSuspendidos = new string[0];
+            int Contador = 0;
+
+            for (int i = 0; i < Alumnos.Length; i++)
+            {
+                if ((Alumnos[i].NotaPrimeraEva < 5) && (Alumnos[i].NotaSegundaEva < 5) && (Alumnos[i].NotaTerceraEva < 5))
+                {
+                    Array.Resize(ref NombreSuspendidos, NombreSuspendidos.Length+1);
+                    NombreSuspendidos[Contador] = Alumnos[i].Nombre;
+                    Contador++;
+                }
+            }
+            return NombreSuspendidos;
+        }
+    
+        public static void MostrarAlumnosSuspendidos3Eva(Alumnos[] Alumnos, string[] NombreAlumno) // ESTA FUNCION MOSTRARA LOS ALUMNOS CON LAS 3 EVA SUSPENDIDADS
+        {
+            // Declaramos las variables
+            int Contador = 0;
+            Console.WriteLine("\n----------------------------------------------------");
+            Console.WriteLine("Los alumnos que suspendieron las 3 evaluaciones son: ");
+            for (int i = 0; i < Alumnos.Length; i++)
+            {
+                    if (Alumnos[i].Nombre == NombreAlumno[Contador])
+                    {
+                        Console.Write($"\n {Alumnos[i].Nombre} ");
+                        Console.Write($" {Alumnos[i].Apellidos} ");
+                        Console.Write($" {Alumnos[i].NotaPrimeraEva} ");
+                        Console.Write($" {Alumnos[i].NotaSegundaEva} ");
+                        Console.Write($" {Alumnos[i].NotaTerceraEva} ");
+                    }
+            }
+        }
     }
 }

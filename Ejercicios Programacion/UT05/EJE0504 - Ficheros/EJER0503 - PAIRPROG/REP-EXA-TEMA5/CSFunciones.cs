@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EjercicioPAIRPROGRAMING
+﻿namespace EjercicioPAIRPROGRAMING
 {
     class CSFunciones
     {
@@ -24,7 +18,7 @@ namespace EjercicioPAIRPROGRAMING
                 }
                 if (NumeroPersonas > 2)
                 {
-                    Correcto= true;
+                    Correcto = true;
                 }
                 else
                 {
@@ -36,7 +30,7 @@ namespace EjercicioPAIRPROGRAMING
             return NumeroPersonas; // devolvemos el dato
 
         }
-    
+
         public static Personal.Personas[] LeerDatosMuestra(int personasMuestras)// ESTA FUNCION PEDIRA LOS NOMBRE,APELLIDOS Y LA ALTURA
         {
             // Declaramos las variables
@@ -47,19 +41,19 @@ namespace EjercicioPAIRPROGRAMING
 
             Personal.Personas[] Personitas = new Personal.Personas[0];
 
-            for (int i = 0; i < personasMuestras ; i++)
+            for (int i = 0; i < personasMuestras; i++)
             {
-                Correcto= false;
+                Correcto = false;
                 do
                 {
-                    Console.WriteLine($"Dime el nombre de la persona {i+1} ");
+                    Console.WriteLine($"Dime el nombre de la persona {i + 1} ");
                     nombrePersona = Console.ReadLine();
 
                     if (nombrePersona.Length > 0)
                     {
                         Array.Resize(ref Personitas, Personitas.Length + 1);
                         Personitas[Contador].Nombre = nombrePersona;
-                        Correcto= true;
+                        Correcto = true;
                     }
                     else
                     {
@@ -68,7 +62,7 @@ namespace EjercicioPAIRPROGRAMING
 
                 } while (!Correcto);
 
-                Correcto= false;
+                Correcto = false;
                 do
                 {
                     Console.WriteLine($"Dime el apellido de la persona {i + 1} ");
@@ -77,7 +71,7 @@ namespace EjercicioPAIRPROGRAMING
                     if (apellidoPersona.Length > 0)
                     {
                         Personitas[Contador].Apellido = apellidoPersona;
-                        Correcto= true;
+                        Correcto = true;
                     }
                     else
                     {
@@ -86,7 +80,7 @@ namespace EjercicioPAIRPROGRAMING
 
                 } while (!Correcto);
 
-                Correcto= false;
+                Correcto = false;
                 do
                 {
                     Console.WriteLine($"Dime la altura de la persona {i + 1} ");
@@ -97,12 +91,12 @@ namespace EjercicioPAIRPROGRAMING
 
                     alturaPersonas = Math.Round(alturaPersonas, 2);
 
-                    if ((alturaPersonas >0) && (alturaPersonas < 3))
+                    if ((alturaPersonas > 0) && (alturaPersonas < 3))
                     {
                         Personitas[Contador].Altura = alturaPersonas;
-                        Correcto= true;
+                        Correcto = true;
                         Contador++;
-                        
+
                     }
                     else
                     {
@@ -113,23 +107,23 @@ namespace EjercicioPAIRPROGRAMING
 
             return Personitas;
         }
-    
+
         public static void MostrarDatosMuestra(Personal.Personas[] ListaPersonas) // ESTA FUNCION MOSTRARA LOS DATOS ALMACENADOS EN LA ESTRUCTURA
         {
             // Declaramos las variables
             Console.Clear();
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Los datos son:");
-            
+
             for (int i = 0; i < ListaPersonas.Length; i++)
             {
-                Console.Write($"\n {ListaPersonas[i].Nombre} ");
+                Console.Write($"{ListaPersonas[i].Nombre} ");
                 Console.Write($" {ListaPersonas[i].Apellido} ");
                 Console.Write($" {ListaPersonas[i].Altura} metros");
             }
             Console.WriteLine("\n--------------------------------");
-        }    
-    
-        
+        }
+
+
     }
 }

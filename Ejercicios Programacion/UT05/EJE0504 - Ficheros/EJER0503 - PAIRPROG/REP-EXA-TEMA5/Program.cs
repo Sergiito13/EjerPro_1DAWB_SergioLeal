@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EjercicioPAIRPROGRAMING
+﻿namespace EjercicioPAIRPROGRAMING
 {
     class Personal
     {
@@ -11,7 +9,7 @@ namespace EjercicioPAIRPROGRAMING
             public decimal Altura;
         }
     }
-    
+
     class Program
     {
         public static void Main(string[] args)
@@ -20,11 +18,11 @@ namespace EjercicioPAIRPROGRAMING
             int NumeroPersonasSolicitadas = 0;
             Personal.Personas[] Personitas;
             decimal MediaAlturas = 0;
-            
+
 
             NumeroPersonasSolicitadas = CSFunciones.SolicitarNumeroPersonas();
 
-            Personitas =  CSFunciones.LeerDatosMuestra(NumeroPersonasSolicitadas);
+            Personitas = CSFunciones.LeerDatosMuestra(NumeroPersonasSolicitadas);
 
             CSFunciones.MostrarDatosMuestra(Personitas);
 
@@ -32,6 +30,9 @@ namespace EjercicioPAIRPROGRAMING
 
             string[] NombrePersonasEncimaMedia = CSAlturas.PersonasPorEncimaMedia(Personitas, MediaAlturas);
 
+            string[] NombrePersonasDebajoMedia = CSAlturas.PersonasPorDebajoMedia(Personitas, MediaAlturas);
+
+            CSAlturas.MostrarPersonas(Personitas, NombrePersonasEncimaMedia, NombrePersonasDebajoMedia);
         }
     }
 }

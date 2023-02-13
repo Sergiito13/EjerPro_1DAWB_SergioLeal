@@ -2,3 +2,5 @@
 Jose Luis, Sanchez Cabrera, 4, 2, 1,
 Lupe, Leon Rodriguez, 8, 6, 2,
 Pepe, Carballo Alvarez, 9, 10, 7,
+Rodolfo, Lo Lo, 4, 2, 1,
+Pepe, Perez Gil, 5, 6, 3,

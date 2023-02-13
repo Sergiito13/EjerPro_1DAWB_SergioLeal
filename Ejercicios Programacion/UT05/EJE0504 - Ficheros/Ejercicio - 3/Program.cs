@@ -7,8 +7,13 @@ namespace Ejercicio3
         {
             // Declaramos las variables
 
-            Funciones.LeerDatosFichero();
+            Alumnos[] Alumnos = Funciones.LeerDatosFichero();
 
+            Funciones.MostrarContenidoEstructura(Alumnos);
+
+            string[] NombreAlumnosSuspendidos = Funciones.CalcularAlumnosSuspendidos(Alumnos);
+
+            Funciones.MostrarAlumnosSuspendidos3Eva(Alumnos,NombreAlumnosSuspendidos);
         }
     }
 }
