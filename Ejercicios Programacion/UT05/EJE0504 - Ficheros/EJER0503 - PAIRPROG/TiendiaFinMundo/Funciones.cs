@@ -151,22 +151,43 @@ namespace TienditaPOSTAPOCALIPTICA
 
                 if (NameUserValido.Length > 0)
                 {
-                    if (UserShop.NombreUsuario.Contains(NameUserValido))
+                    for (int i = 0; i < UserShop.Length; i++)
                     {
-
-                    }
-                    else
-                    {
-                        Console.WriteLine("Error! El nombre de usuario no existe");
+                        if (UserShop[i].NombreUsuario == NameUserValido)
+                        {
+                            Console.WriteLine($"El usuario es correcto y ha elegido {NameUserValido}");
+                            Salir = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Error! El nombre de usuario no existe");
+                        }
                     }
                 }
                 else
                 {
                     Console.WriteLine("Error ! La cadena introducida no puede estar vacia ");
                 }
-
             } while (!Salir);
 
+            Console.WriteLine("\nLos productos Disponibles son: ");
+
+            foreach (Estructuras.ProductosTienda producto in ProductShop)
+            {
+                if (producto.StockProducto > 1)
+                {
+                    Console.Write($" {producto.NombreProducto} ");
+                    Console.Write($" {producto.PrecioProducto} ");
+                    Console.Write($" {producto.StockProducto} ");
+                }
+            }
+            Salir = false;
+
+            do
+            {
+                Console.WriteLine($"\nUser {NameUserValido} que producto quiere comprar?");
+
+            } while (!Salir);
         }
     }
 }
