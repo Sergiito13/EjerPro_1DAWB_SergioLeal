@@ -1,0 +1,15 @@
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\bin\Debug\net6.0\TiendaFinMundo.exe
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\bin\Debug\net6.0\TiendaFinMundo.deps.json
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\bin\Debug\net6.0\TiendaFinMundo.runtimeconfig.json
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\bin\Debug\net6.0\TiendaFinMundo.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\bin\Debug\net6.0\TiendaFinMundo.pdb
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.csproj.AssemblyReference.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.AssemblyInfoInputs.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.AssemblyInfo.cs
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.csproj.CoreCompileInputs.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\refint\TiendaFinMundo.dll
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.pdb
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\TiendaFinMundo.genruntimeconfig.cache
+C:\Users\veron\OneDrive\Escritorio\CHIQUI\PRO - REPO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0504 - Ficheros\EJER0503 - PAIRPROG\TiendiaFinMundo\obj\Debug\net6.0\ref\TiendaFinMundo.dll
