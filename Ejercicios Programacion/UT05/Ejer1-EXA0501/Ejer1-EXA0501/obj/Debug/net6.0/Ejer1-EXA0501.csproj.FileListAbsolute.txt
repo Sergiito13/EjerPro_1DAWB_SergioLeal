@@ -1,0 +1,15 @@
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.csproj.AssemblyReference.cache
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.AssemblyInfoInputs.cache
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.AssemblyInfo.cs
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.csproj.CoreCompileInputs.cache
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\bin\Debug\net6.0\Ejer1-EXA0501.exe
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\bin\Debug\net6.0\Ejer1-EXA0501.deps.json
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\bin\Debug\net6.0\Ejer1-EXA0501.runtimeconfig.json
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\bin\Debug\net6.0\Ejer1-EXA0501.dll
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\bin\Debug\net6.0\Ejer1-EXA0501.pdb
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.dll
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\refint\Ejer1-EXA0501.dll
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.pdb
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\Ejer1-EXA0501.genruntimeconfig.cache
+C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\obj\Debug\net6.0\ref\Ejer1-EXA0501.dll

@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ejer1_EXA0501
+build_property.ProjectDir = C:\Users\YerlealYT\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\Ejer1-EXA0501\Ejer1-EXA0501\
