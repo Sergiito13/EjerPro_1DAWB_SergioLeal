@@ -10,6 +10,7 @@ namespace EJER1PairPrograming
             // Declaramos las variables
 
             CSFunciones.LeerFicherosyEscribirEnOtro();
+            CSFunciones.MostrarFicheroFinal();
 
         }
     }

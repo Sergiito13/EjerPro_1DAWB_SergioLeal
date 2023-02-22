@@ -1,0 +1,3 @@
+2;Yo bien;Yo mal
+4;Haciendo un examen;De paseo
+5;Mala cosa;

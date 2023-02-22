@@ -10,7 +10,7 @@ namespace FuncionesEjercicioFich
     {
         public const string RUTAFICHERO1 = "..\\..\\..\\1.txt";
         public const string RUTAFICHERO2 = "..\\..\\..\\2.txt";
-        public const string RUTAFICHERODIFERENCIAS = "..\\..\\..\\Diferencias.txt";
+        public const string RUTAFICHERODIFERENCIAS = "Diferencias.txt";
 
         public static void LeerFicherosyEscribirEnOtro()
         {
@@ -20,14 +20,27 @@ namespace FuncionesEjercicioFich
             StreamReader SRead1 = null;
             StreamReader SRead2 = null;
             StreamWriter Swrite = null;
-           
+            StreamWriter Swrite2 = null;
+
 
             try
             {
+
                 SRead1 = new StreamReader(RUTAFICHERO1);
                 SRead2 = new StreamReader(RUTAFICHERO2);
+                Swrite = new StreamWriter(RUTAFICHERODIFERENCIAS);
 
-                
+                if (File.Exists(RUTAFICHERODIFERENCIAS))
+                {
+                    
+                }
+                else
+                {
+
+                    Swrite2 = File.CreateText(RUTAFICHERO2);
+                    Swrite2.Close();
+                    Console.WriteLine("El fichero se ha creado correctamente");
+                }
 
                 while ((!SRead1.EndOfStream) || (!SRead2.EndOfStream))
                 {
@@ -37,29 +50,43 @@ namespace FuncionesEjercicioFich
 
                     if (Linea1 != Linea2)
                     {
-                        if (File.Exists(RUTAFICHERODIFERENCIAS))
-                        {
-                            Swrite.WriteLine($"{ContadorLinea};{Linea1};{Linea2}");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El fichero se ha creado correctamente");
-                            Swrite = File.CreateText(RUTAFICHERO2);
-                            Swrite.WriteLine($"{ContadorLinea};{Linea1};{Linea2}");
-                        }
+                        Swrite.WriteLine($"{ContadorLinea};{Linea1};{Linea2}");
                         
                     }
                     else
                     {
                         ContadorLineaIguales++;
-
                     }
                 }
+
                 Console.WriteLine($"El número de lineas que son iguales es de: {ContadorLineaIguales} lineas");
-                Swrite.Close();
                 SRead1.Close();
                 SRead2.Close();
+                Swrite.Close();
 
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public static void MostrarFicheroFinal()
+        {
+            // Declaramos las variables
+            StreamReader sread = null;
+
+            try
+            {
+                sread = new StreamReader(RUTAFICHERODIFERENCIAS);
+                
+
+                Console.WriteLine("\nEl contenido del fichero final es:");
+                while (!sread.EndOfStream)
+                {
+                    string Linea = sread.ReadLine();
+                    Console.WriteLine(Linea);
+                }
             }
             catch (Exception e)
             {
