@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0505 - Ficheros 2 PAIR PROGRAMING\\EJE0505 Ficheros 2 PAIRPROGRAMING\\EJE - 1\\EJE - 1.csproj",
-      "projectName": "EJE - 1",
-      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0505 - Ficheros 2 PAIR PROGRAMING\\EJE0505 Ficheros 2 PAIRPROGRAMING\\EJE - 1\\EJE - 1.csproj",
+      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0505 - Ficheros 2 PAIR PROGRAMING\\EJE0505 Ficheros 2 PAIRPROGRAMING\\EJE - 2\\EJE - 2.csproj",
+      "projectName": "EJE - 2",
+      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0505 - Ficheros 2 PAIR PROGRAMING\\EJE0505 Ficheros 2 PAIRPROGRAMING\\EJE - 2\\EJE - 2.csproj",
       "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0505 - Ficheros 2 PAIR PROGRAMING\\EJE0505 Ficheros 2 PAIRPROGRAMING\\EJE - 1\\obj\\",
+      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0505 - Ficheros 2 PAIR PROGRAMING\\EJE0505 Ficheros 2 PAIRPROGRAMING\\EJE - 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
