@@ -1,0 +1,15 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\bin\Debug\net6.0\EJE - 2.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\bin\Debug\net6.0\EJE - 2.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\bin\Debug\net6.0\EJE - 2.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\bin\Debug\net6.0\EJE - 2.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\bin\Debug\net6.0\EJE - 2.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\refint\EJE - 2.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\EJE - 2.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJE0505 - Ficheros 2 PAIR PROGRAMING\EJE0505 Ficheros 2 PAIRPROGRAMING\EJE - 2\obj\Debug\net6.0\ref\EJE - 2.dll
