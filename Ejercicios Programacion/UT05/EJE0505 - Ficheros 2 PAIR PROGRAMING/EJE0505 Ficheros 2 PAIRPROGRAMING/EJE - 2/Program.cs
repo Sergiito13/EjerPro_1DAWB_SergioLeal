@@ -14,6 +14,8 @@ namespace EJER2FICHEROS
             NombreFich = Funciones.PedirNombreFichero();
 
             NumeroLineas = Funciones.PedirNumeroLineas();
+
+            Funciones.AbrirFicheroLeerloMostrarLineas(NombreFich, NumeroLineas);
         }
     }
 }

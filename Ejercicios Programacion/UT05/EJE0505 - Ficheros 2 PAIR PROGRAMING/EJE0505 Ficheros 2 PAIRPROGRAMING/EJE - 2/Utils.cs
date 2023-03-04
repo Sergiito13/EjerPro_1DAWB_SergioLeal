@@ -18,7 +18,7 @@ namespace EJE2FICHEROS
             do
             {
 
-                Console.WriteLine("Dime el nombre/ruta del fichero");
+                Console.WriteLine("Dime el nombre del fichero");
                 rutaFichero = Console.ReadLine();
 
                 if (rutaFichero.Length > 0)
@@ -74,7 +74,7 @@ namespace EJE2FICHEROS
                     Console.WriteLine("Error el número tiene que ser de tipo entero");
                 }
 
-                if (numeroLineas < 0)
+                if (numeroLineas > 0)
                 {
                     Salir = true;
                 }
@@ -91,10 +91,31 @@ namespace EJE2FICHEROS
         {
             // Declaramos las variables
             StreamReader SRead = null;
+            int Lineas = 0, Contador = 0;
+            string ContenidoLineas = "";
 
             try
             {
                 SRead = new StreamReader(nombreFich);
+                Lineas = File.ReadLines(nombreFich).Count();
+
+                if (Lineas < numeroLineas)
+                {
+                    Console.WriteLine("\nComo el fichero tiene menos lineas de las introducidas, mostrare todas:");
+                    Console.WriteLine("");
+                    while (!SRead.EndOfStream)
+                    {
+                        Console.WriteLine(SRead.ReadLine());
+                    }
+                }
+                else
+                {
+                    while (Contador < numeroLineas)
+                    {
+                        Console.WriteLine(SRead.ReadLine());
+                        Contador++;
+                    }
+                }
             }
             catch (Exception e)
             {
