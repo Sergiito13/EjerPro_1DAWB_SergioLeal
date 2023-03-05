@@ -1,0 +1,15 @@
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\bin\Debug\net6.0\Ejer - 0502.exe
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\bin\Debug\net6.0\Ejer - 0502.deps.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\bin\Debug\net6.0\Ejer - 0502.runtimeconfig.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\bin\Debug\net6.0\Ejer - 0502.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\bin\Debug\net6.0\Ejer - 0502.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.csproj.AssemblyReference.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.AssemblyInfoInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.AssemblyInfo.cs
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.csproj.CoreCompileInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\refint\Ejer - 0502.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\Ejer - 0502.genruntimeconfig.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER - 0502 ENTR FICHEROS\Ejer - 0502\obj\Debug\net6.0\ref\Ejer - 0502.dll
