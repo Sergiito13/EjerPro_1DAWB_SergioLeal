@@ -1,5 +1,4 @@
-﻿using System;
-namespace EjerFicheros
+﻿namespace EjerFicheros
 {
     class Program
     {
