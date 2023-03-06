@@ -6,6 +6,7 @@
         {
             List<mediaMunicipios> datosMunicipio = Utils.LeerDatosFichero();
 
+            Utils.EscribirDatosFicheroMedias(datosMunicipio);
         }
     }
 }

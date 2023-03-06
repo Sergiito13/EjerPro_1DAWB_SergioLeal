@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\veron\\.nuget\\packages\\": {}
+    "C:\\Users\\ModuloPRO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER - 0502 ENTR FICHEROS\\Ejer - 0502\\Ejer - 0502.csproj",
+      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER - 0502 ENTR FICHEROS\\Ejer - 0502\\Ejer - 0502.csproj",
       "projectName": "Ejer - 0502",
-      "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER - 0502 ENTR FICHEROS\\Ejer - 0502\\Ejer - 0502.csproj",
-      "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-      "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER - 0502 ENTR FICHEROS\\Ejer - 0502\\obj\\",
+      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER - 0502 ENTR FICHEROS\\Ejer - 0502\\Ejer - 0502.csproj",
+      "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
+      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER - 0502 ENTR FICHEROS\\Ejer - 0502\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

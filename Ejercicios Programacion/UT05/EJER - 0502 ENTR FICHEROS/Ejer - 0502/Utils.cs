@@ -128,9 +128,38 @@
             }
         }
     
-        public static void EscribirDatosFicheroMedias(List<mediaMunicipios> mediaMunicipios) // 
+        public static void EscribirDatosFicheroMedias(List<mediaMunicipios> mediaMunicipios) // ESTA FUNCION ESCRIBIRA EL FICHERO MEDIA_POBLACION.CSV
         {
+            // Declaramos las variables
+            StreamWriter SWriter = null;
+            double media = 0;
+            const string RUTAFICHEROMEDIAPOBLACION = "..\\..\\..\\media_poblacion.csv";
 
+
+            Utils.ComprobarSiexisteMediaPoblacionFichero();
+            try
+            {
+                SWriter = new StreamWriter(RUTAFICHEROMEDIAPOBLACION);
+
+                for (int i = 0; i < mediaMunicipios.Count; i++)
+                {
+                    media += mediaMunicipios[i].mediaMunicipio;  
+                }
+
+                media /= mediaMunicipios.Count;
+
+                for (int i = 0; i < mediaMunicipios.Count; i++)
+                {
+                    media += mediaMunicipios[i].mediaMunicipio;
+                    SWriter.WriteLine($" {mediaMunicipios[i].municipio};{media}");
+                }
+                
+            }
+            catch (Exception EX)
+            {
+                Console.WriteLine(EX.Message);
+                throw;
+            }
         }
     }
 }
