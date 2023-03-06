@@ -12,17 +12,23 @@
         {
             // Declaramos las variables
             const string NOMBREFICHEROPRINCIPALCSV = "..\\..\\..\\edades-medias-de-la-poblacion.csv";
+            const string RUTAFICHEROLOG = "..\\..\\..\\errores.log";
             string lineasFichero = "";
-            int contadorLinea = 1, contadorPosiciones = 0;
+            int contadorLinea = 1, contadorPosiciones = 0, contadorColumnas = 0;
             double numerosFicheros = 0;
             string[] nombreMunicipio = new string[0];
             bool error = false;
             List<mediaMunicipios> datosMunicipio = new List<mediaMunicipios>();
             StreamReader SRead = null;
+            StreamWriter sWriter = null;
 
             try
             {
                 SRead = new StreamReader(NOMBREFICHEROPRINCIPALCSV);
+
+                Utils.ComprobarSiexisteFicheroLog();
+
+                sWriter = new StreamWriter(RUTAFICHEROLOG);
 
                 while ((!SRead.EndOfStream) && (!error))
                 {
@@ -31,35 +37,41 @@
 
                     if (contadorLinea >= 2)
                     {
-                        for (int i = 2; i < lineaContenido.Length; i++)
+                        contadorColumnas = 2;
+                        while (contadorColumnas < lineaContenido.Length)
                         {
-                            if (lineaContenido[i] == " ")
+                            if (lineaContenido[contadorColumnas] != " ")
                             {
-                                if (double.TryParse(lineaContenido[i], out numerosFicheros))
+                                if (double.TryParse(lineaContenido[contadorColumnas], out numerosFicheros))
                                 {
                                     if (numerosFicheros > 0)
                                     {
                                         datosMunicipio.Add(new mediaMunicipios { municipio = lineaContenido[1], mediaMunicipio = numerosFicheros });
+                                        contadorColumnas++;
                                     }
                                     else
                                     {
                                         Console.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (El numero es negativo)");
+                                        sWriter.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (El numero es negativo)");
                                         error = true;
+                                        contadorColumnas = lineaContenido.Length;
                                     }
                                 }
                                 else
                                 {
                                     Console.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (No se puede convertir en double)");
+                                    sWriter.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (No se puede convertir en double)");
                                     error = true;
+                                    contadorColumnas = lineaContenido.Length;
                                 }
                             }
                             else
                             {
-                                Console.WriteLine($"Error en la linea {contadorLinea}.No hay datos para todos los años)");
+                                Console.WriteLine($"Error en la linea {contadorLinea}.(No hay datos para todos los años)");
+                                sWriter.WriteLine($"Error en la linea {contadorLinea}.(No hay datos para todos los años)");
                                 error = true;
+                                contadorColumnas = lineaContenido.Length;
                             }
-                            
-
                         }
                         contadorLinea++;
                     }
@@ -67,19 +79,10 @@
                     {
                         contadorLinea++;
                     }
+
                 }
                 SRead.Close();
-
-                foreach (mediaMunicipios datos in datosMunicipio)
-                {
-                    Console.Write(datos.municipio);
-                    Console.Write(datos.mediaMunicipio);
-                }
-                Console.WriteLine("");
-
-
-
-
+                sWriter.Close();
             }
             catch (Exception EX)
             {
@@ -105,6 +108,29 @@
                     Console.WriteLine(EX.Message);
                 }
             }
+        }
+
+        public static void ComprobarSiexisteMediaPoblacionFichero() // ESTA FUNCION COMPROBARA SI EXISTE EL ARCHIVO media_poblacion.csv SI NO LO CREARA
+        {
+            // Declaramos las variables
+            const string RUTAFICHEROMEDIAPOBLACION = "..\\..\\..\\media_poblacion.csv";
+
+            if (!File.Exists(RUTAFICHEROMEDIAPOBLACION))
+            {
+                try
+                {
+                    File.CreateText(RUTAFICHEROMEDIAPOBLACION);
+                }
+                catch (Exception EX)
+                {
+                    Console.WriteLine(EX.Message);
+                }
+            }
+        }
+    
+        public static void EscribirDatosFicheroMedias(List<mediaMunicipios> mediaMunicipios) // 
+        {
+
         }
     }
 }
