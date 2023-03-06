@@ -1,4 +1,6 @@
-﻿namespace EjerFicheros
+﻿using System.Runtime.InteropServices;
+
+namespace EjerFicheros
 {
     public struct mediaMunicipios
     {
@@ -15,7 +17,7 @@
             const string RUTAFICHEROLOG = "..\\..\\..\\errores.log";
             string lineasFichero = "";
             int contadorLinea = 1, contadorPosiciones = 0, contadorColumnas = 0;
-            double numerosFicheros = 0;
+            double numerosFicheros = 0,media = 0;
             string[] nombreMunicipio = new string[0];
             bool error = false;
             List<mediaMunicipios> datosMunicipio = new List<mediaMunicipios>();
@@ -24,11 +26,10 @@
 
             try
             {
+               
                 SRead = new StreamReader(NOMBREFICHEROPRINCIPALCSV);
 
-                Utils.ComprobarSiexisteFicheroLog();
-
-                sWriter = new StreamWriter(RUTAFICHEROLOG);
+                
 
                 while ((!SRead.EndOfStream) && (!error))
                 {
@@ -46,31 +47,47 @@
                                 {
                                     if (numerosFicheros > 0)
                                     {
-                                        datosMunicipio.Add(new mediaMunicipios { municipio = lineaContenido[1], mediaMunicipio = numerosFicheros });
+                                        media += numerosFicheros;
+                                        
+                                        if (contadorColumnas == lineaContenido.Length-1)
+                                        {
+                                            media /= lineaContenido.Length-2;
+                                            media = Math.Round(media,2);
+                                            datosMunicipio.Add(new mediaMunicipios { municipio = lineaContenido[1], mediaMunicipio = media });
+                                        }
                                         contadorColumnas++;
                                     }
                                     else
                                     {
-                                        Console.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (El numero es negativo)");
+                                        Utils.CrearFicheroLogs();
+                                        sWriter = new StreamWriter(RUTAFICHEROLOG);
+
                                         sWriter.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (El numero es negativo)");
                                         error = true;
                                         contadorColumnas = lineaContenido.Length;
+                                        sWriter.Close();
                                     }
                                 }
                                 else
                                 {
-                                    Console.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (No se puede convertir en double)");
+                                    Utils.CrearFicheroLogs();
+                                    sWriter = new StreamWriter(RUTAFICHEROLOG);
+
                                     sWriter.WriteLine($"Error en la linea {contadorLinea}.La media no es valida (No se puede convertir en double)");
                                     error = true;
                                     contadorColumnas = lineaContenido.Length;
+                                    sWriter.Close();
                                 }
                             }
                             else
                             {
-                                Console.WriteLine($"Error en la linea {contadorLinea}.(No hay datos para todos los años)");
+                                Utils.CrearFicheroLogs();
+                                sWriter = new StreamWriter(RUTAFICHEROLOG);
+
                                 sWriter.WriteLine($"Error en la linea {contadorLinea}.(No hay datos para todos los años)");
                                 error = true;
                                 contadorColumnas = lineaContenido.Length;
+                                sWriter.Close();
                             }
                         }
                         contadorLinea++;
@@ -82,7 +99,6 @@
 
                 }
                 SRead.Close();
-                sWriter.Close();
             }
             catch (Exception EX)
             {
@@ -91,75 +107,117 @@
 
             return datosMunicipio;
         }
-
-        public static void ComprobarSiexisteFicheroLog() // ESTA FUNCION COMPROBARA SI EXISTE EL ARCHIVO LOGS SI NO LO CREARA
-        {
-            // Declaramos las variables
-            const string RUTAFICHEROLOG = "..\\..\\..\\errores.log";
-
-            if (!File.Exists(RUTAFICHEROLOG))
-            {
-                try
-                {
-                    File.CreateText(RUTAFICHEROLOG);
-                }
-                catch (Exception EX)
-                {
-                    Console.WriteLine(EX.Message);
-                }
-            }
-        }
-
-        public static void ComprobarSiexisteMediaPoblacionFichero() // ESTA FUNCION COMPROBARA SI EXISTE EL ARCHIVO media_poblacion.csv SI NO LO CREARA
-        {
-            // Declaramos las variables
-            const string RUTAFICHEROMEDIAPOBLACION = "..\\..\\..\\media_poblacion.csv";
-
-            if (!File.Exists(RUTAFICHEROMEDIAPOBLACION))
-            {
-                try
-                {
-                    File.CreateText(RUTAFICHEROMEDIAPOBLACION);
-                }
-                catch (Exception EX)
-                {
-                    Console.WriteLine(EX.Message);
-                }
-            }
-        }
     
+        public static void CrearFicheroLogs()// ESTA FUNCION CREA EL FICHERO .LOGS
+        {
+            // Declaramos las variables
+            StreamWriter SWRITER = null;
+            const string NOMBRE_FICHERO_LOGS = "..\\..\\..\\errores.log";
+
+            try
+            {
+                SWRITER = File.CreateText(NOMBRE_FICHERO_LOGS);
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            SWRITER.Close();
+        }
+
+        public static void CrearFicheroMediasPoblacion()// ESTA FUNCION CREA EL FICHERO .LOGS
+        {
+            // Declaramos las variables
+            StreamWriter SWRITER = null;
+            const string NOMBRE_FICHERO_MediaPoblacion = "..\\..\\..\\media_poblacion.csv";
+
+            try
+            {
+                SWRITER = File.CreateText(NOMBRE_FICHERO_MediaPoblacion);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            SWRITER.Close();
+        }
         public static void EscribirDatosFicheroMedias(List<mediaMunicipios> mediaMunicipios) // ESTA FUNCION ESCRIBIRA EL FICHERO MEDIA_POBLACION.CSV
         {
             // Declaramos las variables
             StreamWriter SWriter = null;
-            double media = 0;
+            StreamWriter SWriter2 = null;
             const string RUTAFICHEROMEDIAPOBLACION = "..\\..\\..\\media_poblacion.csv";
 
-
-            Utils.ComprobarSiexisteMediaPoblacionFichero();
             try
             {
+                Utils.CrearFicheroMediasPoblacion();
                 SWriter = new StreamWriter(RUTAFICHEROMEDIAPOBLACION);
-
-                for (int i = 0; i < mediaMunicipios.Count; i++)
-                {
-                    media += mediaMunicipios[i].mediaMunicipio;  
-                }
-
-                media /= mediaMunicipios.Count;
-
-                for (int i = 0; i < mediaMunicipios.Count; i++)
-                {
-                    media += mediaMunicipios[i].mediaMunicipio;
-                    SWriter.WriteLine($" {mediaMunicipios[i].municipio};{media}");
-                }
                 
+
+                for (int i = 0; i < mediaMunicipios.Count; i++)
+                {
+                    SWriter.WriteLine($" {mediaMunicipios[i].municipio};{mediaMunicipios[i].mediaMunicipio}");
+                }
+                SWriter.Close();
             }
             catch (Exception EX)
             {
                 Console.WriteLine(EX.Message);
-                throw;
             }
+            
+        }
+
+        public static void MostrarResultadoFicheroMediaPoblacion() // ESTA FUNCION MOSTRARA EL ARCHIVO MEDIAPOBLACION
+        {
+            // Declaramos las variables
+            StreamReader SREAD = null;
+            const string RUTAFICHEROMEDIAPOBLACION = "..\\..\\..\\media_poblacion.csv";
+
+            try
+            {
+                SREAD = new StreamReader(RUTAFICHEROMEDIAPOBLACION);
+                Console.WriteLine("El fichero se ha generado correctamente y los datos son: ");
+                Console.WriteLine("");
+                string Linea = "";
+
+                while (!SREAD.EndOfStream)
+                {
+                    Linea = SREAD.ReadLine();
+                    Console.WriteLine(Linea);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        public static void MostrarResultadoFicherologs() // ESTA FUNCION MOSTRARA EL ARCHIVO MEDIAPOBLACION
+        {
+            // Declaramos las variables
+            StreamReader SREAD = null;
+            const string RUTAFICHEROERRORES = "..\\..\\..\\errores.log";
+            string Linea = "";
+
+            try
+            {
+                SREAD = new StreamReader(RUTAFICHEROERRORES);
+                Console.WriteLine("El fichero no se pudo completar con exito. Le mostrare el contenido del archivo.log: ");
+                Console.WriteLine("");
+
+                while (!SREAD.EndOfStream)
+                {
+                    Linea = SREAD.ReadLine();
+                    Console.WriteLine(Linea);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
         }
     }
 }
