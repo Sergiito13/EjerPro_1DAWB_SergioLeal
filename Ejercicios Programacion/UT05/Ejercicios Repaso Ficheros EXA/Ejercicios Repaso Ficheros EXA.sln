@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJER - 1", "EJER - 1\EJER - 1.csproj", "{919784DF-A203-4876-AD6A-E3EF673AF7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJER - 2", "EJER - 2\EJER - 2.csproj", "{1B7B7E6C-F412-4FA5-8581-6906249FCDE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919784DF-A203-4876-AD6A-E3EF673AF7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919784DF-A203-4876-AD6A-E3EF673AF7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919784DF-A203-4876-AD6A-E3EF673AF7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919784DF-A203-4876-AD6A-E3EF673AF7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7B7E6C-F412-4FA5-8581-6906249FCDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7B7E6C-F412-4FA5-8581-6906249FCDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7B7E6C-F412-4FA5-8581-6906249FCDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7B7E6C-F412-4FA5-8581-6906249FCDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85908E84-75C8-4720-AB08-3A99472D5053}
+	EndGlobalSection
+EndGlobal
