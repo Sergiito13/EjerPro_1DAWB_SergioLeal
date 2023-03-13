@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FUN - IMPORTANTES/1.0.0": {
+        "runtime": {
+          "FUN - IMPORTANTES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FUN - IMPORTANTES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

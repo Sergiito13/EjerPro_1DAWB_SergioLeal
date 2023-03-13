@@ -1,0 +1,15 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\bin\Debug\net6.0\FUN - IMPORTANTES.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\bin\Debug\net6.0\FUN - IMPORTANTES.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\bin\Debug\net6.0\FUN - IMPORTANTES.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\bin\Debug\net6.0\FUN - IMPORTANTES.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\bin\Debug\net6.0\FUN - IMPORTANTES.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\refint\FUN - IMPORTANTES.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\FUN - IMPORTANTES.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\FUN - IMPORTANTES\FUN - IMPORTANTES\obj\Debug\net6.0\ref\FUN - IMPORTANTES.dll

@@ -1,0 +1,30 @@
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.exe
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.deps.json
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.runtimeconfig.json
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.dll
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.pdb
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.csproj.AssemblyReference.cache
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.AssemblyInfoInputs.cache
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.AssemblyInfo.cs
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.csproj.CoreCompileInputs.cache
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.dll
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\refint\EJER - 1.dll
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.pdb
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.genruntimeconfig.cache
+C:\Users\YerlealYT\Desktop\PRO - REPO\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\ref\EJER - 1.dll
+E:\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.exe
+E:\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.deps.json
+E:\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.runtimeconfig.json
+E:\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.dll
+E:\EJER - EXTRA FICHERO\EJER - 1\bin\Debug\net6.0\EJER - 1.pdb
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.csproj.AssemblyReference.cache
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.GeneratedMSBuildEditorConfig.editorconfig
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.AssemblyInfoInputs.cache
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.AssemblyInfo.cs
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.csproj.CoreCompileInputs.cache
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.dll
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\refint\EJER - 1.dll
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.pdb
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\EJER - 1.genruntimeconfig.cache
+E:\EJER - EXTRA FICHERO\EJER - 1\obj\Debug\net6.0\ref\EJER - 1.dll
