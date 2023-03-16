@@ -1,0 +1,30 @@
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.exe
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.deps.json
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.runtimeconfig.json
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.dll
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.pdb
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.csproj.AssemblyReference.cache
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.AssemblyInfoInputs.cache
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.AssemblyInfo.cs
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.csproj.CoreCompileInputs.cache
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.dll
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\refint\ExamenFicheros.dll
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.pdb
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.genruntimeconfig.cache
+C:\Users\asanhid\Documents\UT5\UT6\ExamenFicheros\obj\Debug\net6.0\ref\ExamenFicheros.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\bin\Debug\net6.0\ExamenFicheros.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\refint\ExamenFicheros.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ExamenFicheros.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\ExamenFicherosResuelto\ExamenFicheros\obj\Debug\net6.0\ref\ExamenFicheros.dll

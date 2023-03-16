@@ -30,7 +30,6 @@
                     Contador++;
                 }
             }
-            Console.WriteLine("EL NOMBRE DE LAS PERSONAS POR ENCIMA DE LA MEDIA ES");
             return NombrePersonasPorEncimaMedia;
         }
 
@@ -49,7 +48,6 @@
                     Contador++;
                 }
             }
-            Console.WriteLine("EL NOMBRE DE LAS PERSONAS POR DEBAJO DE LA MEDIA ES");
             return NombrePersonasPorDebajoMedia;
         }
 

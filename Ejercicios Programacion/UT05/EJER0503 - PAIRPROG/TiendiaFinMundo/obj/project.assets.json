@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\veron\\.nuget\\packages\\": {}
+    "C:\\Users\\Sergio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\veron\\OneDrive\\Escritorio\\CHIQUI\\PRO - REPO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\EJER0503 - PAIRPROG\\TiendiaFinMundo\\TiendaFinMundo.csproj",
+      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER0503 - PAIRPROG\\TiendiaFinMundo\\TiendaFinMundo.csproj",
       "projectName": "TiendaFinMundo",
-      "projectPath": "C:\\Users\\veron\\OneDrive\\Escritorio\\CHIQUI\\PRO - REPO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\EJER0503 - PAIRPROG\\TiendiaFinMundo\\TiendaFinMundo.csproj",
-      "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\veron\\OneDrive\\Escritorio\\CHIQUI\\PRO - REPO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJE0504 - Ficheros\\EJER0503 - PAIRPROG\\TiendiaFinMundo\\obj\\",
+      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER0503 - PAIRPROG\\TiendiaFinMundo\\TiendaFinMundo.csproj",
+      "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
+      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT05\\EJER0503 - PAIRPROG\\TiendiaFinMundo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
