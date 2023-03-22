@@ -4,9 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EJER___1
+namespace ejer1
 {
-    internal class Clientes
+    class Clientes
     {
+        // Atributos
+        private int numeroCliente { get; set; }
+
+        private string nombreCliente { get; set; }
+
+        private string apellidoCliente { get; set; }
+
+        // Constructores
+
+        // Metodos
     }
 }
