@@ -17,19 +17,27 @@ namespace ejer2
         private decimal PrecioProducto { get; set; }
 
         // Constructores
-
+        public StockMaquina(int stock, string nombreProducto, decimal precioProducto)
+        {
+            this.StockProducto = stock;
+            this.NombreProducto = nombreProducto;
+            this.PrecioProducto = precioProducto;
+        }
         // Metodos
 
-        public static List<StockMaquina> AñadirProductoMaquinaExpendedora()
+        public static List<StockMaquina> AñadirProductoMaquinaExpendedora(List<StockMaquina> maquina)
         {
             // Declaramos las variables
             List<StockMaquina> StockMaquina = new List<StockMaquina>();
-            int contador = 1;
+            int contador = 1, stock = 10, cantidadProductos = 0;
+            decimal precio = 0;
             string nombre = "", respuesta = "";
             bool salir = false, salir2 = false;
-
+            
             do
             {
+                cantidadProductos = maquina.Count;
+                contador = cantidadProductos;
                 do
                 {
                     Console.WriteLine($"Dime un nombre para el producto {contador}");
@@ -47,13 +55,27 @@ namespace ejer2
                 } while (!salir2);
 
                 salir2 = false;
-
                 do
                 {
+                    Console.WriteLine($"Dime el precio del producto {contador}");
+                    while (!decimal.TryParse(Console.ReadLine(), out precio))
+                    {
+                        Console.WriteLine("Error ! El tipo de dato tiene que ser decimal");
+                    }
 
+                    if (precio > 0)
+                    {
+                        salir2 = true;
+                        maquina.Add(new StockMaquina(stock, nombre, precio));
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error ! El precio no puede ser inferior a 0");
+                    }
 
                 } while (!salir2);
 
+                salir2 = false;
                 do
                 {
                     Console.WriteLine("¿Quieres añadir otro producto? [Si | no]");
@@ -61,11 +83,11 @@ namespace ejer2
 
                     if ((respuesta == "Si") || (respuesta == "si") || (respuesta == "sI") || (respuesta == "SI"))
                     {
-                        salirPregunta = false;
+                        salir2 = true;
                     }
                     else if ((respuesta == "No") || (respuesta == "no") || (respuesta == "nO") || (respuesta == "NO"))
                     {
-                        salirPregunta = true;
+                        salir2 = true;
                         salir = true;
                     }
                     else
@@ -73,9 +95,9 @@ namespace ejer2
                         Console.WriteLine($"La cadena: {respuesta} no es válido");
                     }
 
-                } while (!salirPregunta);
+                } while (!salir2);
 
-            } while (contador < 20 || !salir);
+            } while ((cantidadProductos < 20) && (!salir));
 
 
             return StockMaquina;

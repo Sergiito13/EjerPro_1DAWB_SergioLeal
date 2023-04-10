@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ejer1
+﻿namespace ejer1
 {
     class Program
     {
@@ -9,7 +6,7 @@ namespace ejer1
         {
             // Declaramos las variables
             List<Juego> juegos = new List<Juego>();
-            int opcion = 0;
+            int opcion;
             bool salir = false;
 
             do
@@ -30,26 +27,108 @@ namespace ejer1
                 {
                     Console.WriteLine("ERROR !");
                 }
-                if ((opcion >= 1)||(opcion <= 2))
+                if ((opcion >= 1) || (opcion <= 2))
                 {
                     switch (opcion)
                     {
                         case 1:
                             {
-                                juegos = Juego.AñadirNuevoJuego(juegos);
+                                //pedir  nombre del juego
+                                //Pedir precio del juego
+                                //Pediro género del juego
+                                //Crear nueva instancia del juego (llamar a su constructor) con los datos recogidos
+                                //Añadir el nuevo juego craedo a la lista de juegos
+
+                                bool control = false;
+                                string nombreJuego = "", nombre = "";
+                                decimal precioJuego = 0;
+
+                                do
+                                {
+                                    Console.WriteLine("Dime un nombre de un juego");
+                                    nombreJuego = Console.ReadLine();
+
+                                    if (nombreJuego.Length > 0)
+                                    {
+                                        control = true;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Error! La cadena no puede estar vacia");
+                                    }
+                                } while (!control);
+
+                                salir = false;
+
+                                do
+                                {
+                                    Console.WriteLine("Dime un precio para el juego nuevo");
+                                    while (!decimal.TryParse(Console.ReadLine(), out precioJuego))
+                                    {
+                                        Console.WriteLine("Error ! Tiene que ser de tipo decimal el dato");
+                                    }
+                                    if (precioJuego >= 0)
+                                    {
+                                        control = true;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Error ! El precio no puede ser negativo");
+                                    }
+
+                                } while (!control);
+
+                                control = false;
+                                Genero generoJuego;
+                                do
+                                {
+                                    Console.WriteLine("Dime un genero para el juego");
+                                    nombre = Console.ReadLine();
+
+                                    if (nombre.Length > 0)
+                                    {
+                                        control = true;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Error ! La cadena no puede estar vacia");
+                                    }
+
+                                } while (!control);
+
+                                generoJuego = new Genero(nombre);
+                                Juego juegoAux = new Juego(nombreJuego, precioJuego, generoJuego);
+                                juegoAux.ToString();
+                                juegos.Add(juegoAux);
+
+                                //juegos.Add(new Juego("Zelda", 55m, "Aventuras"));
+                                
                             }
                             ; break;
                         case 2:
                             {
-                                Juego.MostrarLosJuegos(juegos);
+                                Console.Clear();
+                                Console.WriteLine("| LISTA DE JUEGOS: ");
+                                Console.WriteLine("---------------------------");
+
+                                foreach (Juego juego in juegos)
+                                {
+                                    Console.WriteLine(juego.ToString());
+                                    
+
+                                }
+                                Console.WriteLine("---------------------------");
+                                Console.WriteLine("Pulsa una tecla para continuar.");
+                                Console.ReadKey();
                             }
                             ; break;
-                        case 3: salir = true; 
-                            break;    
+                        case 3:
+                            salir = true;
+                            break;
                     }
-                }  
+                }
             } while (!salir);
-            
+
 
         }
     }

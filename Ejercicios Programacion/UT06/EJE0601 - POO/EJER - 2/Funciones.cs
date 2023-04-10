@@ -8,58 +8,76 @@ namespace ejer2
 {
     class Funciones
     {
+        public static void MostrarMenu()
+        {
+            Console.WriteLine("");
+            Console.WriteLine(" =================menu==================");
+            Console.WriteLine(" |-------------------------------------|");
+            Console.WriteLine(" | 1.- Añadir Producto                 |");
+            Console.WriteLine(" | 2.- Existe Producto                 |");
+            Console.WriteLine(" | 3.- Llenar máquina                  |");
+            Console.WriteLine(" | 4.- Salir                           |");
+            Console.WriteLine(" |-------------------------------------|");
+            Console.WriteLine(" =======================================");
+        }
 
-        public static string[] PrecioProductoMaquinaExpendedora()
+        public static int PedirOpcionMenu()
         {
             // Declaramos las variables
-            decimal[] precioProducto = new decimal[0];
-            decimal precio = "";
-            const int NUMERO_MAXIMO_PRODUCTO = 20;
-            int contador = 1;
-            bool salir = false, salirPregunta = false;
+            int opcionMenu = 0;
 
+            Console.WriteLine("");
+            Console.WriteLine(" ------------------------------------");
+            Console.WriteLine(" Dime una opcion para el menu");
+            while (!int.TryParse(Console.ReadLine(), out opcionMenu) || (opcionMenu < 1) || opcionMenu > 4)
+            {
+                Console.WriteLine("Error la opcion elegida no es correcta");
+            }
+            return opcionMenu;
+        }
+
+        public static bool OpcionesMenu()
+        {
+            // Declaramos las variables
+            bool salir = false;
+            List<StockMaquina> maquina = new List<StockMaquina>();
 
             do
             {
-                Console.WriteLine($"Dime un nombre para el producto {contador}");
-                nombre = Console.ReadLine();
+                MostrarMenu();
+                int opcionMenu = PedirOpcionMenu();
 
-                if (nombre.Length > 0)
+                Console.WriteLine("");
+                switch (opcionMenu)
                 {
-                    Array.Resize(ref precioProducto, precioProducto.Length + 1);
-                    precioProducto[contador - 1] = nombre;
-                }
-                else
-                {
-                    Console.WriteLine("Error ! El nombre del producto no puede estar vacio");
-                }
+                    case 1:
+                        Console.Clear();
+                        Console.WriteLine("Haz elegido la opción 1. ");
+                        maquina = StockMaquina.AñadirProductoMaquinaExpendedora(maquina);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        Console.WriteLine("Haz elegido la opción 2. ");
+                        
+                        break;
 
+                    case 3:
+                        Console.Clear();
+                        Console.WriteLine("Haz elegido la opción 3. ");
+                        
+                        break;
 
-                do
-                {
-                    Console.WriteLine("¿Quieres añadir otro producto? [Si | no]");
-                    respuesta = Console.ReadLine();
-
-                    if ((respuesta == "Si") || (respuesta == "si") || (respuesta == "sI") || (respuesta == "SI"))
-                    {
-                        salirPregunta = false;
-                    }
-                    else if ((respuesta == "No") || (respuesta == "no") || (respuesta == "nO") || (respuesta == "NO"))
-                    {
-                        salirPregunta = true;
+                    case 4:
+                        Console.Clear();
+                        Console.WriteLine("Saliendo del programa...");
                         salir = true;
-                    }
-                    else
-                    {
-                        Console.WriteLine($"La cadena: {respuesta} no es válido");
-                    }
-
-                } while (!salirPregunta);
+                        break;
+                }
+            } while (!salir);
 
 
-            } while (contador < 20 || !salir);
-
-            return precioProducto;
+            return salir;
         }
+
     }
 }
