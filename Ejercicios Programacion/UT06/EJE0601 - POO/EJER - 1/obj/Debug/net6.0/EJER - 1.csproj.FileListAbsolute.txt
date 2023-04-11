@@ -28,3 +28,18 @@ C:\Users\ModuloPRO\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06
 C:\Users\ModuloPRO\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.pdb
 C:\Users\ModuloPRO\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.genruntimeconfig.cache
 C:\Users\ModuloPRO\Desktop\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\ref\EJER - 1.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\bin\Debug\net6.0\EJER - 1.exe
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\bin\Debug\net6.0\EJER - 1.deps.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\bin\Debug\net6.0\EJER - 1.runtimeconfig.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\bin\Debug\net6.0\EJER - 1.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\bin\Debug\net6.0\EJER - 1.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.csproj.AssemblyReference.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.AssemblyInfoInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.AssemblyInfo.cs
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.csproj.CoreCompileInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\refint\EJER - 1.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\EJER - 1.genruntimeconfig.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 1\obj\Debug\net6.0\ref\EJER - 1.dll
