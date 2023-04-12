@@ -21,7 +21,7 @@
         public string ToString()
         {
             string juegoInfo = "";
-            juegoInfo = "Nombre: "+this.nombre + "\tPrecio: " + this.precio + "\tGenero: " + this.genero.nombre;
+            juegoInfo = "Nombre: "+this.nombre + "\tPrecio: " + this.precio + "\tGenero: " + this.genero.ToString();
 
             return juegoInfo;
         }

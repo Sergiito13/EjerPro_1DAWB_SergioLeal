@@ -11,5 +11,12 @@
             this.nombre = nombre;
         }
         // Métodos
+        public string ToString()
+        {
+            string juegoInfo = "";
+            juegoInfo = this.nombre;
+
+            return juegoInfo;
+        }
     }
 }

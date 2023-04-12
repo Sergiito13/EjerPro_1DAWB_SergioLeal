@@ -6,8 +6,19 @@
         {
             // Declaramos las variables
             List<Juego> juegos = new List<Juego>();
+            List<Genero> genero = new List<Genero>();
             int opcion;
             bool salir = false;
+
+            // Añadir generos a la lista
+            Genero genero1 = new Genero("Acción");
+            genero.Add(genero1);
+            Genero genero2 = new Genero("Estrategia");
+            genero.Add(genero2);
+            Genero genero3 = new Genero("Aventura");
+            genero.Add(genero3);
+
+
 
             do
             {
@@ -40,6 +51,7 @@
                                 //Añadir el nuevo juego craedo a la lista de juegos
 
                                 bool control = false;
+                                int seleccionNumero = 0;
                                 string nombreJuego = "", nombre = "";
                                 decimal precioJuego = 0;
 
@@ -82,24 +94,30 @@
                                 Genero generoJuego;
                                 do
                                 {
-                                    Console.WriteLine("Dime un genero para el juego");
-                                    nombre = Console.ReadLine();
-
-                                    if (nombre.Length > 0)
+                                    
+                                    Console.WriteLine("Los generos aptos son: ");
+                                    
+                                    int contador = 1;
+                                    foreach (Genero gen in genero)
                                     {
-                                        control = true;
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("Error ! La cadena no puede estar vacia");
+                                        
+                                        Console.WriteLine($"{contador}" + gen.ToString());
+                                        contador++;
                                     }
 
+                                    Console.WriteLine("Selecciona un número para el genero seleccionado");
+                                    while ((!int.TryParse(Console.ReadLine(), out seleccionNumero) || (seleccionNumero < 1) || (seleccionNumero >= contador)))
+                                    {
+                                        Console.WriteLine("La opción no es correcta");
+                                    }
+
+                                    Juego juegoAux = new Juego(nombreJuego, precioJuego, genero[seleccionNumero-1]);
+                                    juegos.Add(juegoAux);
+
+                                    control = true;
                                 } while (!control);
 
-                                generoJuego = new Genero(nombre);
-                                Juego juegoAux = new Juego(nombreJuego, precioJuego, generoJuego);
-                                juegoAux.ToString();
-                                juegos.Add(juegoAux);
+                                
 
                                 //juegos.Add(new Juego("Zelda", 55m, "Aventuras"));
                                 

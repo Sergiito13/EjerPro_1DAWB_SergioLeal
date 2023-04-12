@@ -54,7 +54,7 @@ namespace ejer1
                     case 1:
                         Console.Clear();
                         Console.WriteLine("Haz elegido la opción 1. ");
-                        Funciones.AñadirNuevoCliente();
+                        cliente = Clientes.AñadirNuevoCliente(cliente);
                         break;
                     case 2:
                         Console.Clear();

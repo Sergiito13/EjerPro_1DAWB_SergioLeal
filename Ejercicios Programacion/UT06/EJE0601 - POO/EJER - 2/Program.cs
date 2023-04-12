@@ -2,15 +2,57 @@
 
 namespace ejer2
 {
-    class Program
-    {
-        public static void Main(string[] args)
-        {
-            // EJER - 2 | Tenemos una máquina expendedora de comida, en la que tenemos espacio para un máximo de 20 productos distintos que se sitúan en cada línea de distribución. Cada una de las líneas podrá tener un máximo de 10 elementos del mismo producto. Generar las clases relacionadas para controlar el stock de la máquina y los métodos de extraer (damos un producto, vemos si está, y si tiene stock, bajamos el stock en uno) y rellenar la máquina (llenar todas las líneas de productos hasta su máximo). 
+	class Program
+	{
+		public static void Main(string[] agrs)
+		{
             // Declaramos las variables
+            
+            bool salir = false;
 
-            Funciones.OpcionesMenu();
+            do
+            {
+                Menu.MostrarMenu();
+                int opcion = Menu.PedirNumeroOpcionMenu();
 
-        }
-    }
+                switch (opcion)
+                {
+                    case 1:
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Haz elegido la opción 1. ");
+                            Funciones.AñadirProducto();   
+                        }
+                        break;
+                    case 2:
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Haz elegido la opción 2. ");
+                        }
+                        break;
+                    case 3:
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Haz elegido la opción 3. ");
+                        }
+                        break;
+                    case 4:
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Haz elegido la opcion 4");
+                            salir = true;
+                        }
+                        break;
+                    case 5:
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Saliendo del programa ...");
+                            salir = true;
+                        }
+                        break;
+                }
+            }while (!salir);
+            
+		}
+	}
 }
