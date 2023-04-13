@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 2\\EJER - 2.csproj": {}
+    "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\EJER - 4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 2\\EJER - 2.csproj": {
+    "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\EJER - 4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 2\\EJER - 2.csproj",
-        "projectName": "EJER - 2",
-        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 2\\EJER - 2.csproj",
+        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\EJER - 4.csproj",
+        "projectName": "EJER - 4",
+        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\EJER - 4.csproj",
         "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 2\\obj\\",
+        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",

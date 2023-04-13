@@ -32,5 +32,13 @@ namespace ejer2
         {
             return this.IDProducto;
         }
+
+        public string ToString()
+        {
+            string producto = "";
+            producto = "ID: " + this.IDProducto + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto + "\tStock: " + this.stockProducto;
+
+            return producto;
+        }
     }
 }

@@ -28,6 +28,8 @@ namespace ejer2
                         {
                             Console.Clear();
                             Console.WriteLine("Haz elegido la opción 2. ");
+                            Funciones.MostrarProductos();
+
                         }
                         break;
                     case 3:

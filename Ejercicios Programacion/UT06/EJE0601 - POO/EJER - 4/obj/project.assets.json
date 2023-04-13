@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 1\\EJER - 1.csproj",
-      "projectName": "EJER - 1",
-      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 1\\EJER - 1.csproj",
+      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\EJER - 4.csproj",
+      "projectName": "EJER - 4",
+      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\EJER - 4.csproj",
       "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 1\\obj\\",
+      "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\rEpO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJE0601 - POO\\EJER - 4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
