@@ -66,75 +66,12 @@ namespace ejer2
             return precioProducto;
         }
 
-        public static void AñadirProducto()
-        {
-            // Declaramos las variables
-            List<Productos> produc = new List<Productos>();
-            bool salir = false, salirPregunta = false;
-            const int NUMERO_MAXIMO_PRODUCTO = 2, STOCK_PRODUCTOS = 10;
-            int IDProducto = 0, contador = 0;
-            string nombreProducto = "", preguntaSeguir = "";
-            decimal precioProducto = 0;
-
-            do
-            {
-                IDProducto = SacarIDProducto();
-                contador = IDProducto;
-
-                nombreProducto = PedirNombreProducto();
-                precioProducto = PedirPrecioProducto();
-
-                /*Productos productoAux = new Productos(IDProducto+1, nombreProducto, precioProducto, STOCK_PRODUCTOS);
-                produc.Add(productoAux);*/
-                produc.Add(new Productos(IDProducto + 1, nombreProducto, precioProducto, STOCK_PRODUCTOS));
-                Console.WriteLine("Se ha añadido correctamente el producto");
-                Console.WriteLine("");
-                Console.WriteLine("---------------------------------------");
-
-                salirPregunta = false;
-                do
-                {
-                    if (contador < NUMERO_MAXIMO_PRODUCTO)
-                    {
-                        Console.WriteLine("¿Quieres añadir otro producto? [si | no]");
-                        preguntaSeguir = Console.ReadLine();
-
-                        if (preguntaSeguir.Length > 0)
-                        {
-                            if ((preguntaSeguir == "si") || (preguntaSeguir == "Si") || (preguntaSeguir == "SI") || (preguntaSeguir == "sI"))
-                            {
-                                salirPregunta = true;
-                            }
-                            else if ((preguntaSeguir == "no") || (preguntaSeguir == "No") || (preguntaSeguir == "NO") || (preguntaSeguir == "nO"))
-                            {
-                                Console.WriteLine("Ha decidido no añadir más producto");
-                                salirPregunta = true;
-                                salir = true;
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("Error! La respuesta no puede estar vacia");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("Ya haz añadido todos los productos");
-                        salir = true;
-                        salirPregunta = true;
-                    }  
-                } while (!salirPregunta);
-
-
-            } while (!salir && contador < NUMERO_MAXIMO_PRODUCTO);  
-        }
-
         public static void MostrarProductos()
         {
             List<Productos> produc = new List<Productos>();
 
             Console.Clear();
-            Console.WriteLine("| LISTA DE JUEGOS: ");
+            Console.WriteLine("| LISTA DE PRODUCTOS: ");
             Console.WriteLine("---------------------------");
 
             foreach (Productos pro in produc)

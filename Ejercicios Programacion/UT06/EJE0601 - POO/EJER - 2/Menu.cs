@@ -34,7 +34,7 @@ namespace ejer2
             do
             {
                 Console.WriteLine("Dime una opción para el menu");
-                while ((!int.TryParse(Console.ReadLine(), out numeroUser) || (numeroUser < 1) || (numeroUser > 4)))
+                while ((!int.TryParse(Console.ReadLine(), out numeroUser) || (numeroUser < 1) || (numeroUser > 5)))
                 {
                     Console.WriteLine("Error ! La opción no es valida");
                 }
