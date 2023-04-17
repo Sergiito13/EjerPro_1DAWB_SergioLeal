@@ -16,7 +16,7 @@ namespace ejer2
             Console.WriteLine("-----------------Menu--------------------");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("- 1.- Añadir Producto                   -");
-            Console.WriteLine("- 2.- Comprobar si existe y tiene stok  -");
+            Console.WriteLine("- 2.- Mostrar productos                 -");
             Console.WriteLine("- 3.- Comprar producto                  -");
             Console.WriteLine("- 4.- Rellenar productos                -");
             Console.WriteLine("- 5.- Salir                             -");

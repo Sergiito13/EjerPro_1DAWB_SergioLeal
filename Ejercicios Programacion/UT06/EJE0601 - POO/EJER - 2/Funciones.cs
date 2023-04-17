@@ -8,13 +8,12 @@ namespace ejer2
 {
     class Funciones
     {
-        public static int SacarIDProducto()
+        public static int SacarIDProducto(List<Productos> products)
         {
             // Declaramos las variables
-            List<Productos> produc = new List<Productos>();
             int IDCliente = 0;
 
-            foreach (Productos prod in produc)
+            foreach (Productos prod in products)
             {
                 IDCliente = prod.GetID();
             }
@@ -65,16 +64,13 @@ namespace ejer2
             } while (!salir);
             return precioProducto;
         }
-
-        public static void MostrarProductos()
+        public static void MostrarProductos(List<Productos> products)
         {
-            List<Productos> produc = new List<Productos>();
-
             Console.Clear();
             Console.WriteLine("| LISTA DE PRODUCTOS: ");
             Console.WriteLine("---------------------------");
 
-            foreach (Productos pro in produc)
+            foreach (Productos pro in products)
             {
                 Console.WriteLine(pro.ToString());
 
@@ -84,5 +80,19 @@ namespace ejer2
             Console.WriteLine("Pulsa una tecla para continuar.");
             Console.ReadKey();
         }
+
+        public static decimal PedirDineroUsuario()
+        {
+            // Declaramos las variables
+            decimal dineroUsuario = 0;
+
+            Console.WriteLine("Introduzca el dinero");
+            while (!decimal.TryParse(Console.ReadLine(), out dineroUsuario) || (dineroUsuario <= 0))
+            {
+                Console.WriteLine(" ERROR ! El dinero no es valido");
+            }
+            return 0;
+        }
+
     }
 }

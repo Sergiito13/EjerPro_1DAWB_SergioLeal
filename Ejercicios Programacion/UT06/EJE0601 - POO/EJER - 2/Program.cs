@@ -7,7 +7,7 @@ namespace ejer2
 		public static void Main(string[] agrs)
 		{
             // Declaramos las variables
-            List<Productos> product = new List<Productos>();
+            List<Productos> products = new List<Productos>();
             bool salir = false;
 
             do
@@ -24,23 +24,23 @@ namespace ejer2
 
                             // Declaramos las variables
                             bool salirAñadirCliente = false, salirPregunta = false;
-                            const int NUMERO_MAXIMO_PRODUCTO = 2, stockProductos = 10;
+                            const int NUMERO_MAXIMO_PRODUCTO = 20, stockProductos = 10;
                             int ID = 0, contador = 0;
                             string nombreProducto = "", preguntaSeguir = "";
                             decimal precioProducto = 0;
 
                             do
                             {
-                                ID = Funciones.SacarIDProducto();
+                                ID = Funciones.SacarIDProducto(products);
                                 contador = ID;
 
                                 nombreProducto = Funciones.PedirNombreProducto();
                                 precioProducto = Funciones.PedirPrecioProducto();
 
                                 ID++;
-                                Productos productoAux = new Productos(ID + 1, nombreProducto, precioProducto, stockProductos);
-                                product.Add(productoAux);
-                                /*product.Add(new Productos(ID, nombreProducto, precioProducto, stockProductos));*/
+                                Productos productoAux = new Productos(ID, nombreProducto, precioProducto, stockProductos);
+                                products.Add(productoAux);
+                                /*products.Add(new Productos(ID, nombreProducto, precioProducto, stockProductos));*/
                                 Console.WriteLine("Se ha añadido correctamente el producto");
                                 Console.WriteLine("");
                                 Console.WriteLine("---------------------------------------");
@@ -89,7 +89,7 @@ namespace ejer2
                         {
                             Console.Clear();
                             Console.WriteLine("Haz elegido la opción 2. ");
-                            Funciones.MostrarProductos();
+                            Funciones.MostrarProductos(products);
 
                         }
                         break;
@@ -97,13 +97,51 @@ namespace ejer2
                         {
                             Console.Clear();
                             Console.WriteLine("Haz elegido la opción 3. ");
+                            Funciones.MostrarProductos(products);
+
+                            // Declaramos las variables
+                            int EleccionCliente = 0;
+
+                            
+                            int maxID = Funciones.SacarIDProducto(products);
+                            Console.WriteLine("Elige el id del producto que quieres comprar");
+                            while (!int.TryParse(Console.ReadLine(), out EleccionCliente) || (EleccionCliente < 1) || (EleccionCliente > maxID))
+                            {
+                                Console.WriteLine("Error ! En la selección del producto");
+                                Console.Clear();
+                                Console.WriteLine("Elige el id del producto que quieres comprar");
+                            }
+                            EleccionCliente--;
+                            Console.Clear();
+                            Console.WriteLine($"El producto seleccionado es: {products[EleccionCliente].ToString()}");
+                            Console.WriteLine($"El precio es de: {products[EleccionCliente].Getprecio()}");
+                            Console.WriteLine("");
+
+                            int stockProductoSeleccionado = products[EleccionCliente].GetStock();
+                            if (stockProductoSeleccionado > 0)
+                            {
+                                stockProductoSeleccionado--;
+                                products[EleccionCliente].SetStockProducto(stockProductoSeleccionado);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Error! no tenemos este producto disponible");
+                            }
+                            Console.ReadKey();
+
                         }
                         break;
                     case 4:
                         {
                             Console.Clear();
                             Console.WriteLine("Haz elegido la opcion 4");
-                            salir = true;
+
+                            foreach (Productos product in products)
+                            {
+                                product.SetStockProducto(10);
+                            }
+                            Console.WriteLine("Se ha rellenado todos los productos correctamente");
+                            
                         }
                         break;
                     case 5:

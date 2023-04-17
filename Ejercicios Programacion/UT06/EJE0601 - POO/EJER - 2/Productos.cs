@@ -27,11 +27,59 @@ namespace ejer2
             this.stockProducto = stockProducto;
         }
         // METODOS
+        public void SetID(int Id)
+        {
+            IDProducto = Id;
+        }
+
+        public void SetNombreProducto(string nombrePro)
+        {
+            if (string.IsNullOrEmpty(nombrePro))
+            {
+                nombreProducto = nombrePro;
+            }
+            else
+            {
+                nombreProducto = "";
+            }
+            
+        }
+
+        public void SetPrecioProducto(decimal precioPro)
+        {
+            precioProducto = precioPro;
+        }
+
+        public void SetStockProducto(int stock) 
+        {
+            if ((stock < 0) || (stock > 10))
+            {
+                stockProducto = 0;
+            }
+            else
+            {
+                stockProducto = stock;
+            }
+            
+        } 
 
         public int GetID()
         {
             return this.IDProducto;
         }
+        public string Getnombre()
+        {
+            return this.nombreProducto;
+        }
+        public decimal Getprecio()
+        {
+            return this.precioProducto;
+        }
+        public int GetStock()
+        {
+            return this.stockProducto;
+        }
+
 
         public string ToString()
         {

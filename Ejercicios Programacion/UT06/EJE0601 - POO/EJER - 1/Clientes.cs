@@ -24,6 +24,21 @@ namespace ejer1
             this.apellidoCliente = apellidoCliente;
         }
 
+        public void SetID(int ID)
+        {
+            IDCliente = ID;
+        }
+
+        public void SetnombreCliente(string nombre)
+        {
+            nombreCliente = nombre;
+        }
+
+        public void SetapellidoCliente(string apellido)
+        {
+            apellidoCliente = apellido;
+        }
+        
         public int GetID()
         {
             return this.IDCliente;
@@ -184,11 +199,11 @@ namespace ejer1
                     Console.WriteLine("ERROR ! El ID introduccido no pertenece a ningun usuario");
                 }
 
-                cliente.RemoveAll(c => c.IDCliente == eleccionUsuario);
+                cliente.RemoveAll(ID => ID.IDCliente == eleccionUsuario);
             }
             else
             {
-                Console.WriteLine("No hay ningun usaurio en la lista. LO SIENTO");
+                Console.WriteLine("No hay ningun usurio en la lista. LO SIENTO");
             }
             
         }
