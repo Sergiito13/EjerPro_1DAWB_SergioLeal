@@ -1,0 +1,15 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\bin\Debug\net6.0\EJER - 4.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\bin\Debug\net6.0\EJER - 4.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\bin\Debug\net6.0\EJER - 4.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\bin\Debug\net6.0\EJER - 4.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\bin\Debug\net6.0\EJER - 4.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\refint\EJER - 4.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\EJER - 4.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJE0601 - POO\EJER - 4\obj\Debug\net6.0\ref\EJER - 4.dll

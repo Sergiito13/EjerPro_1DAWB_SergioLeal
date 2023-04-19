@@ -81,7 +81,7 @@ namespace ejer2
             Console.ReadKey();
         }
 
-        public static decimal PedirDineroUsuario()
+        public static decimal PedirDineroUsuario(decimal dineroacumulado)
         {
             // Declaramos las variables
             decimal dineroUsuario = 0;
@@ -91,7 +91,8 @@ namespace ejer2
             {
                 Console.WriteLine(" ERROR ! El dinero no es valido");
             }
-            return 0;
+            dineroUsuario += dineroacumulado;
+            return dineroUsuario;
         }
 
     }

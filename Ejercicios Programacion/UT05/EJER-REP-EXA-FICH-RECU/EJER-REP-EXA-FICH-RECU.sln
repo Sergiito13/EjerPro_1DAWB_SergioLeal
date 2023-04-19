@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer-Cotizaciones", "Ejer-Cotizaciones\Ejer-Cotizaciones.csproj", "{1878E23C-A8BF-4204-A67E-86169BDB1AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1878E23C-A8BF-4204-A67E-86169BDB1AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1878E23C-A8BF-4204-A67E-86169BDB1AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1878E23C-A8BF-4204-A67E-86169BDB1AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1878E23C-A8BF-4204-A67E-86169BDB1AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {427CFE3B-18AD-4813-8C30-4EF8676F79F0}
+	EndGlobalSection
+EndGlobal

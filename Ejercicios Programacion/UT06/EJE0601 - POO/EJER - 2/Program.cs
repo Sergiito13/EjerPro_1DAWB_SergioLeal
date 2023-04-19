@@ -101,8 +101,12 @@ namespace ejer2
 
                             // Declaramos las variables
                             int EleccionCliente = 0;
+                            bool salirPedirDinero = false;
+                            decimal dinero = 0;
+                            decimal vuelto = 0;
 
-                            
+
+
                             int maxID = Funciones.SacarIDProducto(products);
                             Console.WriteLine("Elige el id del producto que quieres comprar");
                             while (!int.TryParse(Console.ReadLine(), out EleccionCliente) || (EleccionCliente < 1) || (EleccionCliente > maxID))
@@ -116,6 +120,26 @@ namespace ejer2
                             Console.WriteLine($"El producto seleccionado es: {products[EleccionCliente].ToString()}");
                             Console.WriteLine($"El precio es de: {products[EleccionCliente].Getprecio()}");
                             Console.WriteLine("");
+
+                            salirPedirDinero = false;
+                            do
+                            {
+                                dinero = Funciones.PedirDineroUsuario(dinero);
+
+                                if (products[EleccionCliente].Getprecio() > dinero)
+                                {
+                                    Console.WriteLine("El dinero es insuficiente, añada lo que falta");
+                                    Console.WriteLine("");
+                                }
+                                else
+                                {
+                                    vuelto = products[EleccionCliente].Getprecio() - dinero;
+                                    Console.WriteLine($"El vuelto es de: {Math.Abs(vuelto)}");
+                                    salirPedirDinero = true;
+                                }
+
+
+                            } while (!salirPedirDinero);
 
                             int stockProductoSeleccionado = products[EleccionCliente].GetStock();
                             if (stockProductoSeleccionado > 0)
@@ -141,6 +165,7 @@ namespace ejer2
                                 product.SetStockProducto(10);
                             }
                             Console.WriteLine("Se ha rellenado todos los productos correctamente");
+                            Console.ReadKey();
                             
                         }
                         break;
