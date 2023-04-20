@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,18 +21,26 @@ namespace ejer1
         public Clientes(int IDCliente,string nombreCliente,string apellidoCliente)
         {
             this.IDCliente = IDCliente;
-            this.nombreCliente = nombreCliente;
+            SetapellidoCliente(nombreCliente);
             this.apellidoCliente = apellidoCliente;
         }
 
-        public void SetID(int ID)
+        public void SetIDCliente(int ID)
         {
             IDCliente = ID;
         }
 
         public void SetnombreCliente(string nombre)
         {
-            nombreCliente = nombre;
+            if (!string.IsNullOrEmpty(nombre))
+            {
+                nombreCliente = nombre;
+            }
+            else
+            {
+                nombreCliente = "";
+            }
+            
         }
 
         public void SetapellidoCliente(string apellido)
@@ -54,6 +63,11 @@ namespace ejer1
             return this.apellidoCliente;
         }
         // Metodos
+
+        public override string ToString()
+        {
+            return $"El ID:{IDCliente}\nEl nombre:{nombreCliente}\nEl apellido:{apellidoCliente}";
+        }
 
         public static List<Clientes> AñadirNuevoCliente(List<Clientes> cliente)
         {
@@ -167,9 +181,10 @@ namespace ejer1
             {
                 Console.WriteLine("---------------------------");
 
-                Console.WriteLine(client.GetID());
+                Console.WriteLine(client.ToString());
+                /*onsole.WriteLine(client.GetID());
                 Console.WriteLine(client.GetNombre());
-                Console.WriteLine(client.GetApellido());
+                Console.WriteLine(client.GetApellido());*/
 
                 Console.WriteLine("---------------------------");
 
@@ -199,7 +214,7 @@ namespace ejer1
                     Console.WriteLine("ERROR ! El ID introduccido no pertenece a ningun usuario");
                 }
 
-                cliente.RemoveAll(ID => ID.IDCliente == eleccionUsuario);
+                cliente.RemoveAll(client => client.IDCliente == eleccionUsuario);
             }
             else
             {
