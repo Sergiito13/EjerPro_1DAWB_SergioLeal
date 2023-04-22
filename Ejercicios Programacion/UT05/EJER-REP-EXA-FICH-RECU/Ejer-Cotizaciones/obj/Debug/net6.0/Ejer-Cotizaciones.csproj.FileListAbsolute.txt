@@ -1,0 +1,15 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\bin\Debug\net6.0\Ejer-Cotizaciones.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\bin\Debug\net6.0\Ejer-Cotizaciones.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\bin\Debug\net6.0\Ejer-Cotizaciones.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\bin\Debug\net6.0\Ejer-Cotizaciones.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\bin\Debug\net6.0\Ejer-Cotizaciones.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\refint\Ejer-Cotizaciones.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\Ejer-Cotizaciones.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\Ejer-Cotizaciones\obj\Debug\net6.0\ref\Ejer-Cotizaciones.dll
