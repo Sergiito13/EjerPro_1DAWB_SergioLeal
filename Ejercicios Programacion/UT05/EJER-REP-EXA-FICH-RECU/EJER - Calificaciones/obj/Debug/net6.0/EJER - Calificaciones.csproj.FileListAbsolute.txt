@@ -1,0 +1,15 @@
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\bin\Debug\net6.0\EJER - Calificaciones.exe
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\bin\Debug\net6.0\EJER - Calificaciones.deps.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\bin\Debug\net6.0\EJER - Calificaciones.runtimeconfig.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\bin\Debug\net6.0\EJER - Calificaciones.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\bin\Debug\net6.0\EJER - Calificaciones.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.csproj.AssemblyReference.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.AssemblyInfoInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.AssemblyInfo.cs
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.csproj.CoreCompileInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\refint\EJER - Calificaciones.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\EJER - Calificaciones.genruntimeconfig.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT05\EJER-REP-EXA-FICH-RECU\EJER - Calificaciones\obj\Debug\net6.0\ref\EJER - Calificaciones.dll
