@@ -25,8 +25,8 @@ namespace ExamenFicheros
                     int year = 0;
                     if (!int.TryParse(cabeceras[cont].Split("_")[1], out year) || year < 2000 || year > 2023){
                         correcto = false;
-                        //cabeceras = new List<string>();
-                        cabeceras.Clear();
+                        cabeceras = new List<string>();
+                        //cabeceras.Clear();
                     }
                     cont++;
                 } while (cont < cabeceras.Count && correcto);
@@ -95,7 +95,7 @@ namespace ExamenFicheros
                     if (correcto) 
                         contenido.Add(fila);
                     else 
-                        contenido.Clear();
+                        contenido = new List<string>();
                 }
 
                 sr.Close();

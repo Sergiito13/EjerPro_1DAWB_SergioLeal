@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EXA-Ficheros/1.0.0": {
+        "runtime": {
+          "EXA-Ficheros.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EXA-Ficheros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

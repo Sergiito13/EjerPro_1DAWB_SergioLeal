@@ -75,18 +75,33 @@ namespace ejercalificaciones
         public static List<string> SacarNotaFinalCadaAlumno(List<string> datosAlumnos)
         {
             // Declaramos las variables
-            decimal notaFinal = 0, nota1 = 0, nota2 = 0, notapractica = 0 ;
-            for (int i = 0; i < datosAlumnos.Count; i+=8)
+            decimal notaFinal = 0, nota1 = 0, nota2 = 0, notaPractica = 0 ;
+            for (int i = 0; i < datosAlumnos.Count; i+=10)
             {
-                if (datosAlumnos[i+3] == "")
-                {
-                    nota1 = 0;
-                }
-                
-                notaFinal = (Convert.ToDecimal(datosAlumnos[i + 3]) * 0.3m) + (Convert.ToDecimal(datosAlumnos[i + 4]) * 0.3m) + (Convert.ToDecimal(datosAlumnos[i + 7]) * 0.4m);
-                Console.WriteLine($"La nota final es: {notaFinal}");
+                nota1 =0; nota2 = 0; notaPractica = 0;notaFinal = 0;
+
+                nota1 = string.IsNullOrEmpty(datosAlumnos[i + 3]) ? 0 : Convert.ToDecimal(datosAlumnos[i + 3]);
+                nota2 = string.IsNullOrEmpty(datosAlumnos[i + 4]) ? 0 : Convert.ToDecimal(datosAlumnos[i + 4]);
+                notaPractica = string.IsNullOrEmpty(datosAlumnos[i + 7]) ? 0 : Convert.ToDecimal(datosAlumnos[i + 7]);
+
+                notaFinal = Math.Round((nota1 * 0.3m) + (nota2 * 0.3m) + (notaPractica * 0.4m), 2);
+                datosAlumnos.Insert(i+9,Convert.ToString(notaFinal));
             }
             return datosAlumnos;
+        }
+
+        public static List<string> AlumnosSuspendidos(List<string> datosAlumnos)
+        {
+            // Declaramos las variables
+            List<string> alumnosSuspendidos = new List<string>();
+
+            for (int i = 0; i < datosAlumnos.Count; i+=10)
+            {
+                if (datosAlumnos[i+2] >= "75")
+                {
+
+                }
+            }
         }
     }
 }
