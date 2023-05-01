@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ejer1
+﻿namespace ejer1
 {
     class Producto
     {
@@ -15,18 +9,15 @@ namespace ejer1
 
         private decimal precioProducto { get; set; }
 
-        private int stockProducto { get; set; }
-
-        private 
 
         // CONSTRUCTORES
 
-        public Producto(int ID, string nombreProducto, decimal precioProducto, int stockProducto)
+        public Producto(int ID, string nombreProducto, decimal precioProducto)
         {
             this.IDProducto = ID;
             this.nombreProducto = nombreProducto;
             this.precioProducto = precioProducto;
-            this.stockProducto = stockProducto;
+            
         }
         // METODOS
         public void SetID(int Id)
@@ -44,26 +35,13 @@ namespace ejer1
             {
                 nombreProducto = "";
             }
-            
+
         }
 
         public void SetPrecioProducto(decimal precioPro)
         {
             precioProducto = precioPro;
         }
-
-        public void SetStockProducto(int stock) 
-        {
-            if ((stock < 0) || (stock > 10))
-            {
-                stockProducto = 0;
-            }
-            else
-            {
-                stockProducto = stock;
-            }
-            
-        } 
 
         public int GetID()
         {
@@ -77,11 +55,6 @@ namespace ejer1
         {
             return this.precioProducto;
         }
-        public int GetStock()
-        {
-            return this.stockProducto;
-        }
-
 
         public string ToString()
         {

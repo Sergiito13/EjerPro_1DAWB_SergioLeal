@@ -1,0 +1,5 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJER-POO2\EJER-1\obj\Debug\net6.0\EJER-1.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJER-POO2\EJER-1\obj\Debug\net6.0\EJER-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJER-POO2\EJER-1\obj\Debug\net6.0\EJER-1.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJER-POO2\EJER-1\obj\Debug\net6.0\EJER-1.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\EJER-POO2\EJER-1\obj\Debug\net6.0\EJER-1.csproj.CoreCompileInputs.cache
