@@ -12,11 +12,11 @@
 
         // CONSTRUCTORES
 
-        public Producto(int ID, string nombreProducto, decimal precioProducto)
+        public Producto(string nombreProducto, decimal precioProducto)
         {
-            this.IDProducto = ID;
-            this.nombreProducto = nombreProducto;
-            this.precioProducto = precioProducto;
+            this.IDProducto = Funciones.GenerateId();
+            SetNombreProducto(nombreProducto);
+            SetPrecioProducto(precioProducto);
             
         }
         // METODOS
@@ -59,7 +59,7 @@
         public string ToString()
         {
             string producto = "";
-            producto = "ID: " + this.IDProducto + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto + "\tStock: " + this.stockProducto;
+            producto = "ID: " + this.IDProducto + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto;
 
             return producto;
         }
