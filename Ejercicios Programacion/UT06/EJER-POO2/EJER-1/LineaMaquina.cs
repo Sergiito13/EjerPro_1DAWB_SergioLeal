@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ejer1
+﻿namespace ejer1
 {
     class LineaMaquina
     {
@@ -15,7 +9,7 @@ namespace ejer1
         private int Stock { get; set; }
 
         //Constructor
-        public LineaMaquina(Producto productoLinea , int Stock)
+        public LineaMaquina(Producto productoLinea, int Stock)
         {
             // LLAMAR SETERS
         }

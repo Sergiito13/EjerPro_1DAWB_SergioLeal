@@ -11,7 +11,8 @@
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("- 1.- Opciones producto                 -");
             Console.WriteLine("- 2.- Opciones Linea Máquina            -");
-            Console.WriteLine("- 3.- Salir del programa                -");
+            Console.WriteLine("- 3.- Comprar producto Linea Máquina    -");
+            Console.WriteLine("- 4.- Salir del programa                -");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("");
@@ -26,7 +27,7 @@
             do
             {
                 Console.WriteLine("Dime una opción para el menu");
-                while ((!int.TryParse(Console.ReadLine(), out numeroUser) || (numeroUser < 1) || (numeroUser > 3)))
+                while ((!int.TryParse(Console.ReadLine(), out numeroUser) || (numeroUser < 1) || (numeroUser > 4)))
                 {
                     Console.WriteLine("Error ! La opción no es valida");
                 }
@@ -90,9 +91,8 @@
             Console.WriteLine("- 1.- Añadir Producto                   -");
             Console.WriteLine("- 2.- Mostrar todos los Productos       -");
             Console.WriteLine("- 3.- Eliminar  Producto                -");
-            Console.WriteLine("- 4.- Comprar Producto                  -");
-            Console.WriteLine("- 5.- Rellenar stock                    -");
-            Console.WriteLine("- 6.- Salir del programa                -");
+            Console.WriteLine("- 4.- Rellenar stock                    -");
+            Console.WriteLine("- 5.- Salir del programa                -");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("");
@@ -107,7 +107,7 @@
             do
             {
                 Console.WriteLine("Dime una opción para el menu");
-                while ((!int.TryParse(Console.ReadLine(), out numeroUser) || (numeroUser < 1) || (numeroUser > 6)))
+                while ((!int.TryParse(Console.ReadLine(), out numeroUser) || (numeroUser < 1) || (numeroUser > 5)))
                 {
                     Console.WriteLine("Error ! La opción no es valida");
                 }

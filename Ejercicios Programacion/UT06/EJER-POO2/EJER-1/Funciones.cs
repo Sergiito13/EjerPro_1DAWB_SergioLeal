@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ejer1
+﻿namespace ejer1
 {
     class Funciones
     {
         // ----------------------ESTAS FUNCIONES SON PARA METER LOS PRODUCTOS AL CATALOGO----------------------
-        private static int _currentId = 1;
+        private static int IDAutoIncremental = 1; // Pongo el valor de la variable a 1
 
-        public static int GenerateId()
+        public static int GenerateId() // Llamo a esta funcion que la incrementara
         {
-            return _currentId++;
+            return IDAutoIncremental++;
         }
 
         public static string PedirNombreProducto()
@@ -61,5 +55,54 @@ namespace ejer1
         }
 
         // ------------------------------------------------------------------------------------------
+        // Funcion para mostrar los productos
+        public static void MostrarProductosCatalogo(List<Producto> productos)
+        {
+            Console.Clear();
+            Console.WriteLine("| LISTA DE PRODUCTOS: ");
+            Console.WriteLine("---------------------------");
+
+            productos.ForEach(producto => Console.WriteLine(producto.ToString()));
+            /*foreach (Producto producto in productos)
+            {
+                Console.WriteLine(producto.ToString());
+            }*/
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Pulsa una tecla para continuar.");
+            Console.ReadKey();
+        }
+        //------------------------------------------------------------------------------------------
+        // Funcion para eliminar producto
+        public static void EliminarProductoCatalogo(List<Producto> productos)
+        {
+            if (productos.Count > 0)
+            {
+                
+                MostrarProductosCatalogo(productos);
+                Console.WriteLine("");
+                Console.WriteLine("Para Eliminar productos, tienes que poner su ID");
+
+                int IDProductoEliminar = PedirIDEliminar();
+
+                productos.RemoveAll(producto => producto.GetID() == IDProductoEliminar);
+
+            }
+            else
+            {
+                Console.WriteLine("No se ha encontrado productos, añada productos");
+            }
+            Console.ReadKey();
+        }
+
+        public static int PedirIDEliminar()
+        {
+            int IDProductoEliminar = 0;
+
+            while (!int.TryParse(Console.ReadLine(), out IDProductoEliminar) || (IDProductoEliminar <= 0))
+            {
+                Console.WriteLine("Error ! No es válido el dato introducido. Prueba otra vez");
+            }
+            return IDProductoEliminar;
+        }
     }
 }

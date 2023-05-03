@@ -4,7 +4,7 @@
     {
         // ATRIBUTOS
 
-        private int IDProducto { get; set; }
+        private int ID { get; set; }
         private string nombreProducto { get; set; }
 
         private decimal precioProducto { get; set; }
@@ -14,20 +14,20 @@
 
         public Producto(string nombreProducto, decimal precioProducto)
         {
-            this.IDProducto = Funciones.GenerateId();
+            this.ID = Funciones.GenerateId();
             SetNombreProducto(nombreProducto);
             SetPrecioProducto(precioProducto);
-            
+
         }
         // METODOS
         public void SetID(int Id)
         {
-            IDProducto = Id;
+            ID = Id;
         }
 
         public void SetNombreProducto(string nombrePro)
         {
-            if (string.IsNullOrEmpty(nombrePro))
+            if (!string.IsNullOrEmpty(nombrePro))
             {
                 nombreProducto = nombrePro;
             }
@@ -45,7 +45,7 @@
 
         public int GetID()
         {
-            return this.IDProducto;
+            return this.ID;
         }
         public string Getnombre()
         {
@@ -59,7 +59,7 @@
         public string ToString()
         {
             string producto = "";
-            producto = "ID: " + this.IDProducto + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto;
+            producto = "ID: " + this.ID + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto +" $";
 
             return producto;
         }
