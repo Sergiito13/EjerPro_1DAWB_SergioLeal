@@ -104,5 +104,51 @@
             }
             return IDProductoEliminar;
         }
+        // -----------------------------------------------------------------------------------------
+        // Esta funcion sera para buscar si se encuentra un producto en la lista 
+        public static void BuscarNombreProducto(List<Producto> productos)
+        {
+            // Declaramos las variables
+
+            string NombreABuscar = PedirNombreProductoBuscar();
+
+            List<Producto> productosEncontados = productos.FindAll(producto => producto.Getnombre() == NombreABuscar);
+            Console.WriteLine("");
+            Console.WriteLine("Los productos encontrados son:");
+            productosEncontados.ForEach(producto => Console.WriteLine(producto.ToString()));
+            Console.ReadKey();
+        }
+        
+        public static string PedirNombreProductoBuscar()
+        {
+            // Declaramos las variables
+            bool correcto = false;
+            string NombreProducto = "";
+
+            do
+            {
+                Console.WriteLine("Dime el nombre del producto que quieras saber si existe ");
+                NombreProducto += Console.ReadLine();
+
+                if (NombreProducto.Length > 0)
+                {
+                    correcto= true;
+                }
+                else
+                {
+                    Console.WriteLine("Error ! No se puede buscar un nombre vacio");
+                }
+
+            } while (!correcto);
+
+            return NombreProducto;
+        }
+
+        private static int IDLineaMaquina = 1; // Pongo el valor de la variable a 1
+
+        public static int GenerateIdLinea() // Llamo a esta funcion que la incrementara
+        {
+            return IDLineaMaquina++;
+        }
     }
 }

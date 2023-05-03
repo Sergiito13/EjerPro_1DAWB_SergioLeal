@@ -97,6 +97,8 @@ namespace ejer1
                                             Console.Clear();
                                             Console.WriteLine("Has elegido la opcion 4, del catalogo del producto");
                                             Console.ReadKey();
+
+                                            Funciones.BuscarNombreProducto(productos);
                                         }
                                         break;
                                     case 5:
