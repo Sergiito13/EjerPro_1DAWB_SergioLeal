@@ -132,8 +132,40 @@ namespace ejer1
                                 {
                                     case 1:
                                         {
-                                            Console.Clear();
-                                            Console.WriteLine("Has elegido la opcion 1, de la linea de la máquina");
+                                            if (productos.Count > 0)
+                                            {
+                                                Console.Clear();
+                                                Console.WriteLine("Has elegido la opcion 1, de la linea de la máquina");
+
+                                                Funciones.MostrarProductosCatalogo(productos);
+                                                Console.WriteLine("");
+
+                                                bool correcto = false;
+                                                do
+                                                {
+                                                    Console.WriteLine("Dime el ID, del producto que quieras añadir a la máquina");
+                                                    Producto productoID = Funciones.ExisteIdProducto(productos);
+
+                                                    if (!(productoID == null))
+                                                    {
+                                                        Console.WriteLine("IDENCONTRADO");
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine("El Id elegido no se ha encontrado");
+                                                    }
+
+                                                } while (!correcto);
+                                                
+
+                                                Console.WriteLine("Dime el producto que quieres añadir. Pon el ID");
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("No se ha encontrado ningun producto");
+                                            }
+                                            
+
                                             Console.ReadKey();
                                         }
                                         break;

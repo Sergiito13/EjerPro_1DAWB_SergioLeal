@@ -82,7 +82,7 @@
                 Console.WriteLine("");
                 Console.WriteLine("Para Eliminar productos, tienes que poner su ID");
 
-                int IDProductoEliminar = PedirIDEliminar();
+                int IDProductoEliminar = PedirID();
 
                 productos.RemoveAll(producto => producto.GetID() == IDProductoEliminar);
 
@@ -94,7 +94,7 @@
             Console.ReadKey();
         }
 
-        public static int PedirIDEliminar()
+        public static int PedirID()
         {
             int IDProductoEliminar = 0;
 
@@ -112,11 +112,19 @@
 
             string NombreABuscar = PedirNombreProductoBuscar();
 
-            List<Producto> productosEncontados = productos.FindAll(producto => producto.Getnombre() == NombreABuscar);
-            Console.WriteLine("");
-            Console.WriteLine("Los productos encontrados son:");
-            productosEncontados.ForEach(producto => Console.WriteLine(producto.ToString()));
-            Console.ReadKey();
+            if (productos.Count > 0)
+            {
+                List<Producto> productosEncontados = productos.FindAll(producto => producto.Getnombre() == NombreABuscar);
+                Console.WriteLine("");
+                Console.WriteLine("Los productos encontrados son:");
+                productosEncontados.ForEach(producto => Console.WriteLine(producto.ToString()));
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("No se ha encontrado ningun producto en el catalogo");
+            }
+            
         }
         
         public static string PedirNombreProductoBuscar()
@@ -143,12 +151,26 @@
 
             return NombreProducto;
         }
+        //-----------------------------------------------------------------------------------------------
+        // Para incrementar el ID de la linea máquina
 
         private static int IDLineaMaquina = 1; // Pongo el valor de la variable a 1
 
         public static int GenerateIdLinea() // Llamo a esta funcion que la incrementara
         {
             return IDLineaMaquina++;
+        }
+        //-------------------------------------------------------------------------------------------------
+        // Funcion para ver si existe el ID
+        public static Producto ExisteIdProducto(List<Producto> productos)
+        {
+            // Declaramos las variables
+
+            int IDElegido = PedirID();
+
+            Producto productoelegido = productos.Find(Producto => Producto.GetID() == IDElegido);
+
+            return productoelegido;
         }
     }
 }
