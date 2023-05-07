@@ -13,8 +13,8 @@
         public LineaMaquina(Producto productoLinea, int stock)
         {
             this.IDLinea = Funciones.GenerateIdLinea();
-            SetProducto(productoLinea);
-            SetPrecioProducto(stock);
+            SetProductoLinea(productoLinea);
+            SetStock(stock);
 
         }
         // METODOS
@@ -23,7 +23,7 @@
             IDLinea = Id;
         }
 
-        public void SetProducto(Producto nombrePro)
+        public void SetProductoLinea(Producto nombrePro)
         {
             if (nombrePro != null)
             {
@@ -31,22 +31,22 @@
             }
             else
             {
-                
+                ProductoLinea = null;
             }
 
         }
 
-        public void SetPrecioProducto(int stock)
+        public void SetStock(int stock)
         {
             if (stock > 0 && stock <= 10)
             {
-                stock = stock;
+                Stock = stock;
             }
             else
             {
-                stock= 0;
+                Stock = 0;
             }
-            
+
         }
 
         public int GetID()
@@ -65,7 +65,7 @@
         public string ToString()
         {
             string producto = "";
-            producto = "ID de la linea de máquina: " + this.IDLinea + "\tproducto: " + this.ProductoLinea + "\tstock: " + this.Stock;
+            producto = "ID de la linea de máquina: " + this.IDLinea + "\tproducto: " + ProductoLinea.ToString() + "\tstock: " + this.Stock;
 
             return producto;
         }

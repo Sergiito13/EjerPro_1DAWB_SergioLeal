@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ModuloPRO\\.nuget\\packages\\": {}
+    "C:\\Users\\YerlealYT\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ejercicio Sergio REPO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\EJER-1.csproj",
+      "projectUniqueName": "C:\\Users\\YerlealYT\\Desktop\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\EJER-1.csproj",
       "projectName": "EJER-1",
-      "projectPath": "C:\\Ejercicio Sergio REPO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\EJER-1.csproj",
-      "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Ejercicio Sergio REPO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\obj\\",
+      "projectPath": "C:\\Users\\YerlealYT\\Desktop\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\EJER-1.csproj",
+      "packagesPath": "C:\\Users\\YerlealYT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\YerlealYT\\Desktop\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\YerlealYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

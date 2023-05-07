@@ -77,7 +77,7 @@
         {
             if (productos.Count > 0)
             {
-                
+
                 MostrarProductosCatalogo(productos);
                 Console.WriteLine("");
                 Console.WriteLine("Para Eliminar productos, tienes que poner su ID");
@@ -124,9 +124,9 @@
             {
                 Console.WriteLine("No se ha encontrado ningun producto en el catalogo");
             }
-            
+
         }
-        
+
         public static string PedirNombreProductoBuscar()
         {
             // Declaramos las variables
@@ -140,7 +140,7 @@
 
                 if (NombreProducto.Length > 0)
                 {
-                    correcto= true;
+                    correcto = true;
                 }
                 else
                 {
@@ -171,6 +171,44 @@
             Producto productoelegido = productos.Find(Producto => Producto.GetID() == IDElegido);
 
             return productoelegido;
+        }
+        // -----------------------------------------------------------------------------------------------
+        // Pedir stock del producto
+
+        public static int PedirStockProductoParaMaquina()
+        {
+            int Stock = 0;
+            bool correcto = false;
+
+            Console.WriteLine("Que Stock vas a meter en la máquina");
+            while (!int.TryParse(Console.ReadLine(), out Stock) || (Stock <= 1) || (Stock > 10))
+            {
+                Console.WriteLine("Error ! El stock tiene que ser un número entero y estar entre 1 y 10");
+            }
+
+            return Stock;
+        }
+        // ------------------------------------------------------------------------------------------
+        // Funcion para mostrar los productos
+        public static void MostrarProductosLineaMaquina(List<LineaMaquina> lineas)
+        {
+            if (lineas.Count > 0)
+            {
+                Console.Clear();
+                Console.WriteLine("| LISTA DE PRODUCTOS: ");
+                Console.WriteLine("---------------------------");
+
+                lineas.ForEach(lineamaquina => Console.WriteLine(lineamaquina.ToString()));
+
+                Console.WriteLine("---------------------------");
+                Console.WriteLine("Pulsa una tecla para continuar.");
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("No hay productos añadidos a la máquina");
+            }
+
         }
     }
 }

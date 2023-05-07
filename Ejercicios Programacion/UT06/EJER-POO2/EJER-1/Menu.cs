@@ -51,8 +51,8 @@
             Console.WriteLine("- 1.- Añadir Producto                   -");
             Console.WriteLine("- 2.- Mostrar todos los Productos       -");
             Console.WriteLine("- 3.- Eliminar  Producto                -");
-            Console.WriteLine("- 4.- Buscar Producto                    -");
-            Console.WriteLine("- 5.- Salir del programa                -");
+            Console.WriteLine("- 4.- Buscar Producto                   -");
+            Console.WriteLine("- 5.- Salir del menu productos          -");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("");
@@ -92,7 +92,7 @@
             Console.WriteLine("- 2.- Mostrar todos los Productos       -");
             Console.WriteLine("- 3.- Eliminar  Producto                -");
             Console.WriteLine("- 4.- Rellenar stock                    -");
-            Console.WriteLine("- 5.- Salir del programa                -");
+            Console.WriteLine("- 5.- Salir del menu LineaMáquina       -");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("");

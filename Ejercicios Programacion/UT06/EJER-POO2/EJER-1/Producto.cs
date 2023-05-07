@@ -59,7 +59,7 @@
         public string ToString()
         {
             string producto = "";
-            producto = "ID: " + this.ID + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto +" $";
+            producto = "ID: " + this.ID + "\tNombre: " + this.nombreProducto + "\tprecio: " + this.precioProducto + " $";
 
             return producto;
         }

@@ -9,7 +9,9 @@ namespace ejer1
             // EJER1- Partiendo del ejercicio de la máquina expendedora, realizar las siguientes modificaciones: Tendrá que existir una clase Maquina que sea quien contenga y gestione el conjunto de productos que esta tiene, así como su número máximo de líneas y la capacidad de estas. El menú, aparte de facilitar la opción de compra de productos, tendrá que ofrecer opciones para añadir un producto a la máquina(indicando tipo de producto, precio y cantidad) siempre que quede hueco, y para quitar productos que no se quieran seguir vendiendo.Todas las funciones relacionadas con añadir/ quitar productos de la máquina, así como comprobar si hay hueco para añadir nuevo producto, tendrán que estar contenidos en la clase Maquina. Para la venta de productos se tendrá que indicar en primer lugar el dinero que se va a introducir en la máquina, para poder mostrar al cliente los productos que puede comprar con el dinero introducido.En caso de elegir un producto de importe menor al introducido se tendrá que indicar cuánto dinero se ha de devolver.
             // Declaramos las variables
             List<Producto> productos = new List<Producto>();
+            List<LineaMaquina> lineamaquina = new List<LineaMaquina>();
             bool salir = false, salir2 = false, salirAñadirCliente = false;
+            const int NUMEROMAXIMODELINEAS = 3;
 
             do
             {
@@ -48,7 +50,7 @@ namespace ejer1
                                                 bool salirPregunta = false;
                                                 do
                                                 {
-                                                    
+
 
                                                     Console.WriteLine("¿Quieres añadir otro producto? [si | no]");
                                                     string preguntaSeguir = Console.ReadLine();
@@ -132,10 +134,16 @@ namespace ejer1
                                 {
                                     case 1:
                                         {
+
+                                            int cont = 0;
+
+
+
+
+                                            Console.Clear();
+                                            Console.WriteLine("Has elegido la opcion 1, de la linea de la máquina");
                                             if (productos.Count > 0)
                                             {
-                                                Console.Clear();
-                                                Console.WriteLine("Has elegido la opcion 1, de la linea de la máquina");
 
                                                 Funciones.MostrarProductosCatalogo(productos);
                                                 Console.WriteLine("");
@@ -143,36 +151,82 @@ namespace ejer1
                                                 bool correcto = false;
                                                 do
                                                 {
-                                                    Console.WriteLine("Dime el ID, del producto que quieras añadir a la máquina");
-                                                    Producto productoID = Funciones.ExisteIdProducto(productos);
+                                                    cont = lineamaquina.Count;
 
-                                                    if (!(productoID == null))
+                                                    if (cont < NUMEROMAXIMODELINEAS)
                                                     {
-                                                        Console.WriteLine("IDENCONTRADO");
+                                                        Console.WriteLine("Dime el ID, del producto que quieras añadir a la máquina");
+                                                        Producto productoSeleccionado = Funciones.ExisteIdProducto(productos);
+
+                                                        if (!(productoSeleccionado == null))
+                                                        {
+                                                            int stockProduct = Funciones.PedirStockProductoParaMaquina();
+
+                                                            lineamaquina.Add(new LineaMaquina(productoSeleccionado, stockProduct));
+
+                                                            Console.WriteLine("Se ha añadido correctamente el producto a la linea de máquina");
+
+                                                            bool salirPregunta = false;
+                                                            do
+                                                            {
+                                                                if (cont < NUMEROMAXIMODELINEAS)
+                                                                {
+                                                                    Console.WriteLine("");
+                                                                    Console.WriteLine("¿Quieres añadir otro producto a la máquina? [si | no]");
+                                                                    string preguntaSeguir = Console.ReadLine();
+
+                                                                    if (preguntaSeguir.Length > 0)
+                                                                    {
+                                                                        if ((preguntaSeguir == "si") || (preguntaSeguir == "Si") || (preguntaSeguir == "SI") || (preguntaSeguir == "sI"))
+                                                                        {
+                                                                            salirPregunta = true;
+                                                                        }
+                                                                        else if ((preguntaSeguir == "no") || (preguntaSeguir == "No") || (preguntaSeguir == "NO") || (preguntaSeguir == "nO"))
+                                                                        {
+                                                                            Console.WriteLine("Ha decidido no añadir más producto");
+                                                                            salirPregunta = true;
+                                                                            correcto = true;
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        Console.WriteLine("Error! La respuesta no puede estar vacia");
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                                    Console.WriteLine("Ya se ha introducido todas las lineas de la máquina");
+                                                                    salirPregunta = true;
+                                                                    correcto = true;
+                                                                }
+                                                            } while (!salirPregunta);
+                                                        }
+                                                        else
+                                                        {
+                                                            Console.WriteLine("El Id elegido no se ha encontrado");
+                                                        }
                                                     }
                                                     else
                                                     {
-                                                        Console.WriteLine("El Id elegido no se ha encontrado");
+                                                        Console.WriteLine("Se ha añadido todos los productos a la linea");
+                                                        correcto = true;
+                                                        
                                                     }
-
                                                 } while (!correcto);
-                                                
-
-                                                Console.WriteLine("Dime el producto que quieres añadir. Pon el ID");
                                             }
                                             else
                                             {
                                                 Console.WriteLine("No se ha encontrado ningun producto");
                                             }
-                                            
 
-                                            Console.ReadKey();
+
                                         }
                                         break;
                                     case 2:
                                         {
                                             Console.Clear();
                                             Console.WriteLine("Has elegido la opcion 2, de la linea de la máquina");
+                                            Funciones.MostrarProductosLineaMaquina(lineamaquina);
                                             Console.ReadKey();
                                         }
                                         break;
