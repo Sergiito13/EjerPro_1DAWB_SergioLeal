@@ -1,4 +1,5 @@
 ﻿using ejer2;
+using System.Dynamic;
 
 namespace ejer1
 {
@@ -11,7 +12,7 @@ namespace ejer1
             List<Producto> productos = new List<Producto>();
             List<LineaMaquina> lineamaquina = new List<LineaMaquina>();
             bool salir = false, salir2 = false, salirAñadirCliente = false;
-            const int NUMEROMAXIMODELINEAS = 3;
+            const int NUMEROMAXIMODELINEAS = 20;
 
             do
             {
@@ -234,6 +235,7 @@ namespace ejer1
                                         {
                                             Console.Clear();
                                             Console.WriteLine("Has elegido la opcion 3, de la linea de la máquina");
+                                            Funciones.EliminarProductoLineaMaquina(lineamaquina);
                                             Console.ReadKey();
                                         }
                                         break;
@@ -241,6 +243,7 @@ namespace ejer1
                                         {
                                             Console.Clear();
                                             Console.WriteLine("Has elegido la opcion 4, de la linea de la máquina");
+                                            Funciones.RellenarProductosLista(lineamaquina);
                                             Console.ReadKey();
                                         }
                                         break;
@@ -261,7 +264,29 @@ namespace ejer1
                         {
                             Console.Clear();
                             Console.WriteLine("Has elegido la opción 3. Qué es comprar un producto");
+                            List<LineaMaquina> productosvalido = new List<LineaMaquina>();
+
+                            decimal dinero = Funciones.PedirDineroUsuario();
+                            productosvalido = Funciones.SacarProductosValidos(lineamaquina, dinero);
+
+                            productosvalido.ForEach(aptos => Console.WriteLine(aptos.ToString()));
                             Console.ReadKey();
+
+                            Console.WriteLine("¿Qué objeto quieres comprar?");
+                            LineaMaquina lineaSeleccionada = Funciones.ExisteIdLineaMaquina(productosvalido);
+
+                            if (!(lineaSeleccionada == null))
+                            {
+                                Console.WriteLine($"Tu vuelto es de: {Math.Abs(lineaSeleccionada.GetProductoLinea().Getprecio() - dinero)}");
+
+                                lineaSeleccionada.SetStock(lineaSeleccionada.Getstock()-1);
+                                Console.ReadKey();
+                            }
+                            else
+                            {
+                                Console.WriteLine("La linea no existe o no te da el dinero para el producto");
+                            }
+
                         }
                         break;
                     case 4:

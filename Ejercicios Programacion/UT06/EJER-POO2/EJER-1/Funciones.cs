@@ -210,5 +210,76 @@
             }
 
         }
+        // Eliminar producto de la lineaMáquina
+        public static void EliminarProductoLineaMaquina(List<LineaMaquina> lineas)
+        {
+            if (lineas.Count > 0)
+            {
+
+                MostrarProductosLineaMaquina(lineas);
+                Console.WriteLine("");
+                Console.WriteLine("Para Eliminar productos, tienes que poner su ID");
+
+                int IDProductoEliminar = PedirID();
+
+                lineas.RemoveAll(producto => producto.GetID() == IDProductoEliminar);
+
+            }
+            else
+            {
+                Console.WriteLine("No se ha encontrado productos, añada productos");
+            }
+            Console.ReadKey();
+        }
+        // Poner todo el stock a 10
+
+        public static void RellenarProductosLista(List<LineaMaquina> lineas)
+        {
+            // Declaramos las variables
+
+            lineas.ForEach(linea => linea.SetStock(10));
+        }
+
+        // Pedir dinero al usuario
+
+        public static decimal PedirDineroUsuario()
+        {
+            // Declaramos las variables
+            decimal dineroUsuario = 0;
+
+            Console.WriteLine("Mete el dinero en la máquina");
+            while (!Decimal.TryParse(Console.ReadLine(), out dineroUsuario) || (dineroUsuario < 0))
+            {
+                Console.WriteLine("Error ! al introducir el dinero");
+            }
+            return dineroUsuario;
+        }
+
+        public static List<LineaMaquina> SacarProductosValidos(List<LineaMaquina> lineas, decimal dinero)
+        {
+            // Declaramos las variables
+            List<LineaMaquina> ObjetosAptos = new List<LineaMaquina>();
+
+            lineas.ForEach(linea =>
+            {
+                if (Convert.ToDecimal(linea.GetProductoLinea().Getprecio()) <= dinero)
+                {
+                    ObjetosAptos.Add(linea);
+                }
+            });
+            return ObjetosAptos;
+        }
+        // Existe el ID de la linea de la maquina
+        public static LineaMaquina ExisteIdLineaMaquina(List<LineaMaquina> lineas)
+        {
+            // Declaramos las variables
+
+            int IDElegido = PedirID();
+
+            LineaMaquina lineaMaquinaSeleccionada = lineas.Find(linea => linea.GetID() == IDElegido);
+
+            return lineaMaquinaSeleccionada;
+        }
+
     }
 }
