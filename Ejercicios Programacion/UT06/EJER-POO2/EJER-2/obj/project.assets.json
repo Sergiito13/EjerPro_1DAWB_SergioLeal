@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\EJER-1.csproj",
-      "projectName": "EJER-1",
-      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\EJER-1.csproj",
+      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-2\\EJER-2.csproj",
+      "projectName": "EJER-2",
+      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-2\\EJER-2.csproj",
       "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-1\\obj\\",
+      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\EJER-POO2\\EJER-2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
