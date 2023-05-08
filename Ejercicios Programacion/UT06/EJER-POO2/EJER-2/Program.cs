@@ -1,5 +1,4 @@
-﻿using System;
-namespace ejer2
+﻿namespace ejer2
 {
     class Program
     {
@@ -40,6 +39,43 @@ namespace ejer2
             //-------------------------------------------------------------------
 
             productos.ForEach(producto => Console.WriteLine(producto.ToString()));
+
+            bool salir = false;
+            do
+            {
+                Menu.MostrarMenu();
+                int opcion = Menu.PedirNumeroOpcionMenu();
+
+                switch (opcion)
+                {
+                    case 1:
+                        {
+                            Console.WriteLine("\nSeleccionó la opción 1.\n");
+                            Console.ReadKey();
+                        }
+                        break;
+                    case 2:
+                        {
+                            Console.WriteLine("\nSeleccionó la opción 2.\n");
+                            Console.ReadKey();
+                        }
+                        break;
+                    case 3:
+                        {
+                            Console.WriteLine("\nSeleccionó la opción 3.\n");
+                            Console.ReadKey();
+                        }
+                        break;
+                    case 4:
+                        {
+                            Console.WriteLine("\nAdiós!\n");
+                            Console.ReadKey();
+                            salir = true;
+                        }
+                        break;
+                }
+
+            } while (!salir);
         }
     }
 }

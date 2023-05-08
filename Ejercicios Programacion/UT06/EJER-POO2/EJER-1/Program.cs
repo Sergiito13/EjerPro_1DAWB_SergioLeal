@@ -1,5 +1,4 @@
 ﻿using ejer2;
-using System.Dynamic;
 
 namespace ejer1
 {
@@ -211,7 +210,7 @@ namespace ejer1
                                                     {
                                                         Console.WriteLine("Se ha añadido todos los productos a la linea");
                                                         correcto = true;
-                                                        
+
                                                     }
                                                 } while (!correcto);
                                             }
@@ -279,7 +278,7 @@ namespace ejer1
                             {
                                 Console.WriteLine($"Tu vuelto es de: {Math.Abs(lineaSeleccionada.GetProductoLinea().Getprecio() - dinero)}");
 
-                                lineaSeleccionada.SetStock(lineaSeleccionada.Getstock()-1);
+                                lineaSeleccionada.SetStock(lineaSeleccionada.Getstock() - 1);
                                 Console.ReadKey();
                             }
                             else
