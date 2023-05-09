@@ -38,6 +38,7 @@
             productos.Add(new Producto("Café solo", 1.00m));
             //-------------------------------------------------------------------
 
+            
             productos.ForEach(producto => Console.WriteLine(producto.ToString()));
 
             bool salir = false;
