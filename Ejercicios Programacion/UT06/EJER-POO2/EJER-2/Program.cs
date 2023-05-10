@@ -7,6 +7,7 @@
             // EJER2 | La cafeteria del centro
             // Declaramos las variables
             List<Producto> productos = new List<Producto>();
+            List<Pedido> pedidos = new List<Pedido>();
 
             // Llenamos la lista de productos
             productos.Add(new Producto("Bocadillo Mixto", 2.10m));
@@ -38,7 +39,7 @@
             productos.Add(new Producto("Café solo", 1.00m));
             //-------------------------------------------------------------------
 
-            
+
             productos.ForEach(producto => Console.WriteLine(producto.ToString()));
 
             bool salir = false;
@@ -51,8 +52,56 @@
                 {
                     case 1:
                         {
-                            Console.WriteLine("\nSeleccionó la opción 1.\n");
+                            Console.WriteLine("\nSeleccionó la opción 1. Para añadir un pedido\n");
                             Console.ReadKey();
+                            List<Producto> productosSeleccionados = new List<Producto>();
+
+                            bool salirAñadirPedido = false;
+                            
+
+                            do
+                            {
+                                bool ProductoExiste = false;
+
+                                if (pedidos.Count <= Pedido.NUMERO_MAXIMO_PEDIDO)
+                                {
+                                    do
+                                    {
+                                        Producto.MostrarProductos(productos);
+
+                                        int IDElegido = Producto.PedirIdProducto();
+
+                                        Producto eleccionProducto = Producto.ComprobarIDExiste(productos, IDElegido);
+                                        if (!(eleccionProducto == null))
+                                        {
+                                            productosSeleccionados.Add(eleccionProducto);
+                                            ProductoExiste = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("El ID, seleccionado no existe, Intentelo de nuevo");
+                                        }
+                                    } while (!ProductoExiste);
+
+                                    if (Funciones.PedirRespuestaSeguir())
+                                    {
+                                        Console.WriteLine("Ha decidido seguir comprando");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Ha decidido no seguir comprando");
+                                        pedidos.Add(new Pedido(productosSeleccionados, DateTime.Now));
+                                        Console.Clear();
+                                        Pedido.MostrarPedidoAcabadoDeIntroducir(pedidos);
+                                        Console.ReadKey();
+                                        salirAñadirPedido = true;
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La cola de pedido esta llena");
+                                }
+                            } while (!salirAñadirPedido);
                         }
                         break;
                     case 2:

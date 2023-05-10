@@ -72,6 +72,30 @@
             return IDAutoIncremental++;
         }
 
+        public static void MostrarProductos(List<Producto> productos)
+        {
+            productos.ForEach(producto => Console.WriteLine(producto.ToString()));
+            Console.ReadKey();
+        }
 
+        public static int PedirIdProducto() // Esta funcion pedira un id al usuario
+        {
+            int idSeleccionado = 0;
+
+            Console.WriteLine("Dime el ID del producto que quieres pedir:");
+            while (!int.TryParse(Console.ReadLine(), out idSeleccionado) || (idSeleccionado <= 0))
+            {
+                Console.WriteLine("No es valido el valor introducido. Intentelo De nuevo");
+            }
+            return idSeleccionado;
+        }
+
+        // Preguntar al profe porque esta funcion no va si no es estatica
+        public static Producto ComprobarIDExiste(List<Producto> productos, int idSeleccionado)// Esta funcion comprobara que el id pasado se corresponde con uno existente
+        {
+            Producto productoelegido = productos.Find(Producto => Producto.GetID() == idSeleccionado);
+
+            return productoelegido;
+        }
     }
 }
