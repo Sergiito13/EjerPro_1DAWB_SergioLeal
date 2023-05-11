@@ -1,0 +1,15 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\bin\Debug\net6.0\EJER-BIBLIOTECA.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\bin\Debug\net6.0\EJER-BIBLIOTECA.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\bin\Debug\net6.0\EJER-BIBLIOTECA.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\bin\Debug\net6.0\EJER-BIBLIOTECA.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\bin\Debug\net6.0\EJER-BIBLIOTECA.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\refint\EJER-BIBLIOTECA.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\EJER-BIBLIOTECA.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\EJER-BIBLIOTECA\obj\Debug\net6.0\ref\EJER-BIBLIOTECA.dll

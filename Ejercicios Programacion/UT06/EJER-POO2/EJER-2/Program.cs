@@ -111,7 +111,18 @@
                             Console.WriteLine("\nSeleccionó la opción 2.\n");
                             Console.ReadKey();
 
-                            
+                            if (!(pedidos.Count <= 0))
+                            {
+                                Console.WriteLine("El pedido a pagar es:");
+                                Pedido.MostrarPedidoPrimeroCola(pedidos);
+
+                            }
+                            else
+                            {
+                                Console.WriteLine("No se encuentra ningun pedido en la cola de pedidos");
+                            }
+
+                            Console.ReadKey();
                         }
                         break;
                     case 3:

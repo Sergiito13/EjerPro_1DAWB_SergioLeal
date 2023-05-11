@@ -33,6 +33,11 @@
 
         }
 
+        public List<Producto> GetProductosAñadidos()
+        {
+            return this.productosAñadidos;
+        }
+
         public void SetFecha(DateTime Fecha)
         {
             DateTime Fechahoy = DateTime.Now;
@@ -74,6 +79,13 @@
             Console.WriteLine($"Su pedido es: {pedidos[ultimoPedido].ToString()}");
         }
 
+        public static void MostrarPedidoPrimeroCola(List<Pedido> pedidos)
+        {
+            Console.Clear();
+            Console.WriteLine($"Su pedido es: {pedidos[0].ToString()}");
+            Console.WriteLine($"El precio total a pagar es de: {pedidos}");
+        }
 
+        
     }
 }
