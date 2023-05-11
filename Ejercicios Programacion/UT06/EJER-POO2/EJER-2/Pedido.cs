@@ -20,11 +20,6 @@
             return this.productosAñadidos;
         }
 
-        public int GetNUMERO_MAXIMO_PEDIDOS()
-        {
-            return NUMERO_MAXIMO_PEDIDO;
-        }
-
         public void SetProductos(List<Producto> productos)
         {
             if (productos.Count <= 0)
@@ -58,16 +53,25 @@
 
         public string ToString()
         {
-            string pedido = "";
-            pedido = "productos" + this.productosAñadidos.ToString() + "\n a la fecha de: " + this.Fecha
-                ;
+            string pedidoMostrar = "";
+            pedidoMostrar = "productos:\n";
 
-            return pedido;
+            foreach (Producto producto in productosAñadidos)
+            {
+                pedidoMostrar += producto.ToString() + "\n";
+            }
+            pedidoMostrar += "Fecha del pedido: " + this.Fecha;
+
+            
+
+            return pedidoMostrar;
         }
 
         public static void MostrarPedidoAcabadoDeIntroducir(List<Pedido> pedidos)
         {
-            Console.WriteLine($"Su pedido es: {pedidos[0].ToString()}");
+            Console.Clear();
+            int ultimoPedido = pedidos.Count-1;
+            Console.WriteLine($"Su pedido es: {pedidos[ultimoPedido].ToString()}");
         }
 
 

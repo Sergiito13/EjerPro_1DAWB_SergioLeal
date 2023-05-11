@@ -5,9 +5,13 @@
         public static void Main(string[] agrs)
         {
             // EJER2 | La cafeteria del centro
-            // Declaramos las variables
+            // Declaramos las listas
             List<Producto> productos = new List<Producto>();
             List<Pedido> pedidos = new List<Pedido>();
+
+            //Creamos el objeto cafeteria
+            string nombre = "CesarManrique";
+            Cafeteria cafeteriaCesar = new Cafeteria(nombre);
 
             // Llenamos la lista de productos
             productos.Add(new Producto("Bocadillo Mixto", 2.10m));
@@ -39,9 +43,6 @@
             productos.Add(new Producto("Café solo", 1.00m));
             //-------------------------------------------------------------------
 
-
-            productos.ForEach(producto => Console.WriteLine(producto.ToString()));
-
             bool salir = false;
             do
             {
@@ -63,7 +64,7 @@
                             {
                                 bool ProductoExiste = false;
 
-                                if (pedidos.Count <= Pedido.NUMERO_MAXIMO_PEDIDO)
+                                if (pedidos.Count < Pedido.NUMERO_MAXIMO_PEDIDO)
                                 {
                                     do
                                     {
@@ -91,7 +92,6 @@
                                     {
                                         Console.WriteLine("Ha decidido no seguir comprando");
                                         pedidos.Add(new Pedido(productosSeleccionados, DateTime.Now));
-                                        Console.Clear();
                                         Pedido.MostrarPedidoAcabadoDeIntroducir(pedidos);
                                         Console.ReadKey();
                                         salirAñadirPedido = true;
@@ -99,7 +99,9 @@
                                 }
                                 else
                                 {
-                                    Console.WriteLine("La cola de pedido esta llena");
+                                    Console.WriteLine("La cola de pedido esta llena, terrmina un pedido");
+                                    Console.ReadKey();
+                                    salirAñadirPedido = true;
                                 }
                             } while (!salirAñadirPedido);
                         }
@@ -108,6 +110,8 @@
                         {
                             Console.WriteLine("\nSeleccionó la opción 2.\n");
                             Console.ReadKey();
+
+                            
                         }
                         break;
                     case 3:

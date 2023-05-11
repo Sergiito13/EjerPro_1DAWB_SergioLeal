@@ -9,9 +9,10 @@
 
         // Constructores
 
-        public Cafeteria(string nombre, List<Pedido> pedidosRealizados)
+        public Cafeteria(string nombre)
         {
-
+            Setnombre(nombre);
+            pedidosRealizados = new List<Pedido>();
         }
 
         public void Setnombre(string nombre)
