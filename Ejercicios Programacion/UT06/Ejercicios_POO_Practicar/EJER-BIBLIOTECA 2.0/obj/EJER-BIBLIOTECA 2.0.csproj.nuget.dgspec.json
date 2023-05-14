@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicio Practicas Objetos\\Ejer - 1\\Ejer - 1.csproj": {}
+    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\EJER-BIBLIOTECA 2.0.csproj": {}
   },
   "projects": {
-    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicio Practicas Objetos\\Ejer - 1\\Ejer - 1.csproj": {
+    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\EJER-BIBLIOTECA 2.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicio Practicas Objetos\\Ejer - 1\\Ejer - 1.csproj",
-        "projectName": "Ejer - 1",
-        "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicio Practicas Objetos\\Ejer - 1\\Ejer - 1.csproj",
+        "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\EJER-BIBLIOTECA 2.0.csproj",
+        "projectName": "EJER-BIBLIOTECA 2.0",
+        "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\EJER-BIBLIOTECA 2.0.csproj",
         "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-        "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicio Practicas Objetos\\Ejer - 1\\obj\\",
+        "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",

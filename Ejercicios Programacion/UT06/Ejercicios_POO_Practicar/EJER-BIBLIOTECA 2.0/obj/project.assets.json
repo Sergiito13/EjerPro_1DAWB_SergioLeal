@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\EJER-BIBLIOTECA.csproj",
-      "projectName": "EJER-BIBLIOTECA",
-      "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\EJER-BIBLIOTECA.csproj",
+      "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\EJER-BIBLIOTECA 2.0.csproj",
+      "projectName": "EJER-BIBLIOTECA 2.0",
+      "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\EJER-BIBLIOTECA 2.0.csproj",
       "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-      "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\obj\\",
+      "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA 2.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
