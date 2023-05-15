@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\veron\\.nuget\\packages\\": {}
+    "C:\\Users\\Sergio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\EJER-BIBLIOTECA.csproj",
+      "projectUniqueName": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\EJER-BIBLIOTECA.csproj",
       "projectName": "EJER-BIBLIOTECA",
-      "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\EJER-BIBLIOTECA.csproj",
-      "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-      "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\obj\\",
+      "projectPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\EJER-BIBLIOTECA.csproj",
+      "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
+      "outputPath": "C:\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT06\\Ejercicios_POO_Practicar\\EJER-BIBLIOTECA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
