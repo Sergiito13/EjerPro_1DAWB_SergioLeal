@@ -6,23 +6,90 @@
 <html>
    <head>
       <title>Mi página web</title>
+    <style>
+        body{background-color:darkgrey;}
+        h1 {color:;font-size: 50px; text-align:center; font-family:Impact;}
+        th {font-family: 'Rock Salt', cursive;font-style: italic;color: #666;text-align: center; margin:20px;border:2px solid black;background-color:lightgoldenrodyellow; font-size:x-large;}
+        table {border:3px solid black; padding:20px; border-collapse: collapse; }
+        td{border:2px solid black; padding:20px; background-color:dimgray; color:aliceblue; font-family:'Lucida Console';}
+        .Padre{display: flex; align-items: center;justify-content: center;}
+        .Div1{ margin-right:300px;}
+        .Div2{margin-left:300px; background-color:steelblue; border-radius:15px ;border:4px solid black; padding:5px;}
+        ul{font-family:'Century Gothic';}
+        strong{color:brown; font-size:larger;}
+        span{font-family:fantasy; font-size:larger;}
+    </style>
    </head>
    <body>
       <header>
-         <h1>Mi nombre es sergio</h1>
+        <h1> 👨🏽‍💻 Juegos 👨🏽‍💻 </h1>
       </header>
       <main>
+        <div class="Padre">
+        <div class="Div1">
+          <table>
+            <tr>
+                <th>Juegos</th>
+                <th>Precio</th>
+            </tr>
         @{
-            for (int i = 1; i < 11; i++)
+            // LLENAR LA LISTA DE JUEGOS (NOMBRES)
+            List<string> juegos = new List<string>();
+            juegos.Add("The Legend of Zelda: Breath of the Wild");
+            juegos.Add("Super Mario Odyssey");
+            juegos.Add("God of War");
+            juegos.Add("Red Dead Redemption 2");
+            juegos.Add("Minecraft");
+            juegos.Add("Fortnite");
+            juegos.Add("Grand Theft Auto V");
+            juegos.Add("Overwatch");
+            juegos.Add("Assassin's Creed Odyssey");
+            juegos.Add("Call of Duty: Modern Warfare");
+            juegos.Add("Leogue of Legends");
+            juegos.Add("Cyberpunk 2077");
+            juegos.Add("FIFA 23");
+
+
+            // LLENAR LA LISTA DE PRECIO (JUEGOS)
+            List<decimal> Precios = new List<decimal>() {51.00m, 51.00m, 34.00m, 51.00m, 25.50m, 0.00m, 25.50m, 34.00m, 51.00m, 51.00m, 0,55.99m, 70.00m};
+
+            // Titulo de la tabla contstante
+
+                
+                    @for (int i = 0; i < juegos.Count; i++)
             {
-                <span> @i </span>
+                        <tr>
+                            <td>@juegos[i]</td>
+
+                            @if (!(Precios[i] <= 0))
+                    {
+                                <td>@Precios[i]€</td>
+                    }else
+                    {
+                                <td>Free To Play</td>
+                    }
+                        </tr>
             }
-            <br/>
-            int num1 = 10;
-            int num2 = 10;
-            int suma = num1 + num2;
-            <span>La suma de: @num1 + @num2 = @suma</span>
         }
+        </table>
+        </div>
+        <div class="Div2">
+        @{
+                    <ul>
+                        @for (int i = 0; i < juegos.Count; i++)
+                {
+                    if (!(Precios[i] <= 0))
+                    {
+                                <li><strong>@juegos[i]</strong> - <span>@Precios[i]€</span></li>
+                    }else
+                    {
+                                <li><strong>@juegos[i]</strong> - <span>Free To Play</span></li>
+                    }
+                }
+                    </ul>
+        }
+        </div>
+        </div>
       </main>
       <footer>
       </footer>
