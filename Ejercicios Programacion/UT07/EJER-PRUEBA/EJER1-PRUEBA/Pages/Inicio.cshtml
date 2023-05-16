@@ -1,0 +1,30 @@
+﻿@page
+@model EJER1_PRUEBA.Pages.InicioModel
+@{
+}
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Mi página web</title>
+   </head>
+   <body>
+      <header>
+         <h1>Mi nombre es sergio</h1>
+      </header>
+      <main>
+        @{
+            for (int i = 1; i < 11; i++)
+            {
+                <span> @i </span>
+            }
+            <br/>
+            int num1 = 10;
+            int num2 = 10;
+            int suma = num1 + num2;
+            <span>La suma de: @num1 + @num2 = @suma</span>
+        }
+      </main>
+      <footer>
+      </footer>
+   </body>
+</html>

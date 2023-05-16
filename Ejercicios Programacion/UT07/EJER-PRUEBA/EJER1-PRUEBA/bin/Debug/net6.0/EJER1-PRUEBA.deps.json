@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EJER1-PRUEBA/1.0.0": {
+        "runtime": {
+          "EJER1-PRUEBA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EJER1-PRUEBA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
