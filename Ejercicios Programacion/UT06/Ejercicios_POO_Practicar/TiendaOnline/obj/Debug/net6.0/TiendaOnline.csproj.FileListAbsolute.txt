@@ -1,0 +1,15 @@
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\bin\Debug\net6.0\TiendaOnline.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\bin\Debug\net6.0\TiendaOnline.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\bin\Debug\net6.0\TiendaOnline.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\bin\Debug\net6.0\TiendaOnline.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\bin\Debug\net6.0\TiendaOnline.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\refint\TiendaOnline.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\TiendaOnline.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\TiendaOnline\obj\Debug\net6.0\ref\TiendaOnline.dll

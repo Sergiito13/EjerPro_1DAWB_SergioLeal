@@ -56,27 +56,27 @@
             // Titulo de la tabla contstante
 
                 
-                    @for (int i = 0; i < juegos.Count; i++)
+            @for (int i = 0; i < juegos.Count; i++)
             {
-                        <tr>
-                            <td>@juegos[i]</td>
+                <tr>
+                    <td>@juegos[i]</td>
 
-                            @if (!(Precios[i] <= 0))
+                    @if (!(Precios[i] <= 0))
                     {
-                                <td>@Precios[i]€</td>
+                        <td>@Precios[i]€</td>
                     }else
                     {
-                                <td>Free To Play</td>
+                        <td>Free To Play</td>
                     }
-                        </tr>
+                </tr>
             }
         }
         </table>
         </div>
         <div class="Div2">
         @{
-                    <ul>
-                        @for (int i = 0; i < juegos.Count; i++)
+            <ul>
+                @for (int i = 0; i < juegos.Count; i++)
                 {
                     if (!(Precios[i] <= 0))
                     {
@@ -86,7 +86,7 @@
                                 <li><strong>@juegos[i]</strong> - <span>Free To Play</span></li>
                     }
                 }
-                    </ul>
+            </ul>
         }
         </div>
         </div>
