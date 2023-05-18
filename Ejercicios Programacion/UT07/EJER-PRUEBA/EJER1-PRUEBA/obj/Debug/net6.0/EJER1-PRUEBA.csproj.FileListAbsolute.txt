@@ -44,3 +44,26 @@ C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEB
 C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.pdb
 C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.genruntimeconfig.cache
 C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\ref\EJER1-PRUEBA.dll
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\appsettings.Development.json
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\appsettings.json
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\EJER1-PRUEBA.exe
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\EJER1-PRUEBA.deps.json
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\EJER1-PRUEBA.runtimeconfig.json
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\EJER1-PRUEBA.dll
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\bin\Debug\net6.0\EJER1-PRUEBA.pdb
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.csproj.AssemblyReference.cache
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.GeneratedMSBuildEditorConfig.editorconfig
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.AssemblyInfoInputs.cache
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.AssemblyInfo.cs
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.csproj.CoreCompileInputs.cache
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.MvcApplicationPartsAssemblyInfo.cache
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.RazorAssemblyInfo.cache
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.RazorAssemblyInfo.cs
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\staticwebassets.build.json
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\staticwebassets.development.json
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\scopedcss\bundle\EJER1-PRUEBA.styles.css
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.dll
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\refint\EJER1-PRUEBA.dll
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.pdb
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\EJER1-PRUEBA.genruntimeconfig.cache
+C:\EJER 2023\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJER-PRUEBA\EJER1-PRUEBA\obj\Debug\net6.0\ref\EJER1-PRUEBA.dll

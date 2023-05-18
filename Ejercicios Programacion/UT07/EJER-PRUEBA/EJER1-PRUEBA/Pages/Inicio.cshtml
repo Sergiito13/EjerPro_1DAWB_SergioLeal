@@ -18,6 +18,7 @@
         ul{font-family:'Century Gothic';}
         strong{color:brown; font-size:larger;}
         span{font-family:fantasy; font-size:larger;}
+        
     </style>
    </head>
    <body>
@@ -46,12 +47,11 @@
             juegos.Add("Assassin's Creed Odyssey");
             juegos.Add("Call of Duty: Modern Warfare");
             juegos.Add("Leogue of Legends");
-            juegos.Add("Cyberpunk 2077");
-            juegos.Add("FIFA 23");
+
 
 
             // LLENAR LA LISTA DE PRECIO (JUEGOS)
-            List<decimal> Precios = new List<decimal>() {51.00m, 51.00m, 34.00m, 51.00m, 25.50m, 0.00m, 25.50m, 34.00m, 51.00m, 51.00m, 0,55.99m, 70.00m};
+            List<decimal> Precios = new List<decimal>() {51.00m, 51.00m, 34.00m, 51.00m, 25.50m, 0.00m, 25.50m, 34.00m, 51.00m, 51.00m, 0};
 
             // Titulo de la tabla contstante
 
@@ -80,10 +80,10 @@
                 {
                     if (!(Precios[i] <= 0))
                     {
-                                <li><strong>@juegos[i]</strong> - <span>@Precios[i]€</span></li>
+                        <li><strong>@juegos[i]</strong> - <span>@Precios[i]€</span></li>
                     }else
                     {
-                                <li><strong>@juegos[i]</strong> - <span>Free To Play</span></li>
+                        <li><strong>@juegos[i]</strong> - <span>Free To Play</span></li>
                     }
                 }
             </ul>

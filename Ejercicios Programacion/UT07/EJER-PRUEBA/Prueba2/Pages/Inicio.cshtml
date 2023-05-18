@@ -1,0 +1,73 @@
+﻿@page 
+@model EJER1_PRUEBA.Pages.InicioModel
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Mi página web</title>
+    <style>
+    </style>
+   </head>
+   <body>
+      <header>
+        <h1>  </h1>
+      </header>
+      <main>
+        <div>
+            <form method="post" action="">
+                <fieldset>
+                    <legend> Datos de usuario:</legend>
+                    <div>
+                        @if (Request.Method == "POST")
+                        {
+                            <label>ID:</label>
+                            <input type="text" name="txtID" value="@Request.Form["txtID"]" />
+                            <label>Nombre:</label>
+                            <input type="text" name="txtNombre" value="@Request.Form["txtNombre"]" />
+                            <label>Edad:</label>
+                            <input type="text" name="txtEdad" value="@Request.Form["txtEdad"]" />
+                        }else
+                        {
+                            <label>ID:</label>
+                            <input type="text" name="txtID" value="" />
+                            <label>Nombre:</label>
+                            <input type="text" name="txtNombre" value="" />
+                            <label>Edad:</label>
+                            <input type="text" name="txtEdad" value="" />
+                        }
+                    </div>
+                    <input type="submit" value="Enviar"/>
+                </fieldset>
+            </form>
+         </div>
+            <div>
+            @{
+                if (Request.Method == "POST")
+                {
+                    int id = 0, edad = 0;
+                    //string nombre = Request.Form["txtNombre"];
+                    if ((int.TryParse(Request.Form["txtID"], out id)) && (int.TryParse(Request.Form["txtEdad"], out edad)))
+                    {
+                        <p>Hoy el usuario con ID: @id cumple: @edad años </p>
+                        for (int i = 1; i < edad; i++)
+                        {
+                            <p>Felicidades: @Request.Form["txtNombre"] </p>
+                        }
+
+                    }else
+                    {
+                        <p> Error!!!!!!!!</p>
+                    }
+                }else
+                {
+                    
+                }
+            }
+
+
+
+            </div>
+      </main>
+      <footer>
+      </footer>
+   </body>
+</html>
