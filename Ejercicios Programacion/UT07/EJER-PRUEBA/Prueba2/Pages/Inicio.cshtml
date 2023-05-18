@@ -48,7 +48,7 @@
                     if ((int.TryParse(Request.Form["txtID"], out id)) && (int.TryParse(Request.Form["txtEdad"], out edad)))
                     {
                         <p>Hoy el usuario con ID: @id cumple: @edad años </p>
-                        for (int i = 1; i < edad; i++)
+                        for (int i = 1; i <= edad; i++)
                         {
                             <p>Felicidades: @Request.Form["txtNombre"] </p>
                         }
