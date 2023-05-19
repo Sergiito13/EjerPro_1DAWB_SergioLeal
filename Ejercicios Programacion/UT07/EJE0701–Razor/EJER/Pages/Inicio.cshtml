@@ -1,0 +1,46 @@
+﻿@page "/"
+@model EJER.Pages.InicioModel
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EJE0701–Razor Sergio Leal Priere</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    
+</head>
+<body>
+    <header>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="Logo m-3">
+                <img src="~/img/Sergio.jpg"/>
+            </div>
+
+            <div class="m-3">
+            <h1>Sergio Leal Priere - 1dawb</h1>
+            </div>
+        </di>
+    </header>
+    <main>
+        <div class="d-flex">
+            <div class="flex-grow-1 d-flex justify-content-center align-items-center">
+                <iframe name="ContenidoPagina" src="Inicio.cshtml" frameborder="4"></iframe>
+            </div>
+
+            <nav class="menu flex-column ml-2">
+                <ul class="nav flex-column ">
+                    <li class="nav-item "><a class="nav-link mb-2" href="/">Principal</a></li>
+                    <li class="nav-item"><a class="nav-link mb-2" href="/Ejercicio1" target="ContenidoPagina">Ejercicio 1</a></li>
+                    <li class="nav-item"><a class="nav-link mb-2" href="/Ejercicio2" target="ContenidoPagina">Ejercicio 2</a></li>
+                    <li class="nav-item"><a class="nav-link mb-2" href="/Ejercicio3" target="ContenidoPagina">Ejercicio 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <footer>
+        <div>22-05-2023 - CIFP César Manrique - Sergio Leal Priere- 2022/2023</div>
+    </footer>
+</body>
+</html>
