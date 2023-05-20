@@ -7,12 +7,32 @@
 <html>
 <head>
     <title>Ejercio2</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer1.css">
 </head>
 <body>
     <header>
-        <h1>Ejercicio2</h1>
+        <h1>Cuenta palabras</h1>
     </header>
     <main>
+        <div class="row">
+            <div class="col-md-6 w-25 ">
+                <form class="custom-form m-lg-1" method="post" action="/resultadoEjer2" target="_blank">
+                    <fieldset>
+                            <div class="mb-3">
+                                <label class="form-label">Frase:</label>
+                                <input type="text" id="frase" name="frase" class="form-control form-control-sm">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="numero2" class="form-label">Palabra:</label>
+                                <input type="text" id="Palabra" name="Palabra" class="form-control form-control-sm">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-sm">Cuenta</button>
+                    </fieldset>
+                </form>
+            </div>
 
     </main>
     <footer>

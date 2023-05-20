@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer1.css",
+      "PackagePath": "staticwebassets\\css\\siteEjer1.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer2.css",
+      "PackagePath": "staticwebassets\\css\\siteEjer2.css"
+    },
+    {
       "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -15,6 +23,10 @@
     {
       "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\Sergio.jpg",
       "PackagePath": "staticwebassets\\img\\Sergio.jpg"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\espacio.jpg",
+      "PackagePath": "staticwebassets\\img\\espacio.jpg"
     },
     {
       "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\js\\site.js",

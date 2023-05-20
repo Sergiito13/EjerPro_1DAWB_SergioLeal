@@ -1,0 +1,50 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    background-color:;
+}
+.custom-form-container {
+    background-color: #e8f2ff;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-form label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.custom-form .form-control {
+    font-size: 14px;
+    background-color: #f8fcff;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #007bff;
+}
+
+.custom-form button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+    .custom-form button:hover {
+        background-color: #0056b3;
+    }
+
+.resultados {
+    background-color: #f8f9fa;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+    .resultados p {
+        margin-bottom: 5px;
+    }

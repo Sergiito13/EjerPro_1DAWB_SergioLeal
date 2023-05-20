@@ -26,7 +26,7 @@ header {
 
 iframe {
     width: 100%;
-    height: 350px;
+    height: 400px;
 }
 
 .menu {
@@ -36,7 +36,6 @@ iframe {
 
 .menu .nav-link {
     font-family: 'Montserrat', sans-serif;
-    /* Agrega otros estilos de texto según tus preferencias */
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -44,7 +43,7 @@ iframe {
 }
     
 .Logo {
-    width: 150px; /* Ajusta el ancho y alto según tus necesidades */
+    width: 150px;
     background-image: url("../img/Fondo.png");
     background-size: cover;
     background-position: end;
@@ -62,6 +61,12 @@ iframe {
     object-position: center;
     }
 
+footer {
+    height:100px;
+    background-image: url("../img/espacio.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 
 

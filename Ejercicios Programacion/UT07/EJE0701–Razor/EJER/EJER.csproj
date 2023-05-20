@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\siteEjer1 - Copia.css" />
+    <Content Remove="wwwroot\css\StyleSheet.css" />
+    <Content Remove="wwwroot\img\cesped.jpeg" />
+    <Content Remove="wwwroot\img\cesped.png" />
     <Content Remove="wwwroot\img\Fondo.jpg" />
     <Content Remove="wwwroot\img\R.jpg" />
   </ItemGroup>

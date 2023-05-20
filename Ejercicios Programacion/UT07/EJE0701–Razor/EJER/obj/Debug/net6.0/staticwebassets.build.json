@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yUIsSIMRNINp71SW0WDABFajwAbi1H1Vtpl0Xgu2Zoc=",
+  "Hash": "XcxpI/vN4olTrrncTDAkkQMDi4atzb3PRyajZf1F+D4=",
   "Source": "EJER",
   "BasePath": "_content/EJER",
   "Mode": "Default",
@@ -34,6 +34,40 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer1.css",
+      "SourceId": "EJER",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "BasePath": "_content/EJER",
+      "RelativePath": "css/siteEjer1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\siteEjer1.css"
+    },
+    {
+      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer2.css",
+      "SourceId": "EJER",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "BasePath": "_content/EJER",
+      "RelativePath": "css/siteEjer2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\siteEjer2.css"
+    },
+    {
       "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\favicon.ico",
       "SourceId": "EJER",
       "SourceType": "Discovered",
@@ -49,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\espacio.jpg",
+      "SourceId": "EJER",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "BasePath": "_content/EJER",
+      "RelativePath": "img/espacio.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\espacio.jpg"
     },
     {
       "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\Fondo.png",

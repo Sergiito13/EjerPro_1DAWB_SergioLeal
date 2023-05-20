@@ -7,13 +7,103 @@
 <html>
 <head>
     <title>Ejercio1</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer1.css">
 </head>
 <body>
     <header>
-        <h1>Ejercicio1</h1>
+        <h1>Operaciones con números</h1>
     </header>
     <main>
-        
+        <div class="row">
+            <div class="col-md-6 w-25 ">
+                <form class="custom-form m-lg-1" method="post">
+                    <fieldset>
+                        @if (Request.Method == "POST")
+                        {
+                            <div class="mb-3">
+                                <label for="numero1" class="form-label">Número 1:</label>
+                                <input type="number" id="numero1" name="numero1" class="form-control form-control-sm" required min="0" value="@Request.Form["numero1"]">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="numero2" class="form-label">Número 2:</label>
+                                <input type="number" id="numero2" name="numero2" class="form-control form-control-sm" required min="0" value="@Request.Form["numero2"]">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+                        }
+                        else
+                        {
+                            <div class="mb-3">
+                                <label for="numero1" class="form-label">Número 1:</label>
+                                <input type="number" id="numero1" name="numero1" class="form-control form-control-sm" required min="0">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="numero2" class="form-label">Número 2:</label>
+                                <input type="number" id="numero2" name="numero2" class="form-control form-control-sm" required min="0">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-sm">Operar</button>
+                        }
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="col-md-6 mt-3">
+                @if (Request.Method == "POST")
+                {
+                    int number1 = 0, number2 = 0;
+                    if (int.TryParse(Request.Form["numero1"], out number1) && (int.TryParse(Request.Form["numero2"], out number2)))
+                    {
+                        if ((number1 >= 0) && (number2 >= 0))
+                        {
+                            decimal division = 0;
+                            division = number1 / Convert.ToDecimal(number2);
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="resultados">
+                                        <p>Suma:</p>
+                                        <p>@number1 + @number2 = @(number1 + number2)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="resultados">
+                                        <p>Resta:</p>
+                                        <p>@number1 - @number2 = @(number1 - number2)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="resultados">
+                                        <p>Multiplicación:</p>
+                                        <p>@number1 * @number2 = @(number1 * number2)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="resultados">
+                                        <p>División:</p>
+                                        <p>@number1 / @number2 = @division</p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <p>Error ! Los numeros tienen que ser positivos</p>
+                        }
+                    }
+                    else
+                    {
+                        <p>Error! Los datos tienen que ser de tipo númerico. Intentelo de nuevo</p>
+                    }
+                }
+            </div>
+        </div>
+
     </main>
     <footer>
     </footer>
