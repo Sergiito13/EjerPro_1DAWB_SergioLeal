@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Portada.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\img\Fondo.jpg" />
     <Content Remove="wwwroot\img\R.jpg" />
   </ItemGroup>
