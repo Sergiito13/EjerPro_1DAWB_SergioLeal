@@ -8,19 +8,48 @@
     <meta charset="UTF-8">
     <title>EJE0701–Razor Sergio Leal Priere</title>
     <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="~/css/siteResultadoejer2.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer2.css">
 
 </head>
 <body>
     <header>
-            <h1>Palabras Contadas</h1>
+            <h1 class="m-2">Palabras Contadas</h1>
     </header>
-    <main>
+    <main >
         <div>
             @{
                 if (Request.Method == "POST")
                 {
+                    string frase = Request.Form["frase"], palabra = Request.Form["palabra"];
 
+                    if (palabra.Length < frase.Length)
+                    {
+                        string[] palabras = frase.Split(' ', ',', '.', '!', '?', ';', ':', '(', ')', '[', ']', '{', '}', '<', '>', '/', '\\', '|', '@', '#', '$', '%', '^', '&', '*', '-', '+', '=', '_', '`', '~');
+                        int contador = 0;
+                        for (int i = 0; i < palabras.Length; i++)
+                        {
+                            if (palabras[i].Equals(palabra))
+                            {
+                                contador++;
+                            }
+                        }
+
+                        
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="resultados ">
+                                <p>Frase: @frase</p>
+                                <p>Palabra: @palabra</p>
+                                <p>La palabra "@palabra" aparece @contador veces</p>
+                            </div>
+                        </div>
+                        
+                    }
+                    else
+                    {
+                        <p>La palabra no puede ser mayor a la frase </p>
+                    }
+
+                    <a href="/" class="btn btn-primary btn-sm m-2">Volver al Formulario</a>
                 }
                 else
                 {

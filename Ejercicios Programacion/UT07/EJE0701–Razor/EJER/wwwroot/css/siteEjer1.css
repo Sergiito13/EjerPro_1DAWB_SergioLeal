@@ -21,6 +21,15 @@ body {
     color: #007bff;
 }
 
+h1 {
+    color: #333;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    margin: 0;
+}
+
+
+
 .custom-form button {
     display: block;
     width: 100%;
@@ -33,9 +42,9 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
-    .custom-form button:hover {
-        background-color: #0056b3;
-    }
+.custom-form button:hover {
+    background-color: #0056b3;
+}
 
 .resultados {
     background-color: #f8f9fa;

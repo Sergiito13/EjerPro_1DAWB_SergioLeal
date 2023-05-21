@@ -6,12 +6,69 @@
 <html>
 <head>
     <title>Ejercio3</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer1.css">
 </head>
 <body>
     <header>
-        <h1>Ejercicio3</h1>
+        <h1>Cálculo de días</h1>
     </header>
     <main>
+
+        <div class="row">
+            <div class="col-md-6 ">
+                <form class="custom-form m-lg-1" method="post" action="">
+                    <fieldset>
+                        @if (Request.Method == "POST")
+                        {
+                            <div class="mb-3">
+                                <label for="numero1" class="form-label">Fecha:</label>
+                                <input type="date" id="fecha" name="fecha" class="form-control form-control-sm" required value="@Request.Form["numero1"]">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-sm">Calcular</button>
+                        }
+                        else
+                        {
+                             <label for="numero1" class="form-label">Fecha:</label>
+                             <input type="date" id="fecha" name="fecha" class="form-control form-control-sm" required>
+
+                            <button type="submit" class="btn btn-primary btn-sm mt-2">Calcular</button>
+                        }
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="col-md-6 mt-3">
+                @{
+                    if (Request.Method == "POST")
+                    {
+                        DateTime fechaIngresada;
+                        if (DateTime.TryParse(Request.Form["fecha"], out fechaIngresada))
+                        {
+                            DateTime fechaHoy = DateTime.Today;
+                            if (fechaIngresada <= fechaHoy)
+                            {
+                                TimeSpan diferencia = fechaIngresada - fechaHoy;
+                                <div class="resultados">
+                                <p>Días desde la fecha seleccionada hasta hoy: @(Math.Abs(diferencia.Days))</p>
+                                </div>
+                            }
+                            else
+                            {
+                                <p>Error! la fecha tiene que ser menor a la de hoy</p>
+                            }
+
+                        }
+                        else
+                        {
+                            <p>El tipo de dato tiene que ser fecha</p>
+                        }
+                    }
+                }
+
+            
+            </div>
 
     </main>
     <footer>
