@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj": {}
+    "C:\\REPO - PRO - Sergio Leal Priere\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj": {}
   },
   "projects": {
-    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj": {
+    "C:\\REPO - PRO - Sergio Leal Priere\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj",
+        "projectUniqueName": "C:\\REPO - PRO - Sergio Leal Priere\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj",
         "projectName": "EJER",
-        "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj",
-        "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-        "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\obj\\",
+        "projectPath": "C:\\REPO - PRO - Sergio Leal Priere\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\EJER.csproj",
+        "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
+        "outputPath": "C:\\REPO - PRO - Sergio Leal Priere\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
