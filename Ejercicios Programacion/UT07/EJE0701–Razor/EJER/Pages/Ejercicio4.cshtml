@@ -28,14 +28,14 @@
                                         <input type="number" id="numero1" name="numero1" class="form-control form-control-sm" required value="@Request.Form["numero1"]">
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox1" name="checkbox" value="" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox1" name="checkbox1" value="" class="form-check form-check-input mt-3">
                                     </div>
                                     <div class="col">
                                         <label for="numero2" class="form-label">Número 2:</label>
                                         <input type="number" id="numero2" name="numero2" class="form-control form-control-sm" required value="@Request.Form["numero2"]">
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox2" name="checkbox" value="" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox2" name="checkbox2" value="" class="form-check form-check-input mt-3">
                                     </div>
                                 </div>
                             </div>
@@ -47,14 +47,27 @@
                                         <input type="number" id="numero3" name="numero3" class="form-control form-control-sm" required value="@Request.Form["numero3"]">
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox3" name="checkbox" value="" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox3" name="checkbox3" value="" class="form-check form-check-input mt-3">
                                     </div>
                                     <div class="col">
                                         <label for="numero4" class="form-label">Número 4:</label>
                                         <input type="number" id="numero4" name="numero4" class="form-control form-control-sm" required value="@Request.Form["numero4"]">
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox4" name="checkbox" value="" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox4" name="checkbox4" value="" class="form-check form-check-input mt-3">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="radio" id="suma" name="operacion" value="suma" checked required>
+                                        <label for="suma">Suma</label>
+                                    </div>
+                                    <div class="col">
+                                        <input type="radio" id="multiplicacion" name="operacion" value="multiplicacion" required>
+                                        <label for="multiplicacion">Multiplicación</label>
                                     </div>
                                 </div>
                             </div>
@@ -79,14 +92,14 @@
                                         <input type="number" id="numero1" name="numero1" class="form-control form-control-sm" min="0" required>
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox1" name="checkbox" value="checkbox1" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox1" name="eleccion1" class="form-check form-check-input mt-3">
                                     </div>
                                     <div class="col">
                                         <label for="numero2" class="form-label">Número 2:</label>
                                         <input type="number" id="numero2" name="numero2" class="form-control form-control-sm" min="0" required>
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox2" name="checkbox" value="checkbox2" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox2" name="eleccion2" class="form-check form-check-input mt-3">
                                     </div>
                                 </div>
                             </div>
@@ -98,17 +111,33 @@
                                         <input type="number" id="numero3" name="numero3" class="form-control form-control-sm" min="0" required>
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox3" name="checkbox" value="checkbox3" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox3" name="eleccion3" class="form-check form-check-input mt-3">
                                     </div>
                                     <div class="col">
                                         <label for="numero4" class="form-label">Número 4:</label>
                                         <input type="number" id="numero4" name="numero4" class="form-control form-control-sm" min="0" required>
                                     </div>
                                     <div class="col">
-                                        <input type="checkbox" id="checkbox4" name="checkbox" value="checkbox4" class="form-check form-check-input mt-3">
+                                        <input type="checkbox" id="checkbox4" name="eleccion4" class="form-check form-check-input mt-3">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="radio" id="suma" name="operacion" value="suma" checked required>
+                                        <label for="suma">Suma</label>
+                                    </div>
+                                    <div class="col">
+                                        <input type="radio" id="multiplicacion" name="operacion" value="multiplicacion" required>
+                                        <label for="multiplicacion">Multiplicación</label>
                                     </div>
                                 </div>
                             </div>
+                            
+                            
 
                             <div class="mb-3">
                                 <div class="row">
@@ -123,6 +152,56 @@
                         }
                     </fieldset>
                 </form>
+            </div>
+            <div class="col-md-6">
+                @{
+                    if (Request.Method == "POST")
+                    {
+                        int numero1 = 0, numero2 = 0, numero3 = 0, numero4 = 0; ;
+                        if (Request.Form["eleccion1"] == "on")
+                        {
+                            if (!int.TryParse(Request.Form["numero1"], out numero1))
+                            {
+                                <p>Error no se pudo convertir el número en entero</p>
+                            }
+                        }
+
+                        if (Request.Form["eleccion2"] == "on")
+                        {
+                            if (!int.TryParse(Request.Form["numero2"], out numero2))
+                            {
+                                <p>Error no se pudo convertir el número en entero</p>
+                            }
+                        }
+
+                        if (Request.Form["eleccion3"] == "on")
+                        {
+                            if (!int.TryParse(Request.Form["numero3"], out numero3))
+                            {
+                                <p>Error no se pudo convertir el número en entero</p>
+                            }
+                        }
+
+                        if (Request.Form["eleccion4"] == "on")
+                        {
+                            if (!int.TryParse(Request.Form["numero4"], out numero4))
+                            {
+                                <p>Error no se pudo convertir el número en entero</p>
+                            }
+                        }
+
+                        if (Request.Form["operacion"] == "suma")
+                        {
+                            <p>La suma es de: @(numero1+numero2+numero3+numero4)</p>
+                        }else
+                        {
+                            <p>multiplicacion</p>
+                        }
+
+                        
+                    }
+             }
+    
             </div>
         </div>
 
