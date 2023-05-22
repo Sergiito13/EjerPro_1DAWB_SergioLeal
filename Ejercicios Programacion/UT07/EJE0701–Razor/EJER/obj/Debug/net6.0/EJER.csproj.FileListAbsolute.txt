@@ -51,3 +51,27 @@ C:\REPO - PRO - Sergio Leal Priere\EjerPro_1DAWB_SergioLeal\Ejercicios Programac
 C:\REPO - PRO - Sergio Leal Priere\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.pdb
 C:\REPO - PRO - Sergio Leal Priere\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.genruntimeconfig.cache
 C:\REPO - PRO - Sergio Leal Priere\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\ref\EJER.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\appsettings.Development.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\appsettings.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\EJER.staticwebassets.runtime.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\EJER.exe
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\EJER.deps.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\EJER.runtimeconfig.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\EJER.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\bin\Debug\net6.0\EJER.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.csproj.AssemblyReference.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.GeneratedMSBuildEditorConfig.editorconfig
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.AssemblyInfoInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.AssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.csproj.CoreCompileInputs.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.MvcApplicationPartsAssemblyInfo.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.RazorAssemblyInfo.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.RazorAssemblyInfo.cs
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\staticwebassets.build.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\staticwebassets.development.json
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\scopedcss\bundle\EJER.styles.css
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\refint\EJER.dll
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.pdb
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\EJER.genruntimeconfig.cache
+C:\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\obj\Debug\net6.0\ref\EJER.dll
