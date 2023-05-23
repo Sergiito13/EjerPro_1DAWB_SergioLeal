@@ -1,0 +1,82 @@
+﻿@page
+@model EJER.Pages.Ejercicio5Model
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercio3</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer1.css">
+</head>
+<body>
+    <header>
+        <h1>Tabla</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="custom-form m-lg-1" method="post" action="">
+                    <fieldset>
+                        <div class="mb-3">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <label for="fila" class="form-label">Filas:</label>
+                                    <select name="Filas" class="form-select" id="filas">
+                                        @for (int i = 1; i <= 5; i+=2)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label for="Columnas" class="form-label">Columnas:</label>
+                                    <select name="columnas" class="form-select" id="columnas">
+                                        @for (int i = 1; i <= 5; i += 2)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary btn-sm">Rellenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-6">
+                @{
+                    if (Request.Method == "POST")
+                    {
+                        int cont = 1;
+                        <table class="table table-bordered">
+                            @for (int i = 0; i < Convert.ToInt32(Request.Form["Columnas"]); i++)
+                            {
+                                <tr>
+                                    @for (int j = 0; j < Convert.ToInt32(Request.Form["Filas"]); j++)
+                                    {
+                                        <td>@(cont++)</td>
+                                    }
+                                </tr>
+                            }
+                        
+                        
+                        </table>
+                    }
+                }
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
