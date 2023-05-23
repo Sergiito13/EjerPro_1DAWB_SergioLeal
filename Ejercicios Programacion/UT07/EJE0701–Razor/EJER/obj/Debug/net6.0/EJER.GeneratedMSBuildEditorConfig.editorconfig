@@ -5,41 +5,40 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EJER
 build_property.RootNamespace = EJER
-build_property.ProjectDir = C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\
+build_property.ProjectDir = C:\Sergio Leal Priere REPO - PRO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER
+build_property.MSBuildProjectDirectory = C:\Sergio Leal Priere REPO - PRO\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT07\EJE0701–Razor\EJER
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio1.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplcmNpY2lvMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio2.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplcmNpY2lvMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio3.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplcmNpY2lvMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio4.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Ejercicio4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplcmNpY2lvNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Inicio.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Portada.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/Portada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGFkYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRO - Sergio/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/resultadoEjer2.cshtml]
+[C:/Sergio Leal Priere REPO - PRO/EjerPro_1DAWB_SergioLeal/Ejercicios Programacion/UT07/EJE0701–Razor/EJER/Pages/resultadoEjer2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVzdWx0YWRvRWplcjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

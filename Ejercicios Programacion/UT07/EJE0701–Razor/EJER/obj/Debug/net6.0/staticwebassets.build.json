@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+GVfQ91+PJRRAJtux/a0Wgs6Z1u/rYrVxvRhmZ3KaRM=",
+  "Hash": "JktmshNPeZlolWm8jQ7tU2Ay265+3NViMNhB/7rlg4w=",
   "Source": "EJER",
   "BasePath": "_content/EJER",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EJER\\wwwroot",
       "Source": "EJER",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\site.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer1.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer1.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "css/siteEjer1.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\siteEjer1.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer2.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer2.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "css/siteEjer2.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\siteEjer2.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer3.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteEjer3.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "css/siteEjer3.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\siteEjer3.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteportada.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\css\\siteportada.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "css/siteportada.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\siteportada.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\favicon.ico",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\espacio.jpg",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\espacio.jpg",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "img/espacio.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\espacio.jpg"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\Fondo.png",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\Fondo.png",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "img/Fondo.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Fondo.png"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\Sergio.jpg",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\img\\Sergio.jpg",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "img/Sergio.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Sergio.jpg"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\js\\site.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "EJER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
+      "ContentRoot": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\EJE0701–Razor\\EJER\\wwwroot\\",
       "BasePath": "_content/EJER",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
