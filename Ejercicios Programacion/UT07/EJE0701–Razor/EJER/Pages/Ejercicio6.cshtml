@@ -1,0 +1,201 @@
+﻿@page
+@model EJER.Pages.Ejercicio6Model
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer1.css">
+</head>
+<body>
+    <header>
+        <h1>Generador de contraseñas</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="custom-form m-lg-1" method="post" action="">
+                    <fieldset>
+                        <div class="mb-3">
+                            <div class="row align-items-center">
+                                @if (Request.Method == "POST" && (Request.Form["formName"] == "formulario1"))
+                                {
+                                    <div class="col">
+                                        <label for="Contenido" class="form-label">Contenido:</label>
+                                        <select name="Contenido" class="form-select" id="Contenido">
+                                            <option value="Letras">Letras</option>
+                                            <option value="LetrasNumeros">Letras y números</option>
+                                            <option value="LetrasNumerosSimbolos">Letras, números y símbolos</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <label for="Tamaño" class="form-label">Tamaño</label>
+                                        <input type="number" id="Tamaño" name="Tamaño" class="form-control form-control-sm" required min="0" value="@Request.Form["Tamaño"]">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="row mt-1">
+                                            <div class="col">
+                                                <input type="hidden" name="formName" value="formulario1" />
+                                                <button type="submit" class="btn btn-primary btn-sm">Generar</button>
+                                            </div>
+                                            <div class="col">
+                                                <button type="reset" class="btn btn-primary btn-sm">Limpiar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col">
+                                        <label for="Contenido" class="form-label">Contenido:</label>
+                                        <select name="Contenido" class="form-select" id="Contenido">
+                                            <option value="Letras">Letras</option>
+                                            <option value="LetrasNumeros">Letras y números</option>
+                                            <option value="LetrasNumerosSimbolos">Letras, números y símbolos</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <label for="Tamaño" class="form-label">Tamaño</label>
+                                        <input type="number" id="Tamaño" name="Tamaño" class="form-control form-control-sm" required min="0" value="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="row mt-1">
+                                            <div class="col">
+                                                <input type="hidden" name="formName" value="formulario1" />
+                                                <button type="submit" class="btn btn-primary btn-sm">Generar</button>
+                                            </div>
+                                            <div class="col">
+                                                <button type="reset" class="btn btn-primary btn-sm">Limpiar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-6">
+                @if (Request.Method == "POST" && (Request.Form["formName"] == "formulario1"))
+                {
+                    int tamaño = 0;
+                    bool correcto = false;
+                    string contrasena = "";
+
+                    if ((Request.Form["Contenido"] == "Letras"))
+                    {
+                        if ((int.TryParse(Request.Form["Tamaño"], out tamaño)) && (tamaño >= 14))
+                        {
+                            const string CARACTERES_PERMITIDOS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                            Random random = new Random();
+
+                            for (int i = 0; i < tamaño; i++)
+                            {
+                                int indice = random.Next(CARACTERES_PERMITIDOS.Length);
+                                contrasena += CARACTERES_PERMITIDOS[indice];
+                            }
+                            correcto = true;
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger">
+                                <p>ERROR! El tamaño de la contraseña tiene que ser numérico y mayor a 14</p>
+                            </div>
+                        }
+                    }
+                    else if (Request.Form["Contenido"] == "LetrasNumeros")
+                    {
+                        if ((int.TryParse(Request.Form["Tamaño"], out tamaño)) && (tamaño >= 12))
+                        {
+                            const string CARACTERES_PERMITIDOS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+                            Random random = new Random();
+
+                            for (int i = 0; i < tamaño; i++)
+                            {
+                                int indice = random.Next(CARACTERES_PERMITIDOS.Length);
+                                contrasena += CARACTERES_PERMITIDOS[indice];
+                            }
+                            correcto = true;
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger">
+                                <p>ERROR! El tamaño de la contraseña tiene que ser numérico y mayor a 12</p>
+                            </div>
+                        }
+                    }
+                    else if (Request.Form["Contenido"] == "LetrasNumerosSimbolos")
+                    {
+                        if ((int.TryParse(Request.Form["Tamaño"], out tamaño)) && (tamaño >= 8))
+                        {
+                            const string CARACTERES_PERMITIDOS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()";
+                            Random random = new Random();
+
+                            for (int i = 0; i < tamaño; i++)
+                            {
+                                int indice = random.Next(CARACTERES_PERMITIDOS.Length);
+                                contrasena += CARACTERES_PERMITIDOS[indice];
+                            }
+                            correcto = true;
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger">
+                                <p>ERROR! El tamaño de la contraseña tiene que ser numérico y mayor a 8</p>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="alert alert-danger">
+                            <p>Algo ha salido mal</p>
+                        </div>
+                    }
+
+                    if (correcto)
+                    {
+                        <div class="alert alert-success">
+                            <p>Contraseña generada correctamente:</p>
+                            <p>@contrasena</p>
+                        </div>
+
+                        <form class="custom-form m-lg-1" method="post" action="">
+                            <input type="hidden" name="contrasenaGenerada" value="@contrasena" />
+                            <input type="hidden" name="formName" value="formulario2" />
+
+                            <label for="ContraIntro" class="form-label">Prueba la contraseña</label>
+                            <input type="text" id="ContraIntro" name="ContraIntro" class="form-control form-control-sm" required>
+
+                            <button type="submit" class="btn btn-primary btn-sm mt-2">Validar</button>
+                        </form>
+                    }
+                }
+                else if (Request.Method == "POST" && (Request.Form["formName"] == "formulario2"))
+                {
+                    string contrasenaGenerada = Request.Form["contrasenaGenerada"];
+                    string contraIntro = Request.Form["ContraIntro"];
+
+                    if (contrasenaGenerada == contraIntro)
+                    {
+                        <div class="alert alert-success">
+                            <p>La contraseña es correcta.</p>
+                            <img src="~/img/PulgarArriba.svg" alt="Pulgar Arriba" width="100" height="100">
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-danger">
+                            <p>La contraseña es incorrecta.</p>
+                            <img src="~/img/PulgarAbajo.svg" alt="Pulgar abajo"  width="100" height="100">
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

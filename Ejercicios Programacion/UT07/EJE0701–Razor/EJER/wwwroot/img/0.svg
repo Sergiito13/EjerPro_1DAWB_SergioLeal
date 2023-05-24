@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 46.233829 64.656891" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a">
+   <stop stop-color="#a18930" offset="0"/>
+   <stop stop-color="#e3c565" offset=".66667"/>
+   <stop stop-color="#fffbcc" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="32.232" x2="41.601" y1="52.825" y2="65.947" gradientUnits="userSpaceOnUse" xlink:href="#a" spreadMethod="reflect"/>
+  <linearGradient id="b" x1="44.906" x2="51.25" y1="38.795" y2="47.564" gradientUnits="userSpaceOnUse" xlink:href="#a" spreadMethod="reflect"/>
+ </defs>
+ <g transform="translate(-461.33 -345.48)">
+  <path d="m484.32 346.48c7.1197 6e-5 12.668 2.9959 16.644 8.9875 3.7373 5.6965 5.6059 13.143 5.606 22.34s-1.8687 16.613-5.606 22.25c-3.9764 6.0532-9.5244 9.0798-16.644 9.0798-7.002 0-12.52-3.2638-16.554-9.7914-3.6196-5.8142-5.4294-12.994-5.4294-21.538 0-9.6112 1.884-17.235 5.6521-22.872s9.212-8.455 16.332-8.4551zm0.08963 13.083c-2.6708 4e-5 -4.644 1.3943-5.9197 4.1827s-1.9135 7.4756-1.9135 14.061c-2e-5 5.0447 0.32682 8.8127 0.9805 11.304 1.186 4.6282 3.4702 6.9423 6.8526 6.9423 3.5001 1e-5 5.8431-2.3141 7.0292-6.9423 0.59389-2.3738 0.89084-6.1419 0.89087-11.304-3e-5 -4.5086-0.38571-8.217-1.157-11.125-1.2458-4.7458-3.5001-7.1188-6.763-7.1188z" fill="url(#c)" stroke="url(#b)" stroke-width="2"/>
+ </g>
+</svg>

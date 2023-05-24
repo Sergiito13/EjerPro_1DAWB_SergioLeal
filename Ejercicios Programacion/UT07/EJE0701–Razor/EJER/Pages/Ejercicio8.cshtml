@@ -1,0 +1,86 @@
+﻿@page
+@model EJER.Pages.Ejercicio8Model
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/siteEjer1.css">
+</head>
+<body>
+    <header>
+        <h1>Numero a Imagenes</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-md-6 ">
+                <form class="custom-form m-lg-1" method="post">
+                    <fieldset>
+                        @if (Request.Method == "POST")
+                        {
+                            <div class="mb-3">
+                                <label for="numero" class="form-label">Número a imaginar:</label>
+                                <input type="number" id="numero" name="numero" class="form-control form-control-sm" required min="0" value="@Request.Form["numero"]">
+                            </div>
+
+                            
+
+                            <button type="submit" class="btn btn-primary btn-sm">Convertir</button>
+                        }
+                        else
+                        {
+                            <div class="mb-3">
+                                <label for="numero" class="form-label">Número a imaginar::</label>
+                                <input type="number" id="numero" name="numero" class="form-control form-control-sm" required min="0">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-sm">Convertir</button>
+                        }
+                    </fieldset>
+                </form>
+            </div>
+
+            
+                @if (Request.Method == "POST")
+                {
+                    int number = 0;
+                    if (int.TryParse(Request.Form["numero"], out number))
+                    {
+                        if (number >= 0)
+                        {
+                            string numero = Convert.ToString(number);
+                            List<string> numerosSeparados = new List<string>();
+
+                            for (int i = 0; i < numero.Length; i++)
+                            {
+                                numerosSeparados.Add(Convert.ToString(numero[i]));
+                            }
+
+                            
+                            <div class="mt-1">
+                                @foreach(string numero1 in numerosSeparados)
+                                {
+                                    <img src="~/img/@(numero1).svg" alt="Pulgar abajo" width="100" height="100">
+                                }
+
+                            </div>
+                           
+                        }
+                        else
+                        {
+                            <p>Error ! Los numeros tienen que ser positivos</p>
+                        }
+                    }
+                    else
+                    {
+                        <p>Error! Los datos tienen que ser de tipo númerico. Intentelo de nuevo</p>
+                    }
+                }
+        </div>
+        </div>
+
+    </main>
+</body>
+</html>

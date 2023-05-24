@@ -42,15 +42,8 @@ iframe {
     height: 400px;
 }
 
-.menu {
-    margin-top: 10px; 
-
-}
-
-
 .menu .nav-link {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     color:#0173D6;
