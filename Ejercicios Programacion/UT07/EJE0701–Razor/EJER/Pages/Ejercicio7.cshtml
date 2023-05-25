@@ -14,6 +14,54 @@
         <h1>Números</h1>
     </header>
     <main>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="custom-form m-lg-1" method="post" action="">
+                    <fieldset>
+                        <div class="mb-3">
+                            <div class="row align-items-center">
+                                @if (Request.Method == "POST" && (Request.Form["formName"] == "formulario1"))
+                                {
+                                    <div class="col">
+                                        <label for="Contenido" class="form-label">Introduce el número siguiente:</label>
+                                        <input type="number" id="numero" name="numero" class="form-control form-control-sm" required min="0" value="@Request.Form["numero"]">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="row mt-1">
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-primary btn-sm">Introducir</button>
+                                            </div>
+                                            <p>Introducir el cero para finalizar.</p>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col">
+                                        <label for="Contenido" class="form-label">Introduce el número siguiente:</label>
+                                        <input type="number" id="numero" name="numero" class="form-control form-control-sm" required min="0">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="row mt-1">
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-primary btn-sm">Introducir</button>
+                                            </div>
+                                            <p>Introducir el cero para finalizar.</p>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div>
+                                @{
+                                    if ((Request.Method == "POST") && (Request.Form["numero"] != 0))
+                                    {
 
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
     </main>
 </body>
