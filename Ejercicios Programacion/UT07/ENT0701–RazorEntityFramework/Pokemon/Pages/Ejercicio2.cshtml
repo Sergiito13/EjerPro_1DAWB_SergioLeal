@@ -1,0 +1,60 @@
+﻿@page
+@model Pokemon.Pages.Ejercicio2Model
+@{
+}
+<div class="container">
+    <div class="custom-form">
+        <h2>Ingrese una fecha</h2>
+        <form method="post" action="">
+            <div class="form-group">
+                <label for="fecha">Fecha:</label>
+                <input type="date" class="form-control" id="fecha" name="fecha" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+        </form>
+    </div>
+
+    @{
+        if (Request.Method == "POST")
+        {
+            DateTime fechaUsu;
+            if (DateTime.TryParse(Request.Form["fecha"], out fechaUsu))
+            {
+                List<string> eventos = (from Evento in Model.Datos.Eventos where Evento.Fecha <= fechaUsu select Evento.Nombre).ToList();
+
+                int TamañoEventosPagina = 3;
+                int paginaActual = 1;
+                paginaActual = Convert.ToInt32(Request.Query["pagina"]);
+
+                decimal totalPaginas = Math.Ceiling(Convert.ToDecimal(eventos.Count) / Convert.ToDecimal(TamañoEventosPagina));
+
+
+
+                <div class="Flechas">
+                    @if (paginaActual > 1)
+                    {
+                        <a href="?pagina=@(paginaActual - 1)">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                            </svg></a>
+                    }
+
+                    @if (paginaActual < totalPaginas)
+                    {
+                        <a href="?pagina=@(paginaActual + 1)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                        </a>
+                    }
+                </div>
+
+            }
+            else
+            {
+                <div class="alert alert-danger p-4 mt-2"> Error: el dato válido es una fecha </div>
+            }
+
+        }
+    }

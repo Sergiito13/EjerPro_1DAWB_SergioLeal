@@ -1,0 +1,296 @@
+﻿@page
+@model Pokemon.Pages.Ejercicio1Model
+@{
+    ViewData["Title"] = "Ejercicio1";
+}
+<div class="container">
+    <form method="post" action="">
+        <h2 class="text-center">Buscar Pokémon por Generaciones y Tipo</h2>
+
+        <div class="row">
+            <div class="col">
+                <h3>Generaciones:</h3>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox1" name="checkbox1">
+                    <label class="form-check-label" for="checkbox1">1º Generación</label>
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox2" name="checkbox2">
+                    <label class="form-check-label" for="checkbox2">2º Generación</label>
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox3" name="checkbox3">
+                    <label class="form-check-label" for="checkbox3">3º Generación</label>
+                </div>
+            </div>
+
+            <div class="col">
+                <h3>Tipos:</h3>
+                <div class="form-group form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="Tipos" value="planta" required checked>
+                    <label class="form-check-label" for="radio1">Planta</label>
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="Tipos" value="fuego" required>
+                    <label class="form-check-label" for="radio2">Fuego</label>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+@if (Request.Method == "POST")
+{
+    string tipoSeleccionado = Request.Form["Tipos"];
+
+    <table class="mt-2">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Generación</th>
+                <th>Tipo 1</th>
+                <th>Tipo 2</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Request.Form["checkbox1"] == "on")
+            {
+                if (Request.Form["checkbox2"] == "on")
+                {
+                    if (Request.Form["checkbox3"] == "on")
+                    {
+                        // Mostrar opciones para generación 1, 2 y 3
+                        var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                           join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                           join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                           join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                           from tipo2 in tipo2Join.DefaultIfEmpty()
+                                           where (generacion.Id <= 3) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                           select new
+                                           {
+                                               pokemon.Nombre,
+                                               Generacion = generacion.Nombre,
+                                               Tipo1 = tipo1.Nombre,
+                                               Tipo2 = tipo2.Nombre,
+                                               pokemon.Imagen
+                                           };
+
+                        foreach (var pokemon in pokemonQuery)
+                        {
+                            <tr>
+                                <td>@pokemon.Nombre</td>
+                                <td>@pokemon.Generacion</td>
+                                <td>@pokemon.Tipo1</td>
+                                <td>@pokemon.Tipo2</td>
+                                <td>
+                                    <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        // Mostrar opciones para generación 1 y 2
+                        var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                           join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                           join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                           join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                           from tipo2 in tipo2Join.DefaultIfEmpty()
+                                           where (generacion.Id == 1 || generacion.Id == 2) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                           select new
+                                           {
+                                               pokemon.Nombre,
+                                               Generacion = generacion.Nombre,
+                                               Tipo1 = tipo1.Nombre,
+                                               Tipo2 = tipo2.Nombre,
+                                               pokemon.Imagen
+                                           };
+
+                        foreach (var pokemon in pokemonQuery)
+                        {
+                            <tr>
+                                <td>@pokemon.Nombre</td>
+                                <td>@pokemon.Generacion</td>
+                                <td>@pokemon.Tipo1</td>
+                                <td>@pokemon.Tipo2</td>
+                                <td>
+                                    <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                }
+                else if (Request.Form["checkbox3"] == "on")
+                {
+                    // Mostrar opciones para generación 1 y 3
+                    var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                       join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                       join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                       join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                       from tipo2 in tipo2Join.DefaultIfEmpty()
+                                       where (generacion.Id == 1 || generacion.Id == 3) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                       select new
+                                       {
+                                           pokemon.Nombre,
+                                           Generacion = generacion.Nombre,
+                                           Tipo1 = tipo1.Nombre,
+                                           Tipo2 = tipo2.Nombre,
+                                           pokemon.Imagen
+                                       };
+
+                    foreach (var pokemon in pokemonQuery)
+                    {
+                        <tr>
+                            <td>@pokemon.Nombre</td>
+                            <td>@pokemon.Generacion</td>
+                            <td>@pokemon.Tipo1</td>
+                            <td>@pokemon.Tipo2</td>
+                            <td>
+                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    // Mostrar opciones solo para generación 1
+                        var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                           join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                           join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                           join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                           from tipo2 in tipo2Join.DefaultIfEmpty()
+                                           where (generacion.Id == 1) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                           select new
+                                           {
+                                               pokemon.Nombre,
+                                               Generacion = generacion.Nombre,
+                                               Tipo1 = tipo1.Nombre,
+                                               Tipo2 = tipo2.Nombre,
+                                               pokemon.Imagen
+                                           };
+
+                        foreach (var pokemon in pokemonQuery)
+                        {
+                            <tr>
+                                <td>@pokemon.Nombre</td>
+                                <td>@pokemon.Generacion</td>
+                                <td>@pokemon.Tipo1</td>
+                                <td>@pokemon.Tipo2</td>
+                                <td>
+                                    <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                </td>
+                            </tr>
+                        }
+                }
+            }
+            else if (Request.Form["checkbox2"] == "on")
+            {
+                if (Request.Form["checkbox3"] == "on")
+                {
+                    // Mostrar opciones para generación 2 y 3
+                    var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                       join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                       join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                       join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                       from tipo2 in tipo2Join.DefaultIfEmpty()
+                                       where (generacion.Id == 2 || generacion.Id == 3) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                       select new
+                                       {
+                                           pokemon.Nombre,
+                                           Generacion = generacion.Nombre,
+                                           Tipo1 = tipo1.Nombre,
+                                           Tipo2 = tipo2.Nombre,
+                                           pokemon.Imagen
+                                       };
+
+                    foreach (var pokemon in pokemonQuery)
+                    {
+                        <tr>
+                            <td>@pokemon.Nombre</td>
+                            <td>@pokemon.Generacion</td>
+                            <td>@pokemon.Tipo1</td>
+                            <td>@pokemon.Tipo2</td>
+                            <td>
+                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    // Mostrar opciones solo para generación 2
+                    var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                       join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                       join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                       join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                       from tipo2 in tipo2Join.DefaultIfEmpty()
+                                       where (generacion.Id == 2) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                       select new
+                                       {
+                                           pokemon.Nombre,
+                                           Generacion = generacion.Nombre,
+                                           Tipo1 = tipo1.Nombre,
+                                           Tipo2 = tipo2.Nombre,
+                                           pokemon.Imagen
+                                       };
+
+                    foreach (var pokemon in pokemonQuery)
+                    {
+                        <tr>
+                            <td>@pokemon.Nombre</td>
+                            <td>@pokemon.Generacion</td>
+                            <td>@pokemon.Tipo1</td>
+                            <td>@pokemon.Tipo2</td>
+                            <td>
+                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                            </td>
+                        </tr>
+                    }
+                }
+            }
+            else if (Request.Form["checkbox3"] == "on")
+            {
+                // Mostrar opciones solo para generación 3
+                var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                                   join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                                   join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                                   join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                                   from tipo2 in tipo2Join.DefaultIfEmpty()
+                                   where (generacion.Id == 3) && (tipo1.Nombre == tipoSeleccionado || tipo2.Nombre == tipoSeleccionado)
+                                   select new
+                                   {
+                                       pokemon.Nombre,
+                                       Generacion = generacion.Nombre,
+                                       Tipo1 = tipo1.Nombre,
+                                       Tipo2 = tipo2.Nombre,
+                                       pokemon.Imagen
+                                   };
+
+                foreach (var pokemon in pokemonQuery)
+                {
+                    <tr>
+                        <td>@pokemon.Nombre</td>
+                        <td>@pokemon.Generacion</td>
+                        <td>@pokemon.Tipo1</td>
+                        <td>@pokemon.Tipo2</td>
+                        <td>
+                            <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+            // No se ha seleccionado ninguna opción
+                <div class="alert-danger p-4 mt-2"> Error tienes que seleccionar una generación </div>
+            }
+           
+        </tbody>
+    </table>
+}

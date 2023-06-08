@@ -1,11 +1,4 @@
-﻿ using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
-
-namespace ejerbiblioteca
+﻿namespace ejerbiblioteca
 {
     internal class Libro
     {
@@ -19,7 +12,7 @@ namespace ejerbiblioteca
 
         // CONSTRUCTOR
 
-        public Libro(string titulo,string autor,int numeroPaginas)
+        public Libro(string titulo, string autor, int numeroPaginas)
         {
             this.ID = GenerateId();
             SetTitulo(titulo);
@@ -136,7 +129,7 @@ namespace ejerbiblioteca
         {
             int nPaginas = 0;
             Console.WriteLine("Introduce el número de páginas del libro");
-            while (!int.TryParse(Console.ReadLine(),out nPaginas) || (nPaginas < 0))
+            while (!int.TryParse(Console.ReadLine(), out nPaginas) || (nPaginas < 0))
             {
                 Console.WriteLine("El número de páginas no es válido");
             }

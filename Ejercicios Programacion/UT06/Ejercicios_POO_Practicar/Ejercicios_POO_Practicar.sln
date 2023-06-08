@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EJER-BIBLIOTECA", "EJER-BIB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EJER-BIBLIOTECA 2.0", "EJER-BIBLIOTECA 2.0\EJER-BIBLIOTECA 2.0.csproj", "{1A2B2BDA-EA89-441F-983F-B419EC1924A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaOnline", "TiendaOnline\TiendaOnline.csproj", "{3A922CAB-34CF-405E-8840-55FE2A5F91B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaOnline", "TiendaOnline\TiendaOnline.csproj", "{3A922CAB-34CF-405E-8840-55FE2A5F91B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenPOO-Repaso", "ExamenPOO-Repaso\ExamenPOO-Repaso.csproj", "{573734B1-EF33-440A-8174-4A2F26B47F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenPOO-Repaso", "ExamenPOO-Repaso\ExamenPOO-Repaso.csproj", "{573734B1-EF33-440A-8174-4A2F26B47F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juego Pokemon", "Juego Pokemon\Juego Pokemon.csproj", "{F6EB8500-A79D-40FE-8E5F-270ADC5B26BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPokemon", "AppPokemon\AppPokemon.csproj", "{BCBC83A1-A98E-46CE-ABCD-3EC37EF93595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{573734B1-EF33-440A-8174-4A2F26B47F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{573734B1-EF33-440A-8174-4A2F26B47F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{573734B1-EF33-440A-8174-4A2F26B47F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EB8500-A79D-40FE-8E5F-270ADC5B26BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EB8500-A79D-40FE-8E5F-270ADC5B26BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EB8500-A79D-40FE-8E5F-270ADC5B26BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EB8500-A79D-40FE-8E5F-270ADC5B26BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBC83A1-A98E-46CE-ABCD-3EC37EF93595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBC83A1-A98E-46CE-ABCD-3EC37EF93595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBC83A1-A98E-46CE-ABCD-3EC37EF93595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBC83A1-A98E-46CE-ABCD-3EC37EF93595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

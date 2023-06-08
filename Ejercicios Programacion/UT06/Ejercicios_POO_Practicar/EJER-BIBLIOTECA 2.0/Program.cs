@@ -1,5 +1,4 @@
-﻿using System;
-using static biblio.Libro;
+﻿using static biblio.Libro;
 
 namespace biblio
 {
@@ -12,8 +11,8 @@ namespace biblio
 
             // Crear libros
             Libro libro1 = new Libro("Cien años de soledad", "Gabriel García Márquez", "9780307474728", GENERO.Novela, 399);
-            Libro libro2 = new Libro("1984", "George Orwell", "9780451524935", GENERO.Cienciaficción,523);
-            Libro libro3 = new Libro("El Principito", "Antoine de Saint-Exupéry", "9780156012195", GENERO.Literaturainfantil,255);
+            Libro libro2 = new Libro("1984", "George Orwell", "9780451524935", GENERO.Cienciaficción, 523);
+            Libro libro3 = new Libro("El Principito", "Antoine de Saint-Exupéry", "9780156012195", GENERO.Literaturainfantil, 255);
 
             // Agregar libros a la biblioteca
             biblioteca.AgregarLibro(libro1);
@@ -68,7 +67,7 @@ namespace biblio
                         {
 
                         }
-                        break ;
+                        break;
                     case 5:
                         // Salir
                         salir = true;

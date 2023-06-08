@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace examentienda
+﻿namespace examentienda
 {
     internal class Juego
     {
@@ -50,7 +43,7 @@ namespace examentienda
                 this.nombre = "Algo ha salido mal";
             }
         }
-        public void SetPrecio(decimal precio) 
+        public void SetPrecio(decimal precio)
         {
             if (precio > 0)
             {
@@ -81,12 +74,20 @@ namespace examentienda
         public static int PedirCodigoUsu()
         {
             int codigo = 0;
+            bool correcto = false;
+
             Console.WriteLine("Dime tu código usuario");
-            while (!int.TryParse(Console.ReadLine(), out codigo) && (codigo <= 100))
+            while (!(int.TryParse(Console.ReadLine(), out codigo) && (codigo >= 100) && (codigo <= 999)))
             {
                 Console.WriteLine("Error! El código introducido no es válido");
             }
             return codigo;
         }
+        public void CambiarCodigo0()
+        {
+            code = 0;
+        }
+
+
     }
 }

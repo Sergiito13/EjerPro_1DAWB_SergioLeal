@@ -1,0 +1,873 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imagenes\\fondo.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imagenes\\fondo.png",
+      "PackagePath": "staticwebassets\\imagenes\\fondo.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imagenes\\logo.png",
+      "PackagePath": "staticwebassets\\imagenes\\logo.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\001.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\001.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\002.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\002.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\003.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\003.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\004.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\004.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\005.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\005.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\006.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\006.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\007.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\007.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\008.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\008.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\009.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\009.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\010.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\010.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\011.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\011.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\012.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\012.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\013.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\013.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\014.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\014.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\015.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\015.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\016.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\016.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\017.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\017.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\018.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\018.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\019.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\019.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\020.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\020.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\021.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\021.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\022.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\022.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\023.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\023.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\024.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\024.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\025.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\025.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\026.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\026.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\027.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\027.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\028.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\028.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\029.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\029.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\030.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\030.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\031.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\031.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\032.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\032.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\033.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\033.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\034.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\034.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\035.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\035.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\036.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\036.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\037.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\037.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\038.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\038.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\039.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\039.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\040.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\040.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\041.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\041.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\042.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\042.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\043.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\043.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\044.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\044.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\045.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\045.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\046.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\046.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\047.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\047.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\048.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\048.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\049.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\049.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\050.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\050.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\051.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\051.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\052.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\052.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\053.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\053.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\054.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\054.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\055.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\055.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\056.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\056.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\057.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\057.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\058.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\058.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\059.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\059.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\060.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\060.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\061.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\061.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\062.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\062.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\063.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\063.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\064.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\064.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\065.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\065.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\066.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\066.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\067.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\067.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\068.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\068.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\069.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\069.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\070.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\070.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\071.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\071.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\072.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\072.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\073.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\073.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\074.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\074.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\075.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\075.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\076.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\076.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\077.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\077.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\078.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\078.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\079.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\079.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\080.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\080.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\081.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\081.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\082.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\082.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\083.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\083.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\084.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\084.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\085.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\085.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\086.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\086.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\087.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\087.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\088.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\088.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\089.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\089.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\090.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\090.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\091.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\091.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\092.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\092.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\093.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\093.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\094.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\094.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\095.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\095.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\096.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\096.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\097.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\097.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\098.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\098.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\099.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\099.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\100.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\100.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\101.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\101.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\102.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\102.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\103.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\103.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\104.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\104.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\105.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\105.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\106.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\106.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\107.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\107.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\108.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\108.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\109.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\109.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\110.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\110.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\111.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\111.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\112.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\112.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\113.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\113.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\114.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\114.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\115.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\115.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\116.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\116.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\117.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\117.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\118.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\118.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\119.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\119.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\120.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\120.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\121.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\121.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\122.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\122.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\123.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\123.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\124.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\124.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\125.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\125.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\126.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\126.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\127.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\127.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\128.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\128.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\129.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\129.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\130.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\130.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\131.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\131.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\132.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\132.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\133.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\133.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\134.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\134.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\135.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\135.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\136.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\136.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\137.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\137.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\138.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\138.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\139.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\139.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\140.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\140.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\141.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\141.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\142.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\142.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\143.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\143.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\144.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\144.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\145.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\145.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\146.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\146.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\147.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\147.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\148.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\148.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\149.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\149.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\imgpokemon\\150.png",
+      "PackagePath": "staticwebassets\\imgpokemon\\150.png"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Pokemon.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Pokemon.props",
+      "PackagePath": "build\\Pokemon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Pokemon.props",
+      "PackagePath": "buildMultiTargeting\\Pokemon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Pokemon.props",
+      "PackagePath": "buildTransitive\\Pokemon.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

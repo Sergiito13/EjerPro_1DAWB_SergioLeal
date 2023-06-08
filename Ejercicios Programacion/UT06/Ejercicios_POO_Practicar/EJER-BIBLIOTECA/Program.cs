@@ -1,8 +1,4 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-using System.Collections.Generic;
-
-namespace ejerbiblioteca
+﻿namespace ejerbiblioteca
 {
     class Program
     {
@@ -40,9 +36,9 @@ namespace ejerbiblioteca
 
                             if (!Funciones.PedirRespuestaSeguir())
                                 salirOpcion = true;
-                            
+
                         } while (!salirOpcion);
-                        
+
                         break;
                     case 2:
                         Console.WriteLine("Opción 2 seleccionada");
@@ -96,6 +92,6 @@ namespace ejerbiblioteca
 
         }
 
-        
+
     }
 }

@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace examentienda
+﻿namespace examentienda
 {
     internal class Funciones
     {
-        
+
         public static void MostrarMenu()
         {
             Console.WriteLine("Eliga una de las siguientes opciones");

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace examentienda
+﻿namespace examentienda
 {
     internal class Tienda
     {
@@ -22,13 +16,15 @@ namespace examentienda
         {
             juegosAlquilados = new List<Juego>();
             juegosAlquilados = new List<Juego>();
+            HistoricoJuegos = new List<Juego>();
         }
         public Tienda(string encargado, string telefono)
         {
             setEncargado(encargado);
             SetTelefono(telefono);
-            juegosAlquilados= new List<Juego>();
             juegosAlquilados = new List<Juego>();
+            juegosAlquilados = new List<Juego>();
+            HistoricoJuegos = new List<Juego>();
         }
 
         // GETTERS Y SETTERS
@@ -60,7 +56,7 @@ namespace examentienda
                 this.telefono = "000000000";
             }
 
-           
+
 
         }
         public string GetTelefono()
@@ -114,13 +110,97 @@ namespace examentienda
             return telefonoEncargado;
         }
 
-        public void AñadirJuegosAlquilados(Juego juegos)
+        public void AñadirJuegosAlquilados(Juego juego)
         {
-            juegosAlquilados.Add(juegos);
+            juegosAlquilados.Add(juego);
+        }
+        public void AñadirJuegosDisponible(Juego juego)
+        {
+            juegosDisponibles.Add(juego);
+        }
+
+        public void DevolverJuego(Juego juego)
+        {
+            juegosAlquilados.Remove(juego);
+        }
+        public void AñadirJuegosHistorico(Juego juego)
+        {
+            HistoricoJuegos.Add(juego);
         }
         public void AñadirTodosLosJuegosdisponibles(List<Juego> juegos)
         {
             this.juegosDisponibles = juegos;
+        }
+        public Juego obtenereljuegoElegido(int eleccion)
+        {
+            return juegosDisponibles[eleccion];
+        }
+
+        public void AlquilarJuegoDisponible(Juego juego)
+        {
+            juegosDisponibles.Remove(juego);
+        }
+
+        public string MostrarJuegosDisponibles()
+        {
+            int contador = 0;
+            string juegosDisponibles1 = "JUEGOS DISPONIBLES: \n";
+            this.juegosDisponibles.ForEach(juegodisponible => juegosDisponibles1 += $"{contador++}.- {juegodisponible.ToString()}\n");
+            return juegosDisponibles1;
+        }
+
+        public string DevolverCodigo()
+        {
+            string resultadoJuegosAlquilados = "LOS USUARIOS QUE TIENEN LIBRO ALQUILADOS SON: \n";
+
+            this.juegosAlquilados.ForEach(codigoUsu => resultadoJuegosAlquilados += $"Codigo: {codigoUsu.GetCode()}\n");
+            return resultadoJuegosAlquilados;
+        }
+
+        public Juego ComprobarCodigoLibro(int codigo)
+        {
+            Juego JuegoSeleccionado = juegosAlquilados.Find(juego => juego.GetCode() == codigo);
+            return JuegoSeleccionado;
+        }
+
+        public static int PedirNumeroJuegoDisponible()
+        {
+            int EleccionJuegoDisponible = 0;
+            Console.WriteLine("");
+            Console.WriteLine("Elige el juego que quieras alquilar:");
+            while (!(int.TryParse(Console.ReadLine(), out EleccionJuegoDisponible) && (EleccionJuegoDisponible >= 0)))
+            {
+                Console.WriteLine("Error! Intentelo de nuevo");
+            }
+            return EleccionJuegoDisponible;
+        }
+        public bool EleccionExiste(int eleccionUsu)
+        {
+            bool eleccionCorrecta = false;
+
+            if ((eleccionUsu >= 0) && (eleccionUsu <= this.juegosDisponibles.Count - 1))
+                eleccionCorrecta = true;
+
+            return eleccionCorrecta;
+        }
+        public bool BuscarSiExisteCoigoUsuario(int codUsu)
+        {
+            bool CodExiste = false;
+            this.juegosAlquilados.ForEach(juegoAlquilado =>
+            {
+                if (codUsu == juegoAlquilado.GetCode())
+                {
+                    CodExiste = true;
+                }
+            });
+            return CodExiste;
+        }
+
+        public string MostrarHistorico()
+        {
+            string Historcio = "HISTORICO DE ALQUILERES: \n";
+            this.HistoricoJuegos.ForEach(juegohistorico => Historcio += $"{juegohistorico.ToString()}\n");
+            return Historcio;
         }
     }
 }

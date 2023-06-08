@@ -1,13 +1,12 @@
-﻿using System;
-namespace tiendaonline
+﻿namespace tiendaonline
 {
-	class Program
-	{
-		public static void Main(string[] agrs)
-		{
-			// Creamos la instancia de la tienda
-			List<Carrito> carritocompra = new List<Carrito>();
-			Tienda tienda = new Tienda("Tiendita", carritocompra);
+    class Program
+    {
+        public static void Main(string[] agrs)
+        {
+            // Creamos la instancia de la tienda
+            List<Carrito> carritocompra = new List<Carrito>();
+            Tienda tienda = new Tienda("Tiendita", carritocompra);
 
             List<Cliente> clientes = new List<Cliente>();
             clientes.Add(new Cliente("Ana García", "ana@example.com"));
@@ -18,7 +17,7 @@ namespace tiendaonline
             productos.Add(new Producto("Laptop HP", 1499.99m, 8));
             productos.Add(new Producto("Smartphone Samsung Galaxy S21", 999.99m, 12));
             productos.Add(new Producto("Tablet Apple iPad Air", 649.99m, 5));
-            
+
             List<Carrito> ordenes = new List<Carrito>();
 
             /*clientes.ForEach(cliente => Console.WriteLine(cliente.ToString()));
@@ -77,16 +76,16 @@ namespace tiendaonline
 
                         break;
                     case 4:
-                        
+
                         productos.ForEach(producto => Console.WriteLine(producto.ToString()));
 
                         break;
                     case 5:
 
-                        
+
                         break;
                     case 6:
-                        
+
                         break;
                     case 7:
                         salir = true;
@@ -100,7 +99,7 @@ namespace tiendaonline
                 Console.WriteLine();
             }
 
-            
+
         }
-	}
+    }
 }

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.menu {
+    font-family: 'Press Start 2P';
+    font-size:12px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pokemontable {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.custom-form {
+    margin: 20px auto;
+    max-width: 400px;
+}

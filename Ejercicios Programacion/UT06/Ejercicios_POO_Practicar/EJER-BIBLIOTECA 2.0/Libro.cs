@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace biblio
+﻿namespace biblio
 {
     internal class Libro
     {
@@ -14,7 +8,7 @@ namespace biblio
         private string ISBN { get; set; }
         private GENERO Genero { get; set; }
         private int NumeroPaginas { get; set; }
-        private List<Prestamo> CantidadPrestamos {get; set;}
+        private List<Prestamo> CantidadPrestamos { get; set; }
 
         // CONSTRUCTORES
         public Libro()
@@ -84,7 +78,7 @@ namespace biblio
             {
                 this.Genero = Genero;
             }
-            
+
         }
 
         public GENERO GetGenero()

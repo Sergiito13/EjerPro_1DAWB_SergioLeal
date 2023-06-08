@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace biblio { 
+﻿namespace biblio
+{
     internal class Biblioteca
     {
         // ATRIBUTOS
-        private List<Usuario> usuarios { get; set;}
+        private List<Usuario> usuarios { get; set; }
 
-        private List<Libro> Libros { get; set;}
+        private List<Libro> Libros { get; set; }
 
         // CONSTRUCTORES
         public Biblioteca()

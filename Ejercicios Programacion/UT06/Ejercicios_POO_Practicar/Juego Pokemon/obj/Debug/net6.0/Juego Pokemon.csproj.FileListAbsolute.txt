@@ -1,0 +1,15 @@
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.csproj.AssemblyReference.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.AssemblyInfoInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.AssemblyInfo.cs
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.csproj.CoreCompileInputs.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\bin\Debug\net6.0\Juego Pokemon.exe
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\bin\Debug\net6.0\Juego Pokemon.deps.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\bin\Debug\net6.0\Juego Pokemon.runtimeconfig.json
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\bin\Debug\net6.0\Juego Pokemon.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\bin\Debug\net6.0\Juego Pokemon.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\refint\Juego Pokemon.dll
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.pdb
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\Juego Pokemon.genruntimeconfig.cache
+C:\PRO - Sergio\EjerPro_1DAWB_SergioLeal\Ejercicios Programacion\UT06\Ejercicios_POO_Practicar\Juego Pokemon\obj\Debug\net6.0\ref\Juego Pokemon.dll

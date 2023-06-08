@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace tiendaonline
+﻿namespace tiendaonline
 {
     internal class Tienda
     {
         // ATRIBUTOS
         private string Nombre { get; set; }
-        private List<Carrito> historico { get; set;}
+        private List<Carrito> historico { get; set; }
 
         // CONSTRUCTORES
         public Tienda()

@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace biblio
+﻿namespace biblio
 {
     internal class Historial
     {
         // ATRIBUTOS
         private List<Prestamo> HistoricoPrestamos { get; set; }
-    
+
         // CONSTRUCTOR
         public Historial()
         {
@@ -34,5 +28,5 @@ namespace biblio
             }
         }
     }
-    
+
 }

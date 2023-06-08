@@ -1,0 +1,187 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\NewFolder1\**" />
+    <Content Remove="wwwroot\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
+    <None Remove="wwwroot\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Ejercicio1cshtml.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Ejercicio1cshtml.cshtml" />
+    <Content Remove="wwwroot\imagenes\meowth.png" />
+    <Content Remove="wwwroot\imagenes\pikachu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\Shared\_Layout.cshtml.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\imgpokemon\001.png" />
+    <None Include="wwwroot\imgpokemon\002.png" />
+    <None Include="wwwroot\imgpokemon\003.png" />
+    <None Include="wwwroot\imgpokemon\004.png" />
+    <None Include="wwwroot\imgpokemon\005.png" />
+    <None Include="wwwroot\imgpokemon\006.png" />
+    <None Include="wwwroot\imgpokemon\007.png" />
+    <None Include="wwwroot\imgpokemon\008.png" />
+    <None Include="wwwroot\imgpokemon\009.png" />
+    <None Include="wwwroot\imgpokemon\010.png" />
+    <None Include="wwwroot\imgpokemon\011.png" />
+    <None Include="wwwroot\imgpokemon\012.png" />
+    <None Include="wwwroot\imgpokemon\013.png" />
+    <None Include="wwwroot\imgpokemon\014.png" />
+    <None Include="wwwroot\imgpokemon\015.png" />
+    <None Include="wwwroot\imgpokemon\016.png" />
+    <None Include="wwwroot\imgpokemon\017.png" />
+    <None Include="wwwroot\imgpokemon\018.png" />
+    <None Include="wwwroot\imgpokemon\019.png" />
+    <None Include="wwwroot\imgpokemon\020.png" />
+    <None Include="wwwroot\imgpokemon\021.png" />
+    <None Include="wwwroot\imgpokemon\022.png" />
+    <None Include="wwwroot\imgpokemon\023.png" />
+    <None Include="wwwroot\imgpokemon\024.png" />
+    <None Include="wwwroot\imgpokemon\025.png" />
+    <None Include="wwwroot\imgpokemon\026.png" />
+    <None Include="wwwroot\imgpokemon\027.png" />
+    <None Include="wwwroot\imgpokemon\028.png" />
+    <None Include="wwwroot\imgpokemon\029.png" />
+    <None Include="wwwroot\imgpokemon\030.png" />
+    <None Include="wwwroot\imgpokemon\031.png" />
+    <None Include="wwwroot\imgpokemon\032.png" />
+    <None Include="wwwroot\imgpokemon\033.png" />
+    <None Include="wwwroot\imgpokemon\034.png" />
+    <None Include="wwwroot\imgpokemon\035.png" />
+    <None Include="wwwroot\imgpokemon\036.png" />
+    <None Include="wwwroot\imgpokemon\037.png" />
+    <None Include="wwwroot\imgpokemon\038.png" />
+    <None Include="wwwroot\imgpokemon\039.png" />
+    <None Include="wwwroot\imgpokemon\040.png" />
+    <None Include="wwwroot\imgpokemon\041.png" />
+    <None Include="wwwroot\imgpokemon\042.png" />
+    <None Include="wwwroot\imgpokemon\043.png" />
+    <None Include="wwwroot\imgpokemon\044.png" />
+    <None Include="wwwroot\imgpokemon\045.png" />
+    <None Include="wwwroot\imgpokemon\046.png" />
+    <None Include="wwwroot\imgpokemon\047.png" />
+    <None Include="wwwroot\imgpokemon\048.png" />
+    <None Include="wwwroot\imgpokemon\049.png" />
+    <None Include="wwwroot\imgpokemon\050.png" />
+    <None Include="wwwroot\imgpokemon\051.png" />
+    <None Include="wwwroot\imgpokemon\052.png" />
+    <None Include="wwwroot\imgpokemon\053.png" />
+    <None Include="wwwroot\imgpokemon\054.png" />
+    <None Include="wwwroot\imgpokemon\055.png" />
+    <None Include="wwwroot\imgpokemon\056.png" />
+    <None Include="wwwroot\imgpokemon\057.png" />
+    <None Include="wwwroot\imgpokemon\058.png" />
+    <None Include="wwwroot\imgpokemon\059.png" />
+    <None Include="wwwroot\imgpokemon\060.png" />
+    <None Include="wwwroot\imgpokemon\061.png" />
+    <None Include="wwwroot\imgpokemon\062.png" />
+    <None Include="wwwroot\imgpokemon\063.png" />
+    <None Include="wwwroot\imgpokemon\064.png" />
+    <None Include="wwwroot\imgpokemon\065.png" />
+    <None Include="wwwroot\imgpokemon\066.png" />
+    <None Include="wwwroot\imgpokemon\067.png" />
+    <None Include="wwwroot\imgpokemon\068.png" />
+    <None Include="wwwroot\imgpokemon\069.png" />
+    <None Include="wwwroot\imgpokemon\070.png" />
+    <None Include="wwwroot\imgpokemon\071.png" />
+    <None Include="wwwroot\imgpokemon\072.png" />
+    <None Include="wwwroot\imgpokemon\073.png" />
+    <None Include="wwwroot\imgpokemon\074.png" />
+    <None Include="wwwroot\imgpokemon\075.png" />
+    <None Include="wwwroot\imgpokemon\076.png" />
+    <None Include="wwwroot\imgpokemon\077.png" />
+    <None Include="wwwroot\imgpokemon\078.png" />
+    <None Include="wwwroot\imgpokemon\079.png" />
+    <None Include="wwwroot\imgpokemon\080.png" />
+    <None Include="wwwroot\imgpokemon\081.png" />
+    <None Include="wwwroot\imgpokemon\082.png" />
+    <None Include="wwwroot\imgpokemon\083.png" />
+    <None Include="wwwroot\imgpokemon\084.png" />
+    <None Include="wwwroot\imgpokemon\085.png" />
+    <None Include="wwwroot\imgpokemon\086.png" />
+    <None Include="wwwroot\imgpokemon\087.png" />
+    <None Include="wwwroot\imgpokemon\088.png" />
+    <None Include="wwwroot\imgpokemon\089.png" />
+    <None Include="wwwroot\imgpokemon\090.png" />
+    <None Include="wwwroot\imgpokemon\091.png" />
+    <None Include="wwwroot\imgpokemon\092.png" />
+    <None Include="wwwroot\imgpokemon\093.png" />
+    <None Include="wwwroot\imgpokemon\094.png" />
+    <None Include="wwwroot\imgpokemon\095.png" />
+    <None Include="wwwroot\imgpokemon\096.png" />
+    <None Include="wwwroot\imgpokemon\097.png" />
+    <None Include="wwwroot\imgpokemon\098.png" />
+    <None Include="wwwroot\imgpokemon\099.png" />
+    <None Include="wwwroot\imgpokemon\100.png" />
+    <None Include="wwwroot\imgpokemon\101.png" />
+    <None Include="wwwroot\imgpokemon\102.png" />
+    <None Include="wwwroot\imgpokemon\103.png" />
+    <None Include="wwwroot\imgpokemon\104.png" />
+    <None Include="wwwroot\imgpokemon\105.png" />
+    <None Include="wwwroot\imgpokemon\106.png" />
+    <None Include="wwwroot\imgpokemon\107.png" />
+    <None Include="wwwroot\imgpokemon\108.png" />
+    <None Include="wwwroot\imgpokemon\109.png" />
+    <None Include="wwwroot\imgpokemon\110.png" />
+    <None Include="wwwroot\imgpokemon\111.png" />
+    <None Include="wwwroot\imgpokemon\112.png" />
+    <None Include="wwwroot\imgpokemon\113.png" />
+    <None Include="wwwroot\imgpokemon\114.png" />
+    <None Include="wwwroot\imgpokemon\115.png" />
+    <None Include="wwwroot\imgpokemon\116.png" />
+    <None Include="wwwroot\imgpokemon\117.png" />
+    <None Include="wwwroot\imgpokemon\118.png" />
+    <None Include="wwwroot\imgpokemon\119.png" />
+    <None Include="wwwroot\imgpokemon\120.png" />
+    <None Include="wwwroot\imgpokemon\121.png" />
+    <None Include="wwwroot\imgpokemon\122.png" />
+    <None Include="wwwroot\imgpokemon\123.png" />
+    <None Include="wwwroot\imgpokemon\124.png" />
+    <None Include="wwwroot\imgpokemon\125.png" />
+    <None Include="wwwroot\imgpokemon\126.png" />
+    <None Include="wwwroot\imgpokemon\127.png" />
+    <None Include="wwwroot\imgpokemon\128.png" />
+    <None Include="wwwroot\imgpokemon\129.png" />
+    <None Include="wwwroot\imgpokemon\130.png" />
+    <None Include="wwwroot\imgpokemon\131.png" />
+    <None Include="wwwroot\imgpokemon\132.png" />
+    <None Include="wwwroot\imgpokemon\133.png" />
+    <None Include="wwwroot\imgpokemon\134.png" />
+    <None Include="wwwroot\imgpokemon\135.png" />
+    <None Include="wwwroot\imgpokemon\136.png" />
+    <None Include="wwwroot\imgpokemon\137.png" />
+    <None Include="wwwroot\imgpokemon\138.png" />
+    <None Include="wwwroot\imgpokemon\139.png" />
+    <None Include="wwwroot\imgpokemon\140.png" />
+    <None Include="wwwroot\imgpokemon\141.png" />
+    <None Include="wwwroot\imgpokemon\142.png" />
+    <None Include="wwwroot\imgpokemon\143.png" />
+    <None Include="wwwroot\imgpokemon\144.png" />
+    <None Include="wwwroot\imgpokemon\145.png" />
+    <None Include="wwwroot\imgpokemon\146.png" />
+    <None Include="wwwroot\imgpokemon\147.png" />
+    <None Include="wwwroot\imgpokemon\148.png" />
+    <None Include="wwwroot\imgpokemon\149.png" />
+    <None Include="wwwroot\imgpokemon\150.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+  </ItemGroup>
+
+</Project>

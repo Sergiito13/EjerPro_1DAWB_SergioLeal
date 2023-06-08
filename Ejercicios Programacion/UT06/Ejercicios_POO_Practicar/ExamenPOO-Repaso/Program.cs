@@ -1,5 +1,4 @@
-﻿using System;
-namespace examentienda
+﻿namespace examentienda
 {
     class Program
     {
@@ -8,12 +7,12 @@ namespace examentienda
             // Pedir datos para el encargado 
             string nombreEncargado = Tienda.pedirNombreEncargado();
             string telefonoEncargado = Tienda.pedirTelefonoEncargado();
-            Tienda tienda = new Tienda(nombreEncargado,telefonoEncargado);
+            Tienda tienda = new Tienda(nombreEncargado, telefonoEncargado);
 
             // Metemos todos los juegos
             List<Juego> juegos = new List<Juego>();
-            juegos.Add(new Juego("Zelda", 35.70m,1));
-            juegos.Add(new Juego("Mario", 30,1));
+            juegos.Add(new Juego("Zelda", 35.70m, 1));
+            juegos.Add(new Juego("Mario", 30, 1));
             juegos.Add(new Juego("Sonic", 27.40m, 1));
             juegos.Add(new Juego("Alex Kid", 15.20m, 1));
             juegos.Add(new Juego("Wonder Boy", 21.90m, 1));
@@ -35,17 +34,35 @@ namespace examentienda
                             {
                                 Console.WriteLine("Has elegido la opción 1");
                                 Console.ReadKey();
-                                int codigo = Juego.PedirCodigoUsu();
+                                Console.WriteLine("");
+                                bool codunico = false;
+                                int codigoUsu = 0, eleccionUsu = 0;
+                                do
+                                {
+                                    codigoUsu = Juego.PedirCodigoUsu();
 
-                                /*if (!Juego.BuscarSiUsuario(juegos, codigo))
+                                    if (!tienda.BuscarSiExisteCoigoUsuario(codigoUsu))
+                                        codunico = true;
+
+                                } while (!codunico);
+
+                                bool eleccionexiste = false;
+                                do
                                 {
-                                    int contador = 1;
-                                    Console.WriteLine($"{contador++} {juegos.ToString()}");
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Este usuario ya tiene alquilado un juego");
-                                }*/
+                                    Console.WriteLine($"{tienda.MostrarJuegosDisponibles()}");
+                                    eleccionUsu = Tienda.PedirNumeroJuegoDisponible();
+
+                                    if (tienda.EleccionExiste(eleccionUsu))
+                                        eleccionexiste = true;
+
+                                } while (!eleccionexiste);
+
+                                Juego juegoElegido = tienda.obtenereljuegoElegido(eleccionUsu);
+                                juegoElegido.SetCode(codigoUsu);
+                                tienda.AlquilarJuegoDisponible(juegoElegido);
+                                tienda.AñadirJuegosAlquilados(juegoElegido);
+                                Console.WriteLine("Se ha alquilado correctamente");
+                                correcto = true;
                             } while (!correcto);
 
 
@@ -55,6 +72,31 @@ namespace examentienda
                         {
                             Console.WriteLine("Has elegido la opción 2");
                             Console.ReadKey();
+                            bool salir2 = false;
+
+                            do
+                            {
+                                Console.WriteLine(tienda.DevolverCodigo());
+                                int codigoUsu = Juego.PedirCodigoUsu();
+                                Juego JuegoSeleccionado = tienda.ComprobarCodigoLibro(codigoUsu);
+
+                                if (JuegoSeleccionado != null)
+                                {
+                                    tienda.DevolverJuego(JuegoSeleccionado);
+                                    tienda.AñadirJuegosDisponible(JuegoSeleccionado);
+                                    tienda.AñadirJuegosHistorico(JuegoSeleccionado);
+                                    JuegoSeleccionado.CambiarCodigo0();
+                                    salir2 = true;
+
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El ID de usuario no es correcto");
+                                }
+
+
+
+                            } while (!salir2);
                         }
                         break;
                     case 3:
@@ -68,6 +110,7 @@ namespace examentienda
                         {
                             Console.WriteLine("Has elegido la opción 4");
                             Console.ReadKey();
+                            Console.WriteLine($"{tienda.MostrarHistorico()}");
                         }
                         break;
                     case 0:
