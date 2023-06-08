@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj": {}
+    "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj": {}
   },
   "projects": {
-    "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj": {
+    "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj",
+        "projectUniqueName": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj",
         "projectName": "Pokemon",
-        "projectPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj",
-        "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-        "outputPath": "C:\\PRO - Sergio\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\obj\\",
+        "projectPath": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\Pokemon.csproj",
+        "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
+        "outputPath": "C:\\Sergio Leal Priere REPO - PRO\\EjerPro_1DAWB_SergioLeal\\Ejercicios Programacion\\UT07\\ENT0701–RazorEntityFramework\\Pokemon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
