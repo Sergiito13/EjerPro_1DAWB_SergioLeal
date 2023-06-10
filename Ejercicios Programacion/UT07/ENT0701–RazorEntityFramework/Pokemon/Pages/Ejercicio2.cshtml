@@ -1,68 +1,137 @@
 ﻿@page
 @model Pokemon.Pages.Ejercicio2Model
 @{
+    ViewData["Title"] = "Ejercicio2";
 }
-<div class="container">
-    <div class="custom-form">
-        <h2>Ingrese una fecha</h2>
-            <form method="post" action="">
-            @if (Request.Method == "POST")
-            {  
-                <div class="form-group">
-                    <label for="fecha">Fecha:</label>
-                    <input type="date" class="form-control" id="fecha" name="fecha" value="@Request.Form["fecha"]" required>
-                </div>
+@{
+    int numeroEventosPorPagina = 3;
 
-                <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+    if (Request.Method == "POST")
+    {
 
-                <button type="submit" class="btn btn-primary" name="botonnavegacion" value="anterior"> Anterior</button>
-                <button type="submit" class="btn btn-primary" name="botonnavegacion" value="siguiente"> Siguiente</button>
-            }else
-            {
-                <div class="form-group">
-                    <label for="fecha">Fecha:</label>
-                    <input type="date" class="form-control" id="fecha" name="fecha" required>
-                </div>
-
-                <button type="submit" class="btn btn-primary mt-2">Enviar</button>
-            }
-            </form>
-    </div>
-        
-
-    @{
-        if (Request.Method == "POST")
+        DateTime fechaSeleccionada;
+        if (DateTime.TryParse(Request.Form["fecha"], out fechaSeleccionada))
         {
-            DateTime fechaUsu;
-            if (DateTime.TryParse(Request.Form["fecha"], out fechaUsu))
+            int paginaActual;
+            if (int.TryParse(Request.Form["paginaActual"], out paginaActual))
             {
-                int paginaactual = 1;
-                int numeroEventos = 3;
-
-                if (Request.Form["botonnavegacion"] == "siguiente")
-                {
-                    paginaactual++;
-                }else if (Request.Form["botonnavegacion"] == "anterior")
-                {
-                    paginaactual--;
-                }else
-                {
-                    List<string> eventos = (from Evento in Model.Datos.Eventos where Evento.Fecha <= fechaUsu select Evento.Nombre).ToList();
-                    <input type="hidden" name="registros" value="@eventos">
-                    decimal numeroMaximoPaginas = Math.Ceiling(Convert.ToDecimal(eventos.Count) / Convert.ToDecimal(numeroEventos));
-                }
-
-                for (int i = paginaactual; i <= paginaactual; i+=numeroEventos)
-                {
-                    
-                }
-                
-
-            }
-            else
-            {
-                <div class="alert alert-danger p-4 mt-2"> Error: el dato válido es una fecha </div>
             }
 
+            if (Request.Form["botonnavegacion"] == "siguiente")
+            {
+                paginaActual++;
+            }
+            else if (Request.Form["botonnavegacion"] == "anterior")
+            {
+                if (paginaActual > 1)
+                {
+                    paginaActual--;
+                }
+            }
+
+            List<string> eventostotales = (from evento in Model.Datos.Eventos
+                                           where evento.Fecha <= fechaSeleccionada
+                                           select evento.Nombre).ToList();
+
+            int totalEventos = eventostotales.Count;
+            decimal numeroTotalPaginas = Math.Ceiling(Convert.ToDecimal(totalEventos) / Convert.ToDecimal(numeroEventosPorPagina));
+
+            List<string> eventos = Model.Datos.Eventos
+                .Where(eventito => eventito.Fecha <= fechaSeleccionada)
+                .Skip((paginaActual - 1) * numeroEventosPorPagina)
+                .Take(numeroEventosPorPagina)
+                .Select(eventito => eventito.Nombre)
+                .ToList();
+
+
+            <div class="container">
+                <div class="custom-form">
+                    <h2>Ingrese una fecha</h2>
+                    <form method="post" action="" class="pokemon-form">
+                        <input type="hidden" name="paginaActual" value="@paginaActual">
+                        <div class="form-group">
+                            <label for="fecha">Fecha:</label>
+                            <input type="date" class="form-control" id="fecha" name="fecha" value="@Request.Form["fecha"]" required>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-enviar mt-2">Enviar</button>
+                            </div>
+                            <div>
+                                @if (paginaActual > 1)
+                                {
+                                    <button type="submit" class="btn btn-primary btn-enviar mt-2" name="botonnavegacion" value="anterior">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                                        </svg>
+                                    </button>
+                                }
+
+                                @if (paginaActual < numeroTotalPaginas)
+                                {
+                                    <button type="submit" class="btn btn-primary btn-enviar mt-2" name="botonnavegacion" value="siguiente">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="container">
+                    <div class="custom-form">
+                        <!-- ... -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <!-- ... -->
+                        </div>
+                    </div>
+
+                    <div class="row eventos-container">
+                        @foreach (var evento in eventos)
+                        {
+                            <div class="col-lg-4 col-md-6">
+                                <div class="evento-card">
+                                    <h3>@evento</h3>
+                                    <p>Fecha: @Model.Datos.Eventos.First(e => e.Nombre == evento).Fecha</p>
+                                    <p>Descripción: @Model.Datos.Eventos.First(e => e.Nombre == evento).Descripcion</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="container">
+                <div class="alert alert-danger p-4 mt-2">Error: el dato válido es una fecha</div>
+            </div>
         }
     }
+    else
+    {
+        <div class="container">
+            <div class="custom-form">
+                <h2>Ingrese una fecha</h2>
+                <form method="post" action="" class="pokemon-form">
+                    <input type="hidden" name="paginaActual" value="1">
+                    <div class="form-group">
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" class="form-control" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div></div>
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-enviar mt-2">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+}

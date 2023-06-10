@@ -1,0 +1,143 @@
+﻿@page
+@model Pokemon.Pages.Ejercicio3Model
+@{
+    ViewData["Title"] = "Ejercicio3";
+}
+@{
+    List<string> GeneracionPokemon = (from Generaciones in Model.Datos.Generaciones
+                                      select Generaciones.Nombre).ToList();
+
+    List<string> TiposPokemon = (from Tipos in Model.Datos.Tipos
+                                 select Tipos.Nombre).ToList();
+}
+
+@if ((Request.Method == "POST") && (Request.Form["formulario1"] == "Enviar"))
+{
+    <form method="post" action="" class="pokemon-form">
+        <label for="opcion">Selecciona una Generación:</label>
+        <select id="opcion" name="Generaciones">
+            @foreach (string generacion in GeneracionPokemon)
+            {
+                if (generacion == Request.Form["Generaciones"])
+                {
+                    <option value="@generacion" selected>@generacion</option>
+                }
+                else
+                {
+                    <option value="@generacion">@generacion</option>
+                }
+            }
+        </select>
+
+        <label for="opcion">Selecciona un Tipo:</label>
+        <select id="opcion" name="Tipos">
+            @{
+
+                foreach (string Tipo in TiposPokemon)
+                {
+                    <option value="@Tipo">@Tipo</option>
+                }
+            }
+        </select>
+
+        <input type="submit" name="formulario2" value="Enviar">
+    </form>
+}
+else if ((Request.Method == "POST") && (Request.Form["formulario2"] == "Enviar"))
+{
+    <form method="post" action="" class="pokemon-form">
+        <label for="opcion">Selecciona una Generación:</label>
+        <select id="opcion" name="Generaciones">
+            @foreach (string generacion in GeneracionPokemon)
+            {
+                if (generacion == Request.Form["Generaciones"])
+                {
+                    <option value="@generacion" selected>@generacion</option>
+                }
+                else
+                {
+                    <option value="@generacion">@generacion</option>
+                }
+            }
+        </select>
+
+        <label for="opcion">Selecciona un Tipo:</label>
+        <select id="opcion" name="Tipos">
+            @{
+
+                foreach (string Tipo in TiposPokemon)
+                {
+                    if (Tipo == Request.Form["Tipos"])
+                    {
+                        <option value="@Tipo" selected>@Tipo</option>
+                    }
+                    else
+                    {
+                        <option value="@Tipo">@Tipo</option>
+                    }
+                }
+            }
+        </select>
+
+        <input type="submit" name="formulario2" value="Enviar">
+    </form>
+    string nombreGeneracion = Request.Form["Generaciones"];
+    string nombreTipo = Request.Form["Tipos"];
+
+    var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                       join generacion in Model.Datos.Generaciones on pokemon.GeneracionId equals generacion.Id
+                       join tipo1 in Model.Datos.Tipos on pokemon.Tipo1Id equals tipo1.Id
+                       join tipo2 in Model.Datos.Tipos on pokemon.Tipo2Id equals tipo2.Id into tipo2Join
+                       from tipo2 in tipo2Join.DefaultIfEmpty()
+                       where ((generacion.Nombre == nombreGeneracion) && ((tipo1.Nombre == nombreTipo || (tipo2.Nombre == nombreGeneracion))))
+                       select new
+                       {
+                           pokemon.Nombre,
+                           Generacion = generacion.Nombre,
+                           Tipo1 = tipo1.Nombre,
+                           Tipo2 = tipo2.Nombre,
+                           pokemon.Imagen
+                       };
+    if (pokemonQuery == null)
+    {
+        <div class="alert-danger p-4 mt-2"> No se ha encontrado ningun Pokemon</div>
+    }
+
+    <div class="row">
+        @foreach (var pokemon in pokemonQuery)
+        {
+            <div class="col-md-4">
+                <div class="pokemon">
+                    <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'" alt="@pokemon.Nombre" class="pokemon-img" />
+                    <h4 class="pokemon-name">@pokemon.Nombre</h4>
+                    <p class="pokemon-generacion">Generación: @pokemon.Generacion</p>
+                    <div class="pokemon-types">
+                        @if (!string.IsNullOrEmpty(pokemon.Tipo1))
+                        {
+                            <div class="pokemon-type type-@pokemon.Tipo1.ToLowerInvariant()">@pokemon.Tipo1</div>
+                        }
+                        @if (!string.IsNullOrEmpty(pokemon.Tipo2))
+                        {
+                            <div class="pokemon-type type-@pokemon.Tipo2.ToLowerInvariant()">@pokemon.Tipo2</div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <form method="post" action="" class="pokemon-form">
+        <label for="opcion">Selecciona una Generación:</label>
+        <select id="opcion" name="Generaciones">
+            @foreach (string generacion in GeneracionPokemon)
+            {
+                <option value="@generacion">@generacion</option>
+            }
+        </select>
+
+        <input type="submit" name="formulario1" value="Enviar">
+    </form>
+}
+

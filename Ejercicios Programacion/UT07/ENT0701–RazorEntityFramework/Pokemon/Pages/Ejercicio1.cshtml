@@ -5,7 +5,7 @@
 }
 <div class="container">
     <form method="post" action="">
-        <h2 class="text-center">Buscar Pokémon por Generaciones y Tipo</h2>
+
 
         <div class="row">
             <div class="col">
@@ -41,7 +41,7 @@
         </div>
 
         <br>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
     </form>
 </div>
 @if (Request.Method == "POST")
@@ -89,7 +89,7 @@
                                 <td>@pokemon.Tipo1</td>
                                 <td>@pokemon.Tipo2</td>
                                 <td>
-                                    <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                    <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'"  alt="@pokemon.Nombre" class="pokemontable" />
                                 </td>
                             </tr>
                         }
@@ -120,7 +120,7 @@
                                 <td>@pokemon.Tipo1</td>
                                 <td>@pokemon.Tipo2</td>
                                 <td>
-                                    <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                    <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'"  alt="@pokemon.Nombre" class="pokemontable" />
                                 </td>
                             </tr>
                         }
@@ -152,7 +152,7 @@
                             <td>@pokemon.Tipo1</td>
                             <td>@pokemon.Tipo2</td>
                             <td>
-                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'" alt="@pokemon.Nombre" class="pokemontable" />
                             </td>
                         </tr>
                     }
@@ -183,7 +183,7 @@
                                 <td>@pokemon.Tipo1</td>
                                 <td>@pokemon.Tipo2</td>
                                 <td>
-                                    <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'" alt="@pokemon.Nombre" class="pokemontable" />
                                 </td>
                             </tr>
                         }
@@ -217,7 +217,7 @@
                             <td>@pokemon.Tipo1</td>
                             <td>@pokemon.Tipo2</td>
                             <td>
-                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'" alt="@pokemon.Nombre" class="pokemontable" />
                             </td>
                         </tr>
                     }
@@ -248,7 +248,7 @@
                             <td>@pokemon.Tipo1</td>
                             <td>@pokemon.Tipo2</td>
                             <td>
-                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                                <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" onerror="this.src='imagenes/PikachuLlorando.png'" class="pokemontable" />
                             </td>
                         </tr>
                     }
@@ -280,7 +280,7 @@
                         <td>@pokemon.Tipo1</td>
                         <td>@pokemon.Tipo2</td>
                         <td>
-                            <img src="~/imgpokemon/@pokemon.Imagen" alt="@pokemon.Nombre" class="pokemontable" />
+                            <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'" alt="@pokemon.Nombre" class="pokemontable" />
                         </td>
                     </tr>
                 }

@@ -1,0 +1,39 @@
+﻿@page
+@model Pokemon.Pages.buscarpokemonModel
+@{
+    ViewData["Title"] = "buscar Pokemon";
+}
+@{
+    if (Request.Method == "POST")
+    {
+        var buscar = Request.Form["buscar"];
+
+        var pokemonQuery = from pokemon in Model.Datos.Pokemon
+                           where pokemon.Nombre.Contains(buscar)
+                           select new
+                           {
+                               pokemon.Nombre,
+                               pokemon.Imagen
+                           };
+
+        if (pokemonQuery == null)
+        {
+            <div class="alert-danger mt-1">No se ha encontrado ningun pokemon </div>
+        }
+        else
+        {
+            <div class="row mt-2">
+                @foreach (var pokemon in pokemonQuery)
+                {
+                    <div class="col-md-4 ">
+                        <div class="pokemon">
+                            <img src="~/imgpokemon/@pokemon.Imagen" onerror="this.src='imagenes/PikachuLlorando.png'" alt="@pokemon.Nombre" class="pokemon-img" />
+                            <h4 class="pokemon-name">@pokemon.Nombre</h4>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    }
+}
+   

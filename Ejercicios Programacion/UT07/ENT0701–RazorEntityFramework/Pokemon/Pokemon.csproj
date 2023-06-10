@@ -15,10 +15,13 @@
 
   <ItemGroup>
     <Compile Remove="Pages\Ejercicio1cshtml.cshtml.cs" />
+    <Compile Remove="Pages\Error.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Pages\Ejercicio1cshtml.cshtml" />
+    <Content Remove="Pages\Error.cshtml" />
+    <Content Remove="wwwroot\imagenes\fondo.png" />
     <Content Remove="wwwroot\imagenes\meowth.png" />
     <Content Remove="wwwroot\imagenes\pikachu.png" />
   </ItemGroup>

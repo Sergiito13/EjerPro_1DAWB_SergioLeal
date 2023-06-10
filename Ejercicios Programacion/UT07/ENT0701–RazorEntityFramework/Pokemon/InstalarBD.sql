@@ -1,4 +1,4 @@
-﻿ --CREATE DATABASE [pokemon_sergio];
+﻿CREATE DATABASE [pokemon_sergio];--CREATE DATABASE [pokemon_sergio];
 
 -- Usar la base de datos
 --USE [pokemon_sergio];

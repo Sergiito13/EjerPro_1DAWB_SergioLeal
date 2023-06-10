@@ -20,12 +20,11 @@
                     <li><a href="index" class="nav-link px-2 text-secondary">Inicio</a></li>
                     <li><a href="Ejercicio1" class="nav-link px-2 text-white">Ejercicio1</a></li>
                     <li><a href="Ejercicio2" class="nav-link px-2 text-white">Ejercicio2</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Ejercicio3</a></li>
-                    @*<li><a href="#" class="nav-link px-2 text-white">About</a></li>*@
+                    <li><a href="Ejercicio3" class="nav-link px-2 text-white">Ejercicio3</a></li>
                 </ul>
 
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <input type="search" class="form-control form-control-dark" placeholder="Buscar Pokemon..." aria-label="Search">
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" method="post" action="~/buscarpokemon">
+                    <input type="search" class="form-control form-control-dark" placeholder="Buscar Pokemon..." name="buscar" aria-label="Search">
                 </form>
 
             </div>
@@ -37,12 +36,15 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted text-center">
+    <footer class="text-center">
         <div class="container">
-            by: Sergio Leal Priere - 1dawb 
+            by: Sergio Leal Priere - 1dawb
             &copy; 2023 - Pokemon - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
+
+
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
